@@ -1,5 +1,5 @@
 import { FC } from "react";
-import styles from "./RouseAcknowledgements.module.scss";
+// import styles from "./RouseAcknowledgements.module.scss";
 
 interface AcknowledgementsProps {
   // school: string;
