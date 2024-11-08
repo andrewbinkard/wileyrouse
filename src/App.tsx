@@ -1,26 +1,42 @@
-import { useRoutes, Link, useLocation } from "react-router-dom";
-import routes from "./routes"; // Import the route configuration
-import styles from "./App.module.scss";
+import { FC } from "react";
+import { Routes, Route } from "react-router-dom";
+import LandingPage from "./Pages/LandingPage";
+import Wiley from "./Features/Wiley";
+import WileyAcknowledgements from "./Features/Wiley/WileyAcknowledgements";
+import WileyPrivateLessonFaculty from "./Features/Wiley//WileyPrivateLessonFaculty";
+import WileyLettersOfRecognition from "./Features/Wiley/WileyLettersOfRecognition";
+import Rouse from "./Features/Rouse"; // Assuming a separate component for Rouse
+import RouseAcknowledgements from "./Features/Rouse/RouseAcknowledgements";
+import RousePrivateLessonFaculty from "./Features/Rouse/RousePrivateLessonFaculty";
+import RouseLettersOfRecognition from "./Features/Rouse/RouseLettersOfRecognition";
 
-function App() {
-  const location = useLocation();
-  const element = useRoutes(routes); // Dynamically generate routes from the config
-
+const App: FC = () => {
   return (
-    <div className={styles.landingPage}>
-      {/* Render landing page only if the current path is "/" */}
-      {location.pathname === "/" && (
-        <>
-          <h1>Choose a School</h1>
-          <Link to="/wiley">Wiley</Link>
-          <Link to="/rouse">Rouse</Link>
-        </>
-      )}
-
-      {/* Render the route elements based on the configuration */}
-      {element}
-    </div>
+    <Routes>
+      <Route path="/" element={<LandingPage />} />
+      <Route path="wiley" element={<Wiley />}>
+        <Route path="acknowledgements" element={<WileyAcknowledgements />} />
+        <Route
+          path="private-lesson-faculty"
+          element={<WileyPrivateLessonFaculty />}
+        />
+        <Route
+          path="letters-of-recommendation"
+          element={<WileyLettersOfRecognition />}
+        />
+      </Route>
+      <Route path="rouse" element={<Rouse />} />
+      <Route path="acknowledgements" element={<RouseAcknowledgements />} />
+      <Route
+        path="private-lesson-faculty"
+        element={<RousePrivateLessonFaculty />}
+      />
+      <Route
+        path="letters-of-recommendation"
+        element={<RouseLettersOfRecognition />}
+      />
+    </Routes>
   );
-}
+};
 
 export default App;

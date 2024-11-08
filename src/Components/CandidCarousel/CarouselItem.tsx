@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-export const CarouselItem: FC = () => {
+const CarouselItem: FC = () => {
   return <div>Carousel</div>;
 };
 
