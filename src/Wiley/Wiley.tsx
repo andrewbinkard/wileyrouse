@@ -1,7 +1,8 @@
 import { FC } from "react";
 import { Link, Routes, Route } from "react-router-dom";
-import WileyAcknowledgements from "./Acknowledgements";
-import WileyPrivateLessonFaculty from "./PrivateLessonFaculty";
+import WileyAcknowledgements from "./WileyAcknowledgements";
+import WileyPrivateLessonFaculty from "./WileyPrivateLessonFaculty";
+import CandidCarousel from "../Components/CandidCarousel";
 
 const Wiley: FC = () => {
   return (
@@ -22,6 +23,8 @@ const Wiley: FC = () => {
           element={<WileyPrivateLessonFaculty />}
         />
       </Routes>
+
+      <CandidCarousel />
     </div>
   );
 };

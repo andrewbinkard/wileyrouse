@@ -2,9 +2,9 @@
 import { RouteObject } from "react-router-dom";
 import Wiley from "./Wiley";
 import Rouse from "./Rouse";
-import WileyAcknowledgements from "./Wiley/Acknowledgements";
-import WileyPrivateLessonFaculty from "./Wiley/PrivateLessonFaculty";
-import WileyLettersOfRecognition from "./Wiley/LettersOfRecognition";
+import WileyAcknowledgements from "./Wiley/WileyAcknowledgements";
+import WileyPrivateLessonFaculty from "./Wiley/WileyPrivateLessonFaculty";
+import WileyLettersOfRecognition from "./Wiley/WileyLettersOfRecognition";
 
 // Define routes as an array of RouteObjects
 const routes: RouteObject[] = [
