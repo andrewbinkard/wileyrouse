@@ -1,4 +1,3 @@
-// App.tsx
 import { useRoutes, Link, useLocation } from "react-router-dom";
 import routes from "./routes"; // Import the route configuration
 import styles from "./App.module.scss";
@@ -12,7 +11,7 @@ function App() {
       {/* Render landing page only if the current path is "/" */}
       {location.pathname === "/" && (
         <>
-          <h1>Welcome to Our Site</h1>
+          <h1>Choose a School</h1>
           <Link to="/wiley">Wiley</Link>
           <Link to="/rouse">Rouse</Link>
         </>
