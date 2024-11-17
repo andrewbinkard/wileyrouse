@@ -1,23 +1,56 @@
-import { FC } from "react";
-import { Link, Outlet } from "react-router-dom";
+import { FC, useEffect, useState } from "react";
+import { Outlet } from "react-router-dom";
+import WileyNavBar from "../../Components/Wiley/WileyNavBar";
 import styles from "./Wiley.module.scss";
+import WileyHeader from "./WileyHeader";
+import WileyGroupImage from "../../assets/images/WileyGroupPhoto.jpeg"; // Import the image
 
 const Wiley: FC = () => {
-  console.log("wiley component rendered");
+  const [isNavVisible, setIsNavVisible] = useState(true);
+
+  useEffect(() => {
+    let lastScrollTop = 0;
+
+    const handleScroll = () => {
+      const scrollTop =
+        window.pageYOffset || document.documentElement.scrollTop;
+
+      // Hide the navbar if scrolling down, show it if scrolling up
+      if (scrollTop > lastScrollTop) {
+        setIsNavVisible(false); // Scrolling down
+      } else {
+        setIsNavVisible(true); // Scrolling up
+      }
+      lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For mobile or negative scrolling
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <div className={styles.container}>
-      {/* <WileyHeader /> */}
+      <div
+        className={`${styles.navBarWrapper} ${
+          isNavVisible ? styles.visible : styles.hidden
+        }`}
+      >
+        <WileyNavBar />
+      </div>
+      <WileyHeader />
 
-      {/* Navigation Links to Subpages */}
-      <Link to="acknowledgements">Acknowledgements</Link>
-      <Link to="private-lesson-faculty">Private Lesson Faculty</Link>
-      <Link to="letters-of-recommendation">Letters of Recommendation</Link>
+      {/* Group Image */}
+      <div className={styles.imageContainer}>
+        <img
+          src={WileyGroupImage}
+          alt="Wiley Group"
+          className={styles.groupImage}
+        />
+      </div>
 
-      {/* Render additional static text and components here */}
-      <section>{/* More content and interactive components */}</section>
-
-      {/* Subpage content will render here */}
-      <Outlet />
+      <div className={styles.content}>
+        <Outlet />
+      </div>
     </div>
   );
 };
