@@ -9,24 +9,6 @@
   color: white;
   padding: 20px; // Optional padding for spacing
   overflow: hidden; // Prevents any scrolling issues if elements overflow
-
-  h1 {
-    font-size: 10rem; // Custom font size for h1
-    margin: 1rem 0; // Add spacing between h1 elements
-    color: #f0f0f0; // Custom color for h1 text
-    padding: 24px;
-  }
-
-  a {
-    color: #7a2328; // Custom color for links
-    text-decoration: none;
-    transition: color 0.3s ease;
-    opacity: 100%;
-
-    &:hover {
-      color: #ffd700; // Hover color for links
-    }
-  }
 }
 
 // Background image for landing page
@@ -35,5 +17,5 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 50%;
+  // opacity: 50%;
 }

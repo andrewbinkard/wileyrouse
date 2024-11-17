@@ -1,0 +1,29 @@
+.navBarContainer {
+  display: flex;
+  place-items: center;
+  align-items: center; /* Align logo and links vertically */
+  justify-content: space-between; /* Space out logo and links */
+  padding: 0.5rem 1rem; /* Add some spacing */
+  width: 100%;
+  border-bottom: 2px solid #7a2328;
+}
+
+.logo {
+  height: 50px; /* Adjust the size of the logo */
+  object-fit: contain; /* Keep the logo aspect ratio */
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 1rem;
+}
+
+/* Underline active link */
+.activeLink {
+  text-decoration: underline;
+  text-decoration-color: #ffdd57; /* Optional: Custom underline color */
+  text-decoration-thickness: 2px; /* Optional: Thicker underline */
+  text-underline-offset: 4px; /* Move the underline farther from the text */
+}

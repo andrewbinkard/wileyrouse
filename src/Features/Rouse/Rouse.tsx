@@ -2,7 +2,7 @@ import { FC } from "react";
 import { Link, Routes, Route } from "react-router-dom";
 import RouseAcknowledgements from "./RouseAcknowledgements";
 import RousePrivateLessonFaculty from "./RousePrivateLessonFaculty";
-import CandidCarousel from "../../Components/CandidCarousel";
+import CandidCarousel from "../../Components/Wiley/WileyCandidCarousel";
 import styles from "./Rouse.module.scss";
 
 const Wiley: FC = () => {
