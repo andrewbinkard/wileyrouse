@@ -9,39 +9,43 @@ import Rouse from "./Features/Rouse";
 import RouseAcknowledgements from "./Features/Rouse/RouseAcknowledgements";
 import RousePrivateLessonFaculty from "./Features/Rouse/RousePrivateLessonFaculty";
 import RouseLettersOfRecognition from "./Features/Rouse/RouseLettersOfRecognition";
+import ScrollToTop from "./Components/Wiley/Shared/ScrollToTop";
 
 const App: FC = () => {
   return (
-    <Routes>
-      {/* Landing Page */}
-      <Route path="/" element={<LandingPage />} />
+    <>
+      <ScrollToTop />
+      <Routes>
+        {/* Landing Page */}
+        <Route path="/" element={<LandingPage />} />
 
-      {/* Wiley Routes */}
-      <Route path="wiley" element={<Wiley />}>
-        <Route path="acknowledgements" element={<WileyAcknowledgements />} />
-        <Route
-          path="private-lesson-faculty"
-          element={<WileyPrivateLessonFaculty />}
-        />
-        <Route
-          path="letters-of-recommendation"
-          element={<WileyLettersOfRecognition />}
-        />
-      </Route>
+        {/* Wiley Routes */}
+        <Route path="wiley" element={<Wiley />}>
+          <Route path="acknowledgements" element={<WileyAcknowledgements />} />
+          <Route
+            path="private-lesson-faculty"
+            element={<WileyPrivateLessonFaculty />}
+          />
+          <Route
+            path="letters-of-recommendation"
+            element={<WileyLettersOfRecognition />}
+          />
+        </Route>
 
-      {/* Rouse Routes */}
-      <Route path="rouse" element={<Rouse />}>
-        <Route path="acknowledgements" element={<RouseAcknowledgements />} />
-        <Route
-          path="private-lesson-faculty"
-          element={<RousePrivateLessonFaculty />}
-        />
-        <Route
-          path="letters-of-recommendation"
-          element={<RouseLettersOfRecognition />}
-        />
-      </Route>
-    </Routes>
+        {/* Rouse Routes */}
+        <Route path="rouse" element={<Rouse />}>
+          <Route path="acknowledgements" element={<RouseAcknowledgements />} />
+          <Route
+            path="private-lesson-faculty"
+            element={<RousePrivateLessonFaculty />}
+          />
+          <Route
+            path="letters-of-recommendation"
+            element={<RouseLettersOfRecognition />}
+          />
+        </Route>
+      </Routes>
+    </>
   );
 };
 
