@@ -37,7 +37,6 @@ const Wiley: FC = () => {
       >
         <WileyNavBar />
       </div>
-      <WileyHeader />
 
       {/* Group Image */}
       <div className={styles.imageContainer}>
@@ -47,6 +46,7 @@ const Wiley: FC = () => {
           className={styles.groupImage}
         />
       </div>
+      <WileyHeader />
 
       <div className={styles.content}>
         <Outlet />

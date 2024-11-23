@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  align-items: stretch;
 }
 
 .navBarWrapper {
@@ -47,9 +48,4 @@
     /* Transparent */ #242424 100% /* Fully white background */
   );
   pointer-events: none; /* Ensure it doesn’t block interactions */
-}
-
-.content {
-  flex: 1;
-  padding: 20px;
 }
