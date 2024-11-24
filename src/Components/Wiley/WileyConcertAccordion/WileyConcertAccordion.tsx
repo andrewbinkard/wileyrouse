@@ -7,12 +7,13 @@ const WileyConcertAccordion: FC = () => {
   const [expanded, setExpanded] = useState<string | false>(false);
 
   const handleChange =
-    (panel: string) => (_event: React.SyntheticEvent, isExpanded: boolean) => {
+    (panel: string) => (_: React.SyntheticEvent, isExpanded: boolean) => {
       setExpanded(isExpanded ? panel : false);
     };
 
   return (
     <div className={styles.container}>
+      <h2>Concert Selections</h2>
       {wileyAccordionData.map(({ panelId, title, composer, details }) => (
         <WileyAccordionItem
           key={panelId}
