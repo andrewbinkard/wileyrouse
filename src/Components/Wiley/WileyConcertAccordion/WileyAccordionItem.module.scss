@@ -1,4 +1,4 @@
-.accordion {
+.accordion.accordion.accordion {
   color: white;
   background-color: $dark-background;
   border-bottom: 1px solid white;
@@ -12,12 +12,22 @@
   color: white;
 }
 
-.titleText {
+.titleText.titleText.titleText {
   font-weight: bold;
+  width: 33%;
+  flex-shrink: 0;
+
+  @media (max-width: $breakpoint-smaller) {
+    width: 50%;
+    font-size: 14px;
+  }
 }
 
-.composerText {
+.composerText.composerText.composerText {
   font-weight: lighter;
+  @media (max-width: $breakpoint-smaller) {
+    font-size: 14px;
+  }
 }
 
 .details {

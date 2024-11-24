@@ -4,17 +4,19 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  width: 100vw; /* Ensure full viewport width */
+  width: 100vw;
   text-align: center;
   color: white;
-  padding: 20px; /* Optional padding for spacing */
-  overflow: hidden; /* Prevents any scrolling issues if elements overflow */
-  gap: 4rem; /* Add space between the image-text sets */
+  padding: 20px;
+  overflow: hidden;
+  gap: 4rem;
+
   @media (max-width: $breakpoint-small) {
     margin-top: 2rem;
     justify-content: start;
     gap: 2rem;
   }
+
   @media (max-width: $breakpoint-smaller) {
     margin-top: 0.5rem;
     justify-content: start;
@@ -24,67 +26,50 @@
 
 .linkBlock {
   display: flex;
-  flex-direction: column; /* Stack content vertically */
-  align-items: center; /* Center content horizontally */
-  justify-content: center; /* Center content vertically */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color: white;
   padding: 1rem;
-  border-radius: 10px; /* Default rounded edges */
+  border-radius: 10px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  position: relative; /* Ensure each linkBlock has its own positioning context */
-  width: 18rem; /* Set a fixed width */
-  height: 22rem; /* Set a fixed height */
-  margin-right: 16px; /* Make up for increased border width to appear centered */
+  position: relative;
+  width: 18rem;
+  height: 22rem;
+  margin-right: 16px;
 
   /* Scale the image when hovering over the entire link block */
   &:hover .linkImage {
     transform: scale(1.1);
   }
 
-  /* Mobile-specific styles */
   @media (max-width: $breakpoint-small) {
-    border: 3px solid #ac894e; /* Default border */
-    border-right-width: 20px; /* Thicker border on the right side */
-    padding: 1.5rem; /* Increased padding for spacing */
-    height: 18rem;
+    border: 3px solid #ac894e;
+    border-right-width: 20px;
+    padding: 1.5rem;
+    height: 20rem;
 
     /* Add vertical text inside the right border */
     &::after {
-      content: "Click to see program"; /* The text to display */
+      content: "Click to see program";
       position: absolute;
-      right: -10px; /* Align to the edge of the thicker border */
-      top: 50%; /* Center vertically within the block */
-      transform: translate(50%, -50%) rotate(90deg); /* Rotate and align */
-      font-size: 1rem; /* Adjust size as needed */
+      right: -10px;
+      top: 50%;
+      transform: translate(50%, -50%) rotate(90deg);
+      font-size: 1rem;
       font-weight: bold;
-      color: #7a2328; /* Text color */
-      font-weight: bold; /* Make text bold */
-      padding: 0 5px; /* Add spacing around the text */
-      white-space: nowrap; /* Prevent wrapping */
+      color: #7a2328;
+      font-weight: bold;
+      padding: 0 5px;
+      white-space: nowrap;
     }
   }
 
-  /* Mobile-specific styles */
   @media (max-width: $breakpoint-smaller) {
-    border: 3px solid #ac894e; /* Default border */
-    border-right-width: 20px; /* Thicker border on the right side */
-    padding: 0.2rem; /* Increased padding for spacing */
+    border: 3px solid #ac894e;
+    border-right-width: 20px;
+    padding: 0.2rem;
     height: 18rem;
-
-    /* Add vertical text inside the right border */
-    &::after {
-      content: "Click to see program"; /* The text to display */
-      position: absolute;
-      right: -10px; /* Align to the edge of the thicker border */
-      top: 50%; /* Center vertically within the block */
-      transform: translate(50%, -50%) rotate(90deg); /* Rotate and align */
-      font-size: 1rem; /* Adjust size as needed */
-      font-weight: bold;
-      color: #7a2328; /* Text color */
-      font-weight: bold; /* Make text bold */
-      padding: 0 5px; /* Add spacing around the text */
-      white-space: nowrap; /* Prevent wrapping */
-    }
   }
 }
 
@@ -99,8 +84,8 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 
   &:active {
-    transform: scale(0.95); /* Shrinks slightly when tapped */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Less intense shadow */
+    transform: scale(0.95);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   }
 }
 
@@ -109,15 +94,14 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-top: 1rem; /* Space between the image and text */
+  margin-top: 1rem;
 }
 
 .textContainer h2,
 .textContainer p {
-  white-space: nowrap; /* Prevent text wrapping */
-  overflow: hidden; /* Hide overflowing content */
-  text-overflow: ellipsis; /* Add ellipsis if text is too long */
-  font-size: clamp(0.9rem, 1.2vw, 1.5rem); /* Responsive font sizing */
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: clamp(0.9rem, 1.2vw, 1.5rem);
   line-height: 1.2;
-  transition: font-size 0.2s ease; /* Smooth resizing on viewport changes */
+  transition: font-size 0.2s ease;
 }
