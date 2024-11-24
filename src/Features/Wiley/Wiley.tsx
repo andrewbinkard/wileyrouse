@@ -30,6 +30,7 @@ const Wiley: FC = () => {
 
   return (
     <div className={styles.container}>
+      {/* Navbar - Positioned on top of the image */}
       <div
         className={`${styles.navBarWrapper} ${
           isNavVisible ? styles.visible : styles.hidden
@@ -46,8 +47,11 @@ const Wiley: FC = () => {
           className={styles.groupImage}
         />
       </div>
+
+      {/* Header */}
       <WileyHeader />
 
+      {/* Content */}
       <div className={styles.content}>
         <Outlet />
       </div>

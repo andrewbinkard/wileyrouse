@@ -1,3 +1,23 @@
 .headerContainer {
-  //   margin-top: 200px;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center; /* Ensure text is centered within each item */
+  padding: 1rem; /* Optional: Add spacing around the header */
+  gap: 0.5rem; /* Optional: Add spacing between the items */
+}
+
+.headerContainer h3 {
+  font-size: clamp(
+    1.5rem,
+    4vw,
+    3rem
+  ); /* Responsive scaling: min, preferred, max */
+  margin: 0.5rem 0; /* Adjust spacing around the heading */
+}
+
+.headerContainer p {
+  font-size: clamp(1rem, 2.5vw, 1.5rem); /* Scale smoothly for paragraph text */
+  margin: 0.3rem 0; /* Adjust spacing around paragraphs */
 }

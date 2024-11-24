@@ -21,13 +21,13 @@ h1 {
 }
 
 a {
-  color: #7a2328; // Custom color for links
+  color: $rouse-red; // Custom color for links
   text-decoration: none;
   transition: color 0.3s ease;
   opacity: 100%;
 
   &:hover {
-    color: #ac894e; // Hover color for links
+    color: $rouse-gold; // Hover color for links
   }
 }
 
