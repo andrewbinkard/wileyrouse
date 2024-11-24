@@ -7,7 +7,7 @@ const WileyConcertAccordion: FC = () => {
   const [expanded, setExpanded] = useState<string | false>(false);
 
   const handleChange =
-    (panel: string) => (event: React.SyntheticEvent, isExpanded: boolean) => {
+    (panel: string) => (_event: React.SyntheticEvent, isExpanded: boolean) => {
       setExpanded(isExpanded ? panel : false);
     };
 
