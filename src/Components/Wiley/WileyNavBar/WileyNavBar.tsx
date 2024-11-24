@@ -1,4 +1,4 @@
-import { FC, useState } from "react";
+import { FC, useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import styles from "./WileyNavBar.module.scss";
 import WileyLogo from "../../../assets/images/WileyLogo.png";
@@ -10,6 +10,25 @@ const WileyNavBar: FC = () => {
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
+
+  // handle enabling and disabling of scrolling
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      // Disable scrolling
+      document.body.style.overflow = "hidden";
+      document.documentElement.style.overflow = "hidden";
+    } else {
+      // Enable scrolling
+      document.body.style.overflow = "auto";
+      document.documentElement.style.overflow = "auto";
+    }
+
+    // Cleanup when the component unmounts
+    return () => {
+      document.body.style.overflow = "auto";
+      document.documentElement.style.overflow = "auto";
+    };
+  }, [isMobileMenuOpen]);
 
   return (
     <>
