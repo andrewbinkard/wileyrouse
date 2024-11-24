@@ -2,13 +2,14 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  position: relative;
 }
 
 .navBarWrapper {
-  position: sticky;
+  position: absolute;
   top: 0;
-  z-index: 10;
   width: 100%;
+  z-index: 10;
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
@@ -23,15 +24,16 @@
 }
 
 .imageContainer {
-  position: absolute;
-  width: 100%; /* Full width */
-  overflow: hidden; /* Prevent overflow */
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+  margin-bottom: 2rem;
 }
 
 .groupImage {
-  width: 100%; /* Full width */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Ensures no inline gap */
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* Gradient overlay */
@@ -41,15 +43,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 30%; /* Fade bottom 10% of the image */
-  background: linear-gradient(
-    rgba(255, 255, 255, 0) 0%,
-    /* Transparent */ #242424 100% /* Fully white background */
-  );
-  pointer-events: none; /* Ensure it doesn’t block interactions */
-}
-
-.content {
-  flex: 1;
-  padding: 20px;
+  height: 30%;
+  background: linear-gradient(rgba(255, 255, 255, 0) 0%, #242424 100%);
+  pointer-events: none;
 }

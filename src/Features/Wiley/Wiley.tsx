@@ -4,6 +4,7 @@ import WileyNavBar from "../../Components/Wiley/WileyNavBar";
 import styles from "./Wiley.module.scss";
 import WileyHeader from "./WileyHeader";
 import WileyGroupImage from "../../assets/images/WileyGroupPhoto.jpeg"; // Import the image
+import WileyConcertAccordion from "../../Components/Wiley/WileyConcertAccordion";
 
 const Wiley: FC = () => {
   const [isNavVisible, setIsNavVisible] = useState(true);
@@ -30,6 +31,7 @@ const Wiley: FC = () => {
 
   return (
     <div className={styles.container}>
+      {/* Navbar - Positioned on top of the image */}
       <div
         className={`${styles.navBarWrapper} ${
           isNavVisible ? styles.visible : styles.hidden
@@ -37,7 +39,6 @@ const Wiley: FC = () => {
       >
         <WileyNavBar />
       </div>
-      <WileyHeader />
 
       {/* Group Image */}
       <div className={styles.imageContainer}>
@@ -48,6 +49,12 @@ const Wiley: FC = () => {
         />
       </div>
 
+      {/* Header */}
+      <WileyHeader />
+
+      <WileyConcertAccordion />
+
+      {/* Content */}
       <div className={styles.content}>
         <Outlet />
       </div>

@@ -6,7 +6,6 @@ import CandidCarousel from "../../Components/Wiley/WileyCandidCarousel";
 import styles from "./Rouse.module.scss";
 
 const Wiley: FC = () => {
-  console.log("wiley component rendered");
   return (
     <div className={styles.container}>
       <h2>Rouse House</h2>

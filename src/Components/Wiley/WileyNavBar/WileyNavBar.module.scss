@@ -1,29 +1,111 @@
 .navBarContainer {
   display: flex;
-  place-items: center;
-  align-items: center; /* Align logo and links vertically */
-  justify-content: space-between; /* Space out logo and links */
-  padding: 0.5rem 1rem; /* Add some spacing */
-  width: 100%;
-  border-bottom: 2px solid #7a2328;
-}
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+  width: 100vw;
+  position: relative; /* Necessary for hamburger menu positioning */
 
-.logo {
-  height: 50px; /* Adjust the size of the logo */
-  object-fit: contain; /* Keep the logo aspect ratio */
+  .logo {
+    height: 50px;
+    object-fit: contain;
+  }
 }
 
 .navLinks {
   display: flex;
-  flex-direction: row;
-  justify-content: end;
   gap: 1rem;
+  margin-right: 24px;
+  font-weight: bold;
+
+  @media (max-width: $breakpoint-small) {
+    display: none; /* Hide desktop nav links on mobile */
+  }
 }
 
-/* Underline active link */
 .activeLink {
   text-decoration: underline;
-  text-decoration-color: #ffdd57; /* Optional: Custom underline color */
-  text-decoration-thickness: 2px; /* Optional: Thicker underline */
-  text-underline-offset: 4px; /* Move the underline farther from the text */
+  text-decoration-color: $rouse-gold;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.hamburgerMenu {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: $rouse-red;
+  cursor: pointer;
+
+  @media (max-width: $breakpoint-small) {
+    display: block; /* Show hamburger menu on mobile */
+  }
+}
+
+.mobileMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  opacity: 0; /* Initially hidden */
+  visibility: hidden; /* Prevents interaction when hidden */
+  transform: scale(1.1); /* Slight zoom-out effect */
+  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+
+  &.open {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+  }
+
+  .mobileLogo {
+    position: absolute;
+    top: 2rem; /* Position the logo at the top */
+    height: 80px; /* Adjust as needed */
+    object-fit: contain; /* Maintain aspect ratio */
+  }
+
+  .closeMenu {
+    position: absolute;
+    top: 0.25rem;
+    right: -1rem;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: $rouse-red;
+    cursor: pointer;
+  }
+
+  .mobileNavLinks {
+    margin-top: 3rem; /* Push links down slightly */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    a {
+      color: white;
+      font-size: 1.5rem;
+      text-decoration: none;
+      text-align: center;
+
+      &:hover {
+        color: $rouse-gold;
+      }
+    }
+
+    .activeLink {
+      text-decoration: underline;
+      text-decoration-color: $rouse-gold;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 4px;
+    }
+  }
 }
