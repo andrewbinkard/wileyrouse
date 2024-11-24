@@ -4,6 +4,7 @@ import WileyNavBar from "../../Components/Wiley/WileyNavBar";
 import styles from "./Wiley.module.scss";
 import WileyHeader from "./WileyHeader";
 import WileyGroupImage from "../../assets/images/WileyGroupPhoto.jpeg"; // Import the image
+import WileyConcertAccordion from "../../Components/Wiley/WileyConcertAccordion";
 
 const Wiley: FC = () => {
   const [isNavVisible, setIsNavVisible] = useState(true);
@@ -50,6 +51,8 @@ const Wiley: FC = () => {
 
       {/* Header */}
       <WileyHeader />
+
+      <WileyConcertAccordion />
 
       {/* Content */}
       <div className={styles.content}>
