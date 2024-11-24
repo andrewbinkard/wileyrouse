@@ -31,8 +31,12 @@ a {
   }
 }
 
+html,
 body {
   overflow: auto;
+}
+
+body {
   margin: 0;
   display: flex;
   place-items: center;
