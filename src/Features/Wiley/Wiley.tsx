@@ -1,13 +1,15 @@
 import { FC, useEffect, useState } from "react";
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import WileyNavBar from "../../Components/Wiley/WileyNavBar";
 import styles from "./Wiley.module.scss";
-import WileyHeader from "./WileyHeader";
-import WileyGroupImage from "../../assets/images/WileyGroupPhoto.jpeg"; // Import the image
-import WileyConcertAccordion from "../../Components/Wiley/WileyConcertAccordion";
+import WileyGroupImage from "../../assets/images/WileyGroupPhoto.jpeg";
+import { routeLocations } from "../../Routes/const";
+import WileyMain from "./WileyMain/WIleyMain";
 
 const Wiley: FC = () => {
   const [isNavVisible, setIsNavVisible] = useState(true);
+
+  const location = useLocation();
 
   useEffect(() => {
     let lastScrollTop = 0;
@@ -29,6 +31,16 @@ const Wiley: FC = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const isWileyMain = location.pathname === routeLocations.wiley;
+
+  const contentToDisplay = isWileyMain ? (
+    <WileyMain />
+  ) : (
+    <div className={styles.content}>
+      <Outlet />
+    </div>
+  );
+
   return (
     <div className={styles.container}>
       {/* Navbar - Positioned on top of the image */}
@@ -49,15 +61,7 @@ const Wiley: FC = () => {
         />
       </div>
 
-      {/* Header */}
-      <WileyHeader />
-
-      <WileyConcertAccordion />
-
-      {/* Content */}
-      <div className={styles.content}>
-        <Outlet />
-      </div>
+      {contentToDisplay}
     </div>
   );
 };

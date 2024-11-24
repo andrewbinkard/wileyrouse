@@ -19,14 +19,14 @@ const WileyNavBar: FC = () => {
       document.documentElement.style.overflow = "hidden";
     } else {
       // Enable scrolling
-      document.body.style.overflow = "auto";
-      document.documentElement.style.overflow = "auto";
+      document.body.style.overflowY = "auto";
+      document.documentElement.style.overflowY = "auto";
     }
 
     // Cleanup when the component unmounts
     return () => {
-      document.body.style.overflow = "auto";
-      document.documentElement.style.overflow = "auto";
+      document.body.style.overflowY = "auto";
+      document.documentElement.style.overflowY = "auto";
     };
   }, [isMobileMenuOpen]);
 

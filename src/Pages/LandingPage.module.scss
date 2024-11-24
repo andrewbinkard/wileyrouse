@@ -10,6 +10,16 @@
   padding: 20px; /* Optional padding for spacing */
   overflow: hidden; /* Prevents any scrolling issues if elements overflow */
   gap: 4rem; /* Add space between the image-text sets */
+  @media (max-width: $breakpoint-small) {
+    margin-top: 2rem;
+    justify-content: start;
+    gap: 2rem;
+  }
+  @media (max-width: $breakpoint-smaller) {
+    margin-top: 0.5rem;
+    justify-content: start;
+    gap: 1rem;
+  }
 }
 
 .linkBlock {
@@ -36,6 +46,30 @@
     border: 3px solid #ac894e; /* Default border */
     border-right-width: 20px; /* Thicker border on the right side */
     padding: 1.5rem; /* Increased padding for spacing */
+    height: 18rem;
+
+    /* Add vertical text inside the right border */
+    &::after {
+      content: "Click to see program"; /* The text to display */
+      position: absolute;
+      right: -10px; /* Align to the edge of the thicker border */
+      top: 50%; /* Center vertically within the block */
+      transform: translate(50%, -50%) rotate(90deg); /* Rotate and align */
+      font-size: 1rem; /* Adjust size as needed */
+      font-weight: bold;
+      color: #7a2328; /* Text color */
+      font-weight: bold; /* Make text bold */
+      padding: 0 5px; /* Add spacing around the text */
+      white-space: nowrap; /* Prevent wrapping */
+    }
+  }
+
+  /* Mobile-specific styles */
+  @media (max-width: $breakpoint-smaller) {
+    border: 3px solid #ac894e; /* Default border */
+    border-right-width: 20px; /* Thicker border on the right side */
+    padding: 0.2rem; /* Increased padding for spacing */
+    height: 18rem;
 
     /* Add vertical text inside the right border */
     &::after {
@@ -56,6 +90,11 @@
 
 .linkImage {
   width: 15rem;
+  @media (max-width: $breakpoint-smaller) {
+    width: 10rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
   height: auto;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 
@@ -78,7 +117,7 @@
   white-space: nowrap; /* Prevent text wrapping */
   overflow: hidden; /* Hide overflowing content */
   text-overflow: ellipsis; /* Add ellipsis if text is too long */
-  font-size: clamp(1rem, 1.25vw, 2rem); /* Responsive font sizing */
+  font-size: clamp(0.9rem, 1.2vw, 1.5rem); /* Responsive font sizing */
   line-height: 1.2;
   transition: font-size 0.2s ease; /* Smooth resizing on viewport changes */
 }
