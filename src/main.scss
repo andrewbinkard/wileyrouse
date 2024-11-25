@@ -13,11 +13,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
-  font-size: 3.2rem; // Custom font size for h1
-  margin: 1rem 0; // Add spacing between h1 elements
-  color: #f0f0f0; // Custom color for h1 text
-  padding: 24px;
+h1,
+h2,
+h3,
+h4 {
+  color: $rouse-gold-light;
 }
 
 a {

@@ -17,7 +17,7 @@
   width: 33%;
   flex-shrink: 0;
 
-  @media (max-width: $breakpoint-smaller) {
+  @media (max-width: $breakpoint-xsmall) {
     width: 50%;
     font-size: 14px;
   }
@@ -25,7 +25,7 @@
 
 .composerText.composerText.composerText {
   font-weight: lighter;
-  @media (max-width: $breakpoint-smaller) {
+  @media (max-width: $breakpoint-xsmall) {
     font-size: 14px;
   }
 }

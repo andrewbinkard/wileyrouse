@@ -2,16 +2,13 @@ import { FC } from "react";
 import { Routes, Route } from "react-router-dom";
 import LandingPage from "./Pages/LandingPage";
 import Wiley from "./Features/Wiley";
-import WileyAcknowledgements from "./Features/Wiley/WileyAcknowledgements";
-import WileyPrivateLessonFaculty from "./Features/Wiley/WileyPrivateLessonFaculty";
-import WileyLettersOfRecognition from "./Features/Wiley/WileyLettersOfRecognition";
 import Rouse from "./Features/Rouse";
-import RouseAcknowledgements from "./Features/Rouse/RouseAcknowledgements";
-import RousePrivateLessonFaculty from "./Features/Rouse/RousePrivateLessonFaculty";
-import RouseLettersOfRecognition from "./Features/Rouse/RouseLettersOfRecognition";
 import ScrollToTop from "./Components/Wiley/Shared/ScrollToTop";
+import routes from "./Routes/routes";
 
 const App: FC = () => {
+  const wileyRoutes = routes[0].children;
+  const rouseRoutes = routes[1].children;
   return (
     <>
       <ScrollToTop />
@@ -21,28 +18,16 @@ const App: FC = () => {
 
         {/* Wiley Routes */}
         <Route path="wiley" element={<Wiley />}>
-          <Route path="acknowledgements" element={<WileyAcknowledgements />} />
-          <Route
-            path="private-lesson-faculty"
-            element={<WileyPrivateLessonFaculty />}
-          />
-          <Route
-            path="letters-of-recommendation"
-            element={<WileyLettersOfRecognition />}
-          />
+          {wileyRoutes?.map((route) => {
+            return <Route path={route.path} element={route.element} />;
+          })}
         </Route>
 
         {/* Rouse Routes */}
         <Route path="rouse" element={<Rouse />}>
-          <Route path="acknowledgements" element={<RouseAcknowledgements />} />
-          <Route
-            path="private-lesson-faculty"
-            element={<RousePrivateLessonFaculty />}
-          />
-          <Route
-            path="letters-of-recommendation"
-            element={<RouseLettersOfRecognition />}
-          />
+          {rouseRoutes?.map((route) => {
+            return <Route path={route.path} element={route.element} />;
+          })}
         </Route>
       </Routes>
     </>

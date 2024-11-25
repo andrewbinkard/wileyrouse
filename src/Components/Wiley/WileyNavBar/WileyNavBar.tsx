@@ -1,5 +1,5 @@
 import { FC, useState, useEffect } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import styles from "./WileyNavBar.module.scss";
 import WileyLogo from "../../../assets/images/WileyLogo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -34,7 +34,9 @@ const WileyNavBar: FC = () => {
     <>
       <div className={styles.navBarContainer}>
         {/* Logo */}
-        <img src={WileyLogo} alt="WileyLogo" className={styles.logo} />
+        <Link to="/wiley">
+          <img src={WileyLogo} alt="WileyLogo" className={styles.logo} />
+        </Link>
 
         {/* Desktop Navigation Links */}
         <div className={styles.navLinks}>

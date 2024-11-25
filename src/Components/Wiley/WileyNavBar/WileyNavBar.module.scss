@@ -17,6 +17,11 @@
   gap: 1rem;
   margin-right: 24px;
   font-weight: bold;
+  font-size: 1.25rem;
+
+  @media (max-width: $breakpoint-medium) {
+    font-size: 1rem;
+  }
 
   @media (max-width: $breakpoint-small) {
     display: none; /* Hide desktop nav links on mobile */

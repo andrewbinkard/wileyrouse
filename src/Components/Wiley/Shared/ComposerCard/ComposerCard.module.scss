@@ -1,0 +1,94 @@
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $rouse-red-darkest; /* Dark red background */
+  color: #ffffff; /* White text for better contrast */
+  border-radius: 10px; /* Rounded corners */
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 85vw;
+  margin: 0 auto 2rem auto;
+  box-sizing: border-box; /* Include padding and border in width calculations */
+
+  @media (max-width: $breakpoint-small) {
+    flex-direction: column; /* Switch to vertical layout on small screens */
+    align-items: flex-start; /* Align content to the start */
+  }
+
+  .composerImage {
+    width: 33%;
+    max-width: 33%; /* Prevent the image from growing larger than its allocated space */
+    height: auto;
+    object-fit: cover; /* Ensures image covers the designated area */
+    border-radius: 10px;
+
+    @media (max-width: $breakpoint-small) {
+      align-self: center;
+      width: 50%;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1; /* Allow content to shrink and grow within available space */
+    min-width: 0; /* Prevent content from overflowing parent flex container */
+    margin: 0 1rem;
+
+    @media (max-width: $breakpoint-small) {
+      width: 100%; /* Full width below breakpoint */
+      margin: unset;
+    }
+
+    h3 {
+      margin: 0 0 0.5rem 0;
+      font-size: 2rem;
+      color: $rouse-gold-light;
+
+      @media (max-width: $breakpoint-small) {
+        font-size: 1.25rem;
+        align-self: center;
+      }
+    }
+
+    a {
+      color: $rouse-gold-light;
+      text-decoration: none;
+      margin-bottom: 0.5rem;
+      word-break: break-word;
+      overflow-wrap: break-word;
+      max-width: 100%; /* Prevent the link from overflowing */
+      text-overflow: ellipsis;
+      white-space: nowrap; /* Single line on wider screens */
+      overflow: hidden;
+      transition: color 0.2s ease;
+      font-size: 1.25rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      @media (max-width: $breakpoint-small) {
+        white-space: normal; /* Allow wrapping on smaller screens */
+        align-self: center;
+        font-size: 1rem;
+      }
+    }
+
+    p {
+      margin: 0;
+      font-size: 1.1rem;
+      color: #ffffff;
+      text-align: justify;
+      word-break: break-word;
+      overflow-wrap: break-word;
+      max-width: 100%; /* Ensure the text never exceeds the container width */
+      box-sizing: border-box; /* Include padding/border in width */
+    }
+  }
+}

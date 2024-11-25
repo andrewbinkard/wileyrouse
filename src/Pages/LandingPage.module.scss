@@ -17,7 +17,7 @@
     gap: 2rem;
   }
 
-  @media (max-width: $breakpoint-smaller) {
+  @media (max-width: $breakpoint-xsmall) {
     margin-top: 0.5rem;
     justify-content: start;
     gap: 1rem;
@@ -65,7 +65,7 @@
     }
   }
 
-  @media (max-width: $breakpoint-smaller) {
+  @media (max-width: $breakpoint-xsmall) {
     border: 3px solid #ac894e;
     border-right-width: 20px;
     padding: 0.2rem;
@@ -75,13 +75,13 @@
 
 .linkImage {
   width: 15rem;
-  @media (max-width: $breakpoint-smaller) {
+  height: auto;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  @media (max-width: $breakpoint-xsmall) {
     width: 10rem;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
-
-  height: auto;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
 
   &:active {
     transform: scale(0.95);
