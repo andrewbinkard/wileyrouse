@@ -4,8 +4,8 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import styles from "./WileyAccordionItem.module.scss";
 import { AccordionItemProps } from "./types";
+import styles from "./WileyAccordionItem.module.scss";
 
 const AccordionItem: React.FC<AccordionItemProps> = ({
   panelId,
@@ -17,26 +17,22 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
 }) => {
   return (
     <Accordion
-      className={styles.accordion}
       expanded={expanded}
       onChange={handleChange}
+      classes={{ root: styles.accordion }}
     >
       <AccordionSummary
-        className={styles.summary}
-        expandIcon={<ExpandMoreIcon className={styles.expandButton} />}
-        aria-controls={`${panelId}-content`}
+        expandIcon={<ExpandMoreIcon classes={{ root: styles.expandButton }} />}
+        classes={{ root: styles.summary }}
         id={`${panelId}-header`}
       >
-        <Typography
-          className={styles.titleText}
-          sx={{ width: "33%", flexShrink: 0 }}
-        >
-          {title}
+        <Typography classes={{ root: styles.titleText }}>{title}</Typography>
+        <Typography classes={{ root: styles.composerText }}>
+          {composer}
         </Typography>
-        <Typography className={styles.composerText}>{composer}</Typography>
       </AccordionSummary>
-      <AccordionDetails>
-        <Typography className={styles.details}>{details}</Typography>
+      <AccordionDetails classes={{ root: styles.details }}>
+        <Typography>{details}</Typography>
       </AccordionDetails>
     </Accordion>
   );
