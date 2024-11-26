@@ -44,9 +44,9 @@ const ComposerCard: FC<ComposerCardProps> = ({
           </a>
         )}
         <p>
-          {paragraphs?.[1]}
+          {paragraphs?.[0]}
           {expanded &&
-            paragraphs?.slice(2).map((para, index) => (
+            paragraphs?.slice(1).map((para, index) => (
               <p key={index}>
                 <br />
                 {para}
