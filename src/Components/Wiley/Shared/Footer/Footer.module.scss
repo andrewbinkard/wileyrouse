@@ -1,0 +1,18 @@
+.footerContainer {
+  h3,
+  h4,
+  p {
+    font-weight: 100;
+    margin: unset;
+  }
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+
+  .copyright {
+    padding-top: 1rem;
+    text-align: center;
+  }
+}

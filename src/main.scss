@@ -20,6 +20,18 @@ h4 {
   color: $rouse-gold-light;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
 a {
   color: $rouse-red; // Custom color for links
   text-decoration: none;
@@ -44,7 +56,7 @@ body {
 }
 
 button {
-  border-radius: 8px;
+  border-radius: $standard-rounding;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
