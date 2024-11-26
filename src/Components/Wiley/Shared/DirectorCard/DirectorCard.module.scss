@@ -1,0 +1,46 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: center;
+  justify-content: flex-start;
+  background-color: $rouse-red-darkest; /* Use your theme color */
+  color: #ffffff; /* White text for better contrast */
+  border-radius: $standard-rounding; /* Rounded corners */
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  text-align: center;
+  box-sizing: border-box; /* Include padding and border in width calculations */
+  max-width: 300px;
+
+  /* Ensure cards are responsive and flexible */
+  width: 100%; /* Fit the grid cell */
+  height: auto;
+
+  .directorImage {
+    width: 100%;
+    height: auto;
+    max-height: 500px; /* Prevent excessively tall images */
+    object-fit: contain; /* Ensures the image covers the designated area */
+    border-radius: $standard-rounding; /* Rounded corners for the image */
+    margin-bottom: 1rem;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+      margin: 0;
+      font-size: 1.5rem; /* Slightly smaller font for DirectorCard */
+      color: $rouse-gold-light;
+    }
+
+    h4 {
+      margin: 0.5rem 0 0;
+      font-size: 1rem;
+      color: $rouse-gold-light;
+    }
+  }
+}

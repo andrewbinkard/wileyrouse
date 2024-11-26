@@ -1,6 +1,7 @@
 export interface ComposerCardProps {
   name: string;
   imgSrc: string;
-  details: string;
-  website: string;
+  details?: string;
+  website?: string;
+  title?: string;
 }

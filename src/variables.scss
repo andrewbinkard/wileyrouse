@@ -1,6 +1,8 @@
 // breakpoints
+$breakpoint-large: 1300px;
 $breakpoint-medium: 970px;
 $breakpoint-small: 800px;
+$breakpoint-575: 575px;
 $breakpoint-xsmall: 400px;
 
 // margins
@@ -29,3 +31,6 @@ $rouse-gold-dark: #896d3e;
 
 // other colors
 $dark-background: #242424;
+
+// other
+$standard-rounding: 10px;

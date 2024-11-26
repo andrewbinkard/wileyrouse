@@ -6,12 +6,14 @@
   gap: 2rem;
 }
 
-.composerButton.composerButton.composerButton {
+.linkButton.linkButton.linkButton {
   color: $rouse-gold-light;
   border-color: $rouse-gold-light;
   background-color: $rouse-red;
   border: 2px solid $rouse-gold-light;
-  width: 80vw;
+  border-radius: $standard-rounding;
+  width: 40vw;
+  min-width: 212px;
 
   &:hover {
     background-color: $rouse-red-darker;

@@ -1,34 +1,43 @@
 .cardContainer {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   background-color: $rouse-red-darkest; /* Dark red background */
   color: #ffffff; /* White text for better contrast */
-  border-radius: 10px; /* Rounded corners */
+  border-radius: $standard-rounding; /* Rounded corners */
   padding: 1.5rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
   width: 85vw;
+  min-width: 316px; // for that awful samsung fold
   margin: 0 auto 2rem auto;
   box-sizing: border-box; /* Include padding and border in width calculations */
 
-  @media (max-width: $breakpoint-small) {
+  @media (max-width: $breakpoint-medium) {
     flex-direction: column; /* Switch to vertical layout on small screens */
-    align-items: flex-start; /* Align content to the start */
+    align-items: center; /* Center-align items in the column layout */
   }
 
   .composerImage {
     width: 33%;
-    max-width: 33%; /* Prevent the image from growing larger than its allocated space */
+    max-width: 50%; /* Prevent the image from growing larger than its allocated space */
     height: auto;
     object-fit: cover; /* Ensures image covers the designated area */
-    border-radius: 10px;
+    border-radius: $standard-rounding;
+    align-self: start;
+    margin-top: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
 
-    @media (max-width: $breakpoint-small) {
+    /* Ensure the image stops shrinking below a certain size */
+    min-width: 325px; /* Set the minimum width */
+
+    @media (max-width: $breakpoint-medium) {
       align-self: center;
       width: 50%;
       margin-bottom: 1rem;
+
+      /* Ensure minimum dimensions are respected on smaller screens */
+      min-width: 300px; /* Adjust minimum width for smaller breakpoints */
     }
   }
 
@@ -39,19 +48,34 @@
     flex: 1; /* Allow content to shrink and grow within available space */
     min-width: 0; /* Prevent content from overflowing parent flex container */
     margin: 0 1rem;
+    padding: 1rem;
 
-    @media (max-width: $breakpoint-small) {
+    @media (max-width: $breakpoint-medium) {
       width: 100%; /* Full width below breakpoint */
       margin: unset;
+      align-items: center; /* Center-align content within the container */
+      text-align: center; /* Center-align text within the content */
+    }
+
+    h2 {
+      margin: 0 0 0.5rem 0;
+      color: $rouse-gold-light;
+      padding-bottom: 1rem;
+      align-self: start;
+
+      @media (max-width: $breakpoint-medium) {
+        font-size: 1.25rem;
+        align-self: center;
+      }
     }
 
     h3 {
       margin: 0 0 0.5rem 0;
-      font-size: 2rem;
       color: $rouse-gold-light;
+      padding-bottom: 1rem;
 
-      @media (max-width: $breakpoint-small) {
-        font-size: 1.25rem;
+      @media (max-width: $breakpoint-medium) {
+        font-size: 0.9rem;
         align-self: center;
       }
     }
@@ -68,12 +92,13 @@
       overflow: hidden;
       transition: color 0.2s ease;
       font-size: 1.25rem;
+      padding-bottom: 1rem;
 
       &:hover {
         text-decoration: underline;
       }
 
-      @media (max-width: $breakpoint-small) {
+      @media (max-width: $breakpoint-medium) {
         white-space: normal; /* Allow wrapping on smaller screens */
         align-self: center;
         font-size: 1rem;
@@ -82,13 +107,45 @@
 
     p {
       margin: 0;
-      font-size: 1.1rem;
+      font-size: 1.2rem;
+      font-weight: lighter;
       color: #ffffff;
       text-align: justify;
-      word-break: break-word;
-      overflow-wrap: break-word;
-      max-width: 100%; /* Ensure the text never exceeds the container width */
+
+      /* Remove max-width restriction */
+      max-width: 100%; /* Ensure the text fits within the container */
       box-sizing: border-box; /* Include padding/border in width */
+
+      @media (max-width: $breakpoint-medium) {
+        text-align: justify; /* Center-align text on smaller screens */
+      }
+    }
+  }
+
+  .readMoreButton {
+    color: $rouse-gold-light;
+    border-color: $rouse-gold-light;
+    background-color: $rouse-red;
+    border: 2px solid $rouse-gold-light;
+    border-radius: $standard-rounding;
+    width: 250px;
+    min-width: 212px;
+    margin-top: 1rem;
+
+    &:hover {
+      background-color: $rouse-red-darker;
+    }
+
+    &:active {
+      background-color: $rouse-red-darkest;
+      border-color: $rouse-gold;
+      color: $rouse-gold;
+    }
+
+    @media (max-width: $breakpoint-medium) {
+      &:hover {
+        background-color: $rouse-red;
+      }
     }
   }
 }

@@ -2,11 +2,12 @@ import { FC } from "react";
 import styles from "./WileyComposers.module.scss";
 import { composerData } from "./const";
 import ComposerCard from "../../../Components/Wiley/Shared/ComposerCard";
+import Footer from "../../../Components/Wiley/Shared/Footer";
 
 const WileyComposers: FC = () => {
   return (
     <div className={styles.composersContainer}>
-      <h2>Composers</h2>
+      <h1>Composers</h1>
       {composerData.map(({ name, imgSrc, details, website }) => {
         return (
           <ComposerCard
@@ -17,6 +18,7 @@ const WileyComposers: FC = () => {
           />
         );
       })}
+      <Footer />
     </div>
   );
 };
