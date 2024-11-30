@@ -5,7 +5,8 @@ import Button from "@mui/material/Button";
 import styles from "./WileyMain.module.scss";
 import { Link, Outlet } from "react-router-dom";
 import WileyDirectors from "../WileyDirectors";
-import Footer from "../../../Components/Wiley/Shared/Footer/Footer";
+import Footer from "../../../Components/Shared/Footer/Footer";
+import WileyMusicians from "../WileyMusicians/WileyMusicians";
 
 const WileyMain: FC = () => {
   return (
@@ -20,6 +21,7 @@ const WileyMain: FC = () => {
       >
         Meet the Composers
       </Button>
+      <WileyMusicians />
       <WileyDirectors />
       <Button
         classes={{ root: styles.linkButton }}

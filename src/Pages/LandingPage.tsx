@@ -4,7 +4,7 @@ import routes from "../Routes/routes";
 import styles from "./LandingPage.module.scss";
 import { routeLocations } from "../Routes/const";
 import { Button } from "@mui/material";
-import SchoolCard from "../Components/Wiley/Shared/SchoolCard";
+import SchoolCard from "../Components/Shared/SchoolCard";
 import { performingSchoolData } from "./const";
 
 const LandingPage: FC = () => {

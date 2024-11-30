@@ -1,4 +1,4 @@
-import { DirectorCardProps } from "../../../Components/Wiley/Shared/DirectorCard/types";
+import { DirectorCardProps } from "../../../Components/Shared/DirectorCard/types";
 import TaylorWilliamsonHeadshot from "../../../assets/images/Headshot_TaylorWilliamson.jpg";
 import CristinaBarreraHeadshot from "../../../assets/images/Headshot_CristinaBarrera.jpg";
 import RachelJohnstoneHeadshot from "../../../assets/images/Headshot_RachelJohnstone.jpg";

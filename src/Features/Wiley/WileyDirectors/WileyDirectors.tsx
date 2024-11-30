@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { wileyDirectorData } from "./const";
-import DirectorCard from "../../../Components/Wiley/Shared/DirectorCard";
+import DirectorCard from "../../../Components/Shared/DirectorCard";
 import styles from "./WileyDirectors.module.scss";
 
 const WileyDirectors: FC = () => {

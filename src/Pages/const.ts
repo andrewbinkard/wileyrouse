@@ -1,4 +1,4 @@
-import { SchoolCardWithRoute } from "../Components/Wiley/Shared/SchoolCard/types";
+import { SchoolCardWithRoute } from "../Components/Shared/SchoolCard/types";
 import rouseLogo from "../assets/images/RHS_r_Logo_300_ppi.png";
 import wileyLogo from "../assets/images/WileyLogo.png";
 

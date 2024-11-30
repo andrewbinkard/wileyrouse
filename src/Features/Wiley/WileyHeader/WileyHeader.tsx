@@ -6,7 +6,8 @@ const WileyHeader: FC = () => {
     <div className={styles.headerContainer}>
       <h1>Wiley Middle School</h1>
       <h2>Wind Ensemble</h2>
-      <p>Friday, December 20, 2024 | 8:30 AM | Ballroom 375E</p>
+      <p>Friday, December 20, 2024</p>
+      <p>8:30 AM | Ballroom 375E</p>
     </div>
   );
 };

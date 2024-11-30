@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import LandingPage from "./Pages/LandingPage";
 import Wiley from "./Features/Wiley";
 import Rouse from "./Features/Rouse";
-import ScrollToTop from "./Components/Wiley/Shared/ScrollToTop";
+import ScrollToTop from "./Components/Shared/ScrollToTop";
 import routes from "./Routes/routes";
 
 const App: FC = () => {

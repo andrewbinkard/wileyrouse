@@ -1,4 +1,4 @@
-import { ComposerCardProps } from "../../../Components/Wiley/Shared/ComposerCard/types";
+import { ComposerCardProps } from "../../../Components/Shared/ComposerCard/types";
 import JSBach from "../../../assets/images/js_bach.jpeg";
 import YasminWilliams from "../../../assets/images/YASMIN+WILLIAMS+Acadia.jpeg";
 
