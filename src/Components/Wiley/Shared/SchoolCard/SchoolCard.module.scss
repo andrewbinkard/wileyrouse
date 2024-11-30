@@ -1,0 +1,60 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $rouse-red-darker;
+  border-radius: $standard-rounding; // 10px rounding
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+  border: 2px solid $rouse-gold-light;
+  width: 100%; // Start with a percentage width
+  max-width: 320px; // Cards will not exceed this width
+  text-align: center;
+  overflow: hidden;
+  aspect-ratio: 3 / 4; // Ensure consistent height-to-width ratio
+  margin: 0 auto; // Centers individual cards if needed
+  height: auto;
+
+  @media (max-width: 375px) {
+    height: 300px;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 4px 0 4px; // Reduced vertical space
+    color: $rouse-gold-light;
+  }
+
+  p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin: 0;
+    color: $rouse-gold-light;
+  }
+
+  .clickMessage {
+    font-size: small;
+    font-weight: 100;
+  }
+
+  .schoolLogo {
+    max-width: 70%;
+    max-height: 150px;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 4rem;
+
+    @media (max-width: 375px) {
+      max-width: 65%;
+      max-height: 120px;
+      margin-bottom: 2rem;
+    }
+
+    @media (max-width: 320px) {
+      max-width: 60%;
+      max-height: 100px;
+      margin-bottom: 1rem;
+    }
+  }
+}
