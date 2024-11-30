@@ -1,15 +1,30 @@
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem;
-  margin: 0 auto;
-  max-width: 80vw;
-  width: 100%;
-  box-sizing: border-box;
-}
+  margin: $margin-xlarge 0;
 
+  .accordionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: $rouse-red-darker; /* Background color */
+    border-radius: $standard-rounding; /* Apply border radius */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Light box shadow */
+
+    @media (min-width: $breakpoint-medium) {
+      max-width: 80vw;
+    }
+  }
+}
 h2 {
+  font-size: clamp(
+    1.5rem,
+    4vw,
+    3rem
+  ); /* Responsive scaling: min, preferred, max */
+  margin: 0.5rem 0; /* Adjust spacing around the heading */
   align-self: center;
   text-align: center;
 }

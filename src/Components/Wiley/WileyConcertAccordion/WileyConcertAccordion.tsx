@@ -14,17 +14,19 @@ const WileyConcertAccordion: FC = () => {
   return (
     <div className={styles.container}>
       <h2>Concert Selections</h2>
-      {wileyAccordionData.map(({ panelId, title, composer, details }) => (
-        <WileyAccordionItem
-          key={panelId}
-          panelId={panelId}
-          expanded={expanded === panelId}
-          handleChange={handleChange(panelId)}
-          title={title}
-          composer={composer}
-          details={details}
-        />
-      ))}
+      <div className={styles.accordionContainer}>
+        {wileyAccordionData.map(({ panelId, title, composer, details }) => (
+          <WileyAccordionItem
+            key={panelId}
+            panelId={panelId}
+            expanded={expanded === panelId}
+            handleChange={handleChange(panelId)}
+            title={title}
+            composer={composer}
+            details={details}
+          />
+        ))}
+      </div>
     </div>
   );
 };

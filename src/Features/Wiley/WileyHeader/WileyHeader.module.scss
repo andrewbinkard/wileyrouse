@@ -4,20 +4,37 @@
   align-items: center; /* Center items horizontally */
   justify-content: center; /* Center items vertically */
   text-align: center; /* Ensure text is centered within each item */
-  padding: 1rem; /* Optional: Add spacing around the header */
-  gap: 0.5rem; /* Optional: Add spacing between the items */
+  padding: 1rem; /* Spacing around the header */
+  gap: 0.1rem; /* Spacing between the items */
+  background-color: $rouse-red-darker; /* Background color */
+  border-radius: $standard-rounding; /* Apply border radius */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Light box shadow */
+  color: white; /* Ensure text is visible on darker background */
+
+  @media (min-width: $breakpoint-medium) {
+    max-width: 80vw;
+  }
 }
 
 .headerContainer h1 {
-  font-size: clamp(
-    1.5rem,
-    4vw,
-    3rem
-  ); /* Responsive scaling: min, preferred, max */
-  margin: 0.5rem 0; /* Adjust spacing around the heading */
+  // font-size: clamp(
+  //   1.5rem,
+  //   4vw,
+  //   3rem
+  // ); /* Responsive scaling: min, preferred, max */
+  // margin: 0.5rem 0; /* Adjust spacing around the heading */
+}
+
+.headerContainer h2 {
+  // font-size: clamp(
+  //   1rem,
+  //   3vw,
+  //   2rem
+  // ); /* Responsive scaling: min, preferred, max */
+  // margin: 0.5rem 0; /* Adjust spacing around the heading */
 }
 
 .headerContainer p {
-  font-size: clamp(1rem, 2.5vw, 1.5rem); /* Scale smoothly for paragraph text */
-  margin: 0.3rem 0; /* Adjust spacing around paragraphs */
+  // font-size: clamp(1rem, 2.5vw, 1.5rem); /* Scale smoothly for paragraph text */
+  // margin: 0.3rem 0; /* Adjust spacing around paragraphs */
 }
