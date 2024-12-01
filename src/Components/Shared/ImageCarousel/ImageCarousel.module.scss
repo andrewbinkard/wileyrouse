@@ -1,9 +1,55 @@
-.carouselContainer {
-  height: auto;
-  width: 80vw;
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   border-radius: $standard-rounding;
+  overflow: hidden;
+  background-color: $rouse-red-darker;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
 }
 
-.imageContainer {
+.imageWrapper {
+  position: relative;
   width: 100%;
+  max-width: 1200px; // Optional: Limit maximum width for large screens
+  margin: 0 auto; // Center the wrapper on the page
+  aspect-ratio: 16 / 9; // Enforce 16:9 ratio for responsiveness
+  background-color: $rouse-red-darkest; // Placeholder background
+  overflow: hidden;
+
+  @supports not (aspect-ratio: 16 / 9) {
+    padding-top: 56.25%; // Fallback for browsers without aspect-ratio support
+    height: 0;
+  }
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; // Maintain aspect ratio without distortion
+  display: block;
+}
+
+.placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.2rem;
+  background-color: $rouse-red-darkest;
+}
+
+.carouselContainer {
+  width: 90vw; // Take up 90% of the viewport width
+  max-width: 1200px; // Optional: Limit max width for larger screens
+  margin: 0 auto; // Center the carousel
+  border-radius: $standard-rounding;
 }
