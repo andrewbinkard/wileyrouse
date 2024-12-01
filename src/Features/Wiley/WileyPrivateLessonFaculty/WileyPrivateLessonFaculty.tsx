@@ -1,63 +1,20 @@
+import DirectorCard from "../../../Components/Shared/DirectorCard";
+import Footer from "../../../Components/Shared/Footer";
+import { privateLessonTeacherData } from "./const";
+import styles from "./WileyPrivateLessonFaculty.module.scss";
+
 const WileyPrivateLessonFaculty = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <h1>Private Lesson Faculty</h1>
-      <ul>
-        <li>Flute</li>
-        <li>Oboe</li>
-        <li>Clarinet</li>
-        <li>Saxophone</li>
-        <li>Trumpet</li>
-        <li>Horn</li>
-        <li>Trombone</li>
-        <li>Low Brass</li>
-        <li>Percussion</li>
-        <li>Flute</li>
-        <li>Oboe</li>
-        <li>Clarinet</li>
-        <li>Saxophone</li>
-        <li>Trumpet</li>
-        <li>Horn</li>
-        <li>Trombone</li>
-        <li>Low Brass</li>
-        <li>Percussion</li>
-        <li>Flute</li>
-        <li>Oboe</li>
-        <li>Clarinet</li>
-        <li>Saxophone</li>
-        <li>Trumpet</li>
-        <li>Horn</li>
-        <li>Trombone</li>
-        <li>Low Brass</li>
-        <li>Percussion</li>
-        <li>Flute</li>
-        <li>Oboe</li>
-        <li>Clarinet</li>
-        <li>Saxophone</li>
-        <li>Trumpet</li>
-        <li>Horn</li>
-        <li>Trombone</li>
-        <li>Low Brass</li>
-        <li>Percussion</li>
-        <li>Flute</li>
-        <li>Oboe</li>
-        <li>Clarinet</li>
-        <li>Saxophone</li>
-        <li>Trumpet</li>
-        <li>Horn</li>
-        <li>Trombone</li>
-        <li>Low Brass</li>
-        <li>Percussion</li>
-        <li>Flute</li>
-        <li>Oboe</li>
-        <li>Clarinet</li>
-        <li>Saxophone</li>
-        <li>Trumpet</li>
-        <li>Horn</li>
-        <li>Trombone</li>
-        <li>Low Brass</li>
-        <li>Percussion</li>
-      </ul>
+      <div className={styles.facultyContainer}>
+        {privateLessonTeacherData.map(({ name, instrument, imgSrc }) => {
+          return (
+            <DirectorCard name={name} instrument={instrument} imgSrc={imgSrc} />
+          );
+        })}
+      </div>
+      <Footer />
     </div>
   );
 };

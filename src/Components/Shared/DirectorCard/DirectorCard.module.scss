@@ -14,7 +14,7 @@
 
   /* Ensure cards are responsive and flexible */
   width: 100%; /* Fit the grid cell */
-  height: auto;
+  height: fit-content;
 
   .directorImage {
     width: 100%;
@@ -23,6 +23,7 @@
     object-fit: contain; /* Ensures the image covers the designated area */
     border-radius: $standard-rounding; /* Rounded corners for the image */
     margin-bottom: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   }
 
   .content {

@@ -12,9 +12,5 @@
     background-color: $rouse-red-darker; /* Background color */
     border-radius: $standard-rounding; /* Apply border radius */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Light box shadow */
-
-    @media (min-width: $breakpoint-medium) {
-      max-width: 80vw;
-    }
   }
 }

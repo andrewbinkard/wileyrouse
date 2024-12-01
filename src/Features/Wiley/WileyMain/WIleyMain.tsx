@@ -22,6 +22,7 @@ const WileyMain: FC = () => {
       >
         Meet the Composers
       </Button>
+      <h2>Musicians</h2>
       <ImageCarousel imgData={wileySections} />
       <Button
         classes={{ root: styles.linkButton }}

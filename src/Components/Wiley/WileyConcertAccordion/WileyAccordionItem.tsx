@@ -26,10 +26,12 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
         classes={{ root: styles.summary }}
         id={`${panelId}-header`}
       >
-        <Typography classes={{ root: styles.titleText }}>{title}</Typography>
-        <Typography classes={{ root: styles.composerText }}>
-          {composer}
-        </Typography>
+        <div className={styles.summaryContent}>
+          <Typography classes={{ root: styles.titleText }}>{title}</Typography>
+          <Typography classes={{ root: styles.composerText }}>
+            {composer}
+          </Typography>
+        </div>
       </AccordionSummary>
       <AccordionDetails classes={{ root: styles.details }}>
         <Typography>{details}</Typography>
