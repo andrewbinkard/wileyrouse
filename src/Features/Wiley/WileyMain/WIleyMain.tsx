@@ -41,6 +41,47 @@ const WileyMain: FC = () => {
       >
         Read Bios
       </Button>
+      <h2>Other Links</h2>
+      <Button
+        classes={{ root: styles.linkButton }}
+        component={Link}
+        to={"wiley-private-lesson-faculty"}
+        variant="contained"
+      >
+        Private Lesson Faculty
+      </Button>
+      <Button
+        classes={{ root: styles.linkButton }}
+        component={Link}
+        to={"wiley-acknowledgements"}
+        variant="contained"
+      >
+        Acknowledgements
+      </Button>
+      <Button
+        classes={{ root: styles.linkButton }}
+        component={Link}
+        to={"wiley-letters-of-recognition"}
+        variant="contained"
+      >
+        Letters of Recognition
+      </Button>
+      <Button
+        classes={{ root: styles.linkButton }}
+        component={Link}
+        to={"wiley-about-program"}
+        variant="contained"
+      >
+        About the Program
+      </Button>
+      <Button
+        classes={{ root: styles.linkButton }}
+        component={Link}
+        to={""}
+        variant="contained"
+      >
+        2023-24 Wind Ensemble
+      </Button>
       <Outlet />
       <Footer />
     </div>

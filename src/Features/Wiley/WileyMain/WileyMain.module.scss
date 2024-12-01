@@ -18,6 +18,10 @@
   width: 40vw;
   min-width: 212px;
 
+  @media (max-width: $breakpoint-small) {
+    width: 100%;
+  }
+
   &:hover {
     background-color: $rouse-red-darker;
   }

@@ -11,6 +11,7 @@ import RousePrivateLessonFaculty from "../Features/Rouse/RousePrivateLessonFacul
 import WileyComposers from "../Features/Wiley/WileyComposers";
 import WileyBios from "../Features/Wiley/WileyBios";
 import WileyMusicians from "../Features/Wiley/WileyMusicians";
+import WileyAboutProgram from "../Features/Wiley/WileyAboutProgram/WileyAboutProgram";
 
 // Define routes as an array of RouteObjects
 export const routes: RouteObject[] = [
@@ -19,7 +20,7 @@ export const routes: RouteObject[] = [
     element: <Wiley />,
     children: [
       {
-        path: "acknowledgements",
+        path: "wiley-acknowledgements",
         element: <WileyAcknowledgements />,
       },
       {
@@ -31,11 +32,11 @@ export const routes: RouteObject[] = [
         element: <WileyMusicians />,
       },
       {
-        path: "letters-of-recognition",
+        path: "wiley-letters-of-recognition",
         element: <WileyLettersOfRecognition />,
       },
       {
-        path: "private-lesson-faculty",
+        path: "wiley-private-lesson-faculty",
         element: <WileyPrivateLessonFaculty />,
       },
       {
@@ -45,6 +46,10 @@ export const routes: RouteObject[] = [
       {
         path: "wiley-bios/:directorName",
         element: <WileyBios />,
+      },
+      {
+        path: "wiley-about-program",
+        element: <WileyAboutProgram />,
       },
     ],
   },

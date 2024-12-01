@@ -58,7 +58,7 @@ const WileyNavBar: FC = () => {
             Wiley Main
           </NavLink>
           <NavLink
-            to="acknowledgements"
+            to="wiley-acknowledgements"
             className={({ isActive }) =>
               isActive ? styles.activeLink : undefined
             }
@@ -66,7 +66,7 @@ const WileyNavBar: FC = () => {
             Acknowledgements
           </NavLink>
           <NavLink
-            to="private-lesson-faculty"
+            to="wiley-private-lesson-faculty"
             className={({ isActive }) =>
               isActive ? styles.activeLink : undefined
             }
@@ -74,12 +74,12 @@ const WileyNavBar: FC = () => {
             Private Lesson Faculty
           </NavLink>
           <NavLink
-            to="letters-of-recommendation"
+            to="wiley-letters-of-recognition"
             className={({ isActive }) =>
               isActive ? styles.activeLink : undefined
             }
           >
-            Letters of Recommendation
+            Letters of Recognition
           </NavLink>
         </div>
 
@@ -134,7 +134,7 @@ const WileyNavBar: FC = () => {
             Wiley Main
           </NavLink>
           <NavLink
-            to="acknowledgements"
+            to="wiley-acknowledgements"
             className={({ isActive }) =>
               isActive ? styles.activeLink : undefined
             }
@@ -143,7 +143,7 @@ const WileyNavBar: FC = () => {
             Acknowledgements
           </NavLink>
           <NavLink
-            to="private-lesson-faculty"
+            to="wiley-private-lesson-faculty"
             className={({ isActive }) =>
               isActive ? styles.activeLink : undefined
             }
@@ -152,13 +152,13 @@ const WileyNavBar: FC = () => {
             Private Lesson Faculty
           </NavLink>
           <NavLink
-            to="letters-of-recommendation"
+            to="wiley-letters-of-recognition"
             className={({ isActive }) =>
               isActive ? styles.activeLink : undefined
             }
             onClick={toggleMobileMenu}
           >
-            Letters of Recommendation
+            Letters of Recognition
           </NavLink>
         </nav>
       </div>
