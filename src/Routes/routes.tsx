@@ -42,6 +42,10 @@ export const routes: RouteObject[] = [
         path: "wiley-bios",
         element: <WileyBios />,
       },
+      {
+        path: "wiley-bios/:directorName",
+        element: <WileyBios />,
+      },
     ],
   },
   {
