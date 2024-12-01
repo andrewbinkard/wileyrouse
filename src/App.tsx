@@ -17,14 +17,14 @@ const App: FC = () => {
         <Route path="/" element={<LandingPage />} />
 
         {/* Wiley Routes */}
-        <Route path="wiley" element={<Wiley />}>
+        <Route path="/wiley" element={<Wiley />}>
           {wileyRoutes?.map((route) => {
             return <Route path={route.path} element={route.element} />;
           })}
         </Route>
 
         {/* Rouse Routes */}
-        <Route path="rouse" element={<Rouse />}>
+        <Route path="/rouse" element={<Rouse />}>
           {rouseRoutes?.map((route) => {
             return <Route path={route.path} element={route.element} />;
           })}

@@ -18,13 +18,3 @@
     }
   }
 }
-h2 {
-  font-size: clamp(
-    1.5rem,
-    4vw,
-    3rem
-  ); /* Responsive scaling: min, preferred, max */
-  margin: 0.5rem 0; /* Adjust spacing around the heading */
-  align-self: center;
-  text-align: center;
-}
