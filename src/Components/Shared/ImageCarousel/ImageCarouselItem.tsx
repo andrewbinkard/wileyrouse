@@ -1,11 +1,11 @@
 import { FC } from "react";
 import Paper from "@mui/material/Paper";
-import { ImageCarouselItemProps } from "./types";
+import { SectionProps } from "./types";
 import styles from "./ImageCarousel.module.scss";
 
-const ImageCarouselItem: FC<ImageCarouselItemProps> = ({ imgSrc, section }) => {
+const ImageCarouselItem: FC<SectionProps> = ({ imgSrc, section }) => {
   return (
-    <Paper elevation={3}>
+    <Paper elevation={3} style={{ backgroundColor: "#242424", border: "none" }}>
       <img
         src={imgSrc}
         alt={`Image of ${section}`}

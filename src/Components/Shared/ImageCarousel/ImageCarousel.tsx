@@ -7,6 +7,12 @@ import styles from "./ImageCarousel.module.scss";
 const ImageCarousel: FC<ImageCarouselProps> = ({ imgData }) => {
   return (
     <Carousel
+      navButtonsProps={{
+        style: {
+          backgroundColor: "rgba(0, 0, 0, 0.5)",
+          color: "white",
+        },
+      }}
       autoPlay={false}
       className={styles.carouselContainer}
       animation={"slide"}

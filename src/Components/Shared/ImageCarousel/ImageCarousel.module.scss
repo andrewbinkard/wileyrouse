@@ -1,7 +1,7 @@
 .carouselContainer {
-  height: 400px;
-  object-fit: contain;
-  width: auto;
+  height: auto;
+  width: 80vw;
+  border-radius: $standard-rounding;
 }
 
 .imageContainer {

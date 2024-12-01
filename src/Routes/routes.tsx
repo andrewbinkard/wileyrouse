@@ -10,6 +10,7 @@ import RouseLettersOfRecognition from "../Features/Rouse/RouseLettersOfRecogniti
 import RousePrivateLessonFaculty from "../Features/Rouse/RousePrivateLessonFaculty";
 import WileyComposers from "../Features/Wiley/WileyComposers";
 import WileyBios from "../Features/Wiley/WileyBios";
+import WileyMusicians from "../Features/Wiley/WileyMusicians";
 
 // Define routes as an array of RouteObjects
 export const routes: RouteObject[] = [
@@ -24,6 +25,10 @@ export const routes: RouteObject[] = [
       {
         path: "wiley-composers",
         element: <WileyComposers />,
+      },
+      {
+        path: "wiley-musicians",
+        element: <WileyMusicians />,
       },
       {
         path: "letters-of-recognition",

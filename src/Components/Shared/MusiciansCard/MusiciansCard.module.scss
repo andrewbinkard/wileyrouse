@@ -1,0 +1,49 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: $standard-rounding;
+  overflow: hidden;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+  background-color: $rouse-red-darker;
+  max-width: 80vw;
+  margin: 0 auto 4rem;
+}
+
+.imageContainer {
+  background-color: $rouse-red-darker;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.textContainer {
+  background-color: $rouse-red-darkest;
+  padding: 1rem;
+  color: white;
+}
+
+.sectionName {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.membersContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  justify-items: center;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.member {
+  font-size: 1rem;
+  text-align: center;
+}
