@@ -21,15 +21,35 @@ h4 {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: clamp(
+    2rem,
+    4vw,
+    3rem
+  ); /* Responsive scaling: min, preferred, max */
+  margin: 0.5rem 0; /* Adjust spacing around the heading */
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: clamp(
+    1.5rem,
+    3vw,
+    2rem
+  ); /* Responsive scaling: min, preferred, max */
+  margin: 0.5rem 0; /* Adjust spacing around the heading */
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: clamp(
+    1rem,
+    2vw,
+    1rem
+  ); /* Responsive scaling: min, preferred, max */
+  margin: 0.5rem 0; /* Adjust spacing around the heading */
+}
+
+p {
+  font-size: clamp(1rem, 2.5vw, 1.5rem); /* Scale smoothly for paragraph text */
+  margin: 0.3rem 0; /* Adjust spacing around paragraphs */
 }
 
 a {

@@ -1,8 +1,8 @@
 import { FC } from "react";
 import { wileyDirectorData } from "../WileyDirectors/const";
-import ComposerCard from "../../../Components/Wiley/Shared/ComposerCard";
+import ComposerCard from "../../../Components/Shared/ComposerCard";
 import styles from "./WileyBios.module.scss";
-import Footer from "../../../Components/Wiley/Shared/Footer";
+import Footer from "../../../Components/Shared/Footer";
 
 const WileyBios: FC = () => {
   return (

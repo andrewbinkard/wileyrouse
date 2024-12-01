@@ -1,8 +1,8 @@
 import { FC } from "react";
 import styles from "./WileyComposers.module.scss";
 import { composerData } from "./const";
-import ComposerCard from "../../../Components/Wiley/Shared/ComposerCard";
-import Footer from "../../../Components/Wiley/Shared/Footer";
+import ComposerCard from "../../../Components/Shared/ComposerCard";
+import Footer from "../../../Components/Shared/Footer";
 
 const WileyComposers: FC = () => {
   return (

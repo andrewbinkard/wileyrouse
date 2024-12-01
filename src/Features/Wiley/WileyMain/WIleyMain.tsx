@@ -5,7 +5,9 @@ import Button from "@mui/material/Button";
 import styles from "./WileyMain.module.scss";
 import { Link, Outlet } from "react-router-dom";
 import WileyDirectors from "../WileyDirectors";
-import Footer from "../../../Components/Wiley/Shared/Footer/Footer";
+import Footer from "../../../Components/Shared/Footer/Footer";
+import ImageCarousel from "../../../Components/Shared/ImageCarousel";
+import { wileySections } from "../WileyMusicians/const";
 
 const WileyMain: FC = () => {
   return (
@@ -19,6 +21,15 @@ const WileyMain: FC = () => {
         variant="contained"
       >
         Meet the Composers
+      </Button>
+      <ImageCarousel imgData={wileySections} />
+      <Button
+        classes={{ root: styles.linkButton }}
+        component={Link}
+        to={"wiley-musicians"}
+        variant="contained"
+      >
+        Meet the Musicians
       </Button>
       <WileyDirectors />
       <Button
