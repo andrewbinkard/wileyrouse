@@ -7,11 +7,12 @@ import KelseyBehnfeldt from "../../../assets/images/WileyPLFaculty/KelseyBehnfel
 import BenKessler from "../../../assets/images/WileyPLFaculty/BenKessler.jpeg";
 import MarcSutton from "../../../assets/images/WileyPLFaculty/MarcSutton.jpeg";
 import CaseyMartin from "../../../assets/images/WileyPLFaculty/CaseyMartin.jpeg";
-import DianaMcLaughlin from "../../../assets/images/WileyPLFaculty/DianaMcLaughlin.jpeg";
+import GenevieveRucker from "../../../assets/images/WileyPLFaculty/GenevieveRucker.jpg";
 import MikeDorato from "../../../assets/images/WileyPLFaculty/MikeDorato.jpeg";
 import JosephRaby from "../../../assets/images/WileyPLFaculty/JosephRaby.jpeg";
 import DavidHummel from "../../../assets/images/WileyPLFaculty/DavidHummel.jpg";
 import EmilyDurocher from "../../../assets/images/WileyPLFaculty/EmilyDurocher.jpeg";
+import ConorNolan from "../../../assets/images/WileyPLFaculty/ConorNolan.jpg";
 
 export const privateLessonTeacherData: DirectorCardProps[] = [
   { name: "Amy Suggs", instrument: "Flute", imgSrc: AmySuggs },
@@ -22,11 +23,10 @@ export const privateLessonTeacherData: DirectorCardProps[] = [
   { name: "Ben Kessler", instrument: "Saxophone", imgSrc: BenKessler },
   { name: "Marc Sutton", instrument: "Trumpet", imgSrc: MarcSutton },
   { name: "Casey Martin", instrument: "Trumpet", imgSrc: CaseyMartin },
-  { name: "Diana McLaughlin", instrument: "Horn", imgSrc: DianaMcLaughlin },
+  { name: "Genevieve Rucker", instrument: "Horn", imgSrc: GenevieveRucker },
   { name: "Mike Dorato", instrument: "Trombone", imgSrc: MikeDorato },
   { name: "Jospeh Raby", instrument: "Euphonium", imgSrc: JosephRaby },
   { name: "David Hummel", instrument: "Tuba", imgSrc: DavidHummel },
   { name: "Emily Durocher", instrument: "Percussion", imgSrc: EmilyDurocher },
-  { name: "Conor Nolan", instrument: "Percussion", imgSrc: "" },
-  { name: "Logan Myers", instrument: "Percussion", imgSrc: "" },
+  { name: "Conor Nolan", instrument: "Percussion", imgSrc: ConorNolan },
 ];

@@ -12,7 +12,9 @@ const DirectorCard: FC<DirectorCardProps> = ({
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate(`/wiley/wiley-bios/${name}`);
+    // Using this component for PL faculty as well, who will not have a title passed in
+    const isDirector = !!title;
+    if (isDirector) navigate(`/wiley/wiley-bios/${name}`);
   };
 
   return (
