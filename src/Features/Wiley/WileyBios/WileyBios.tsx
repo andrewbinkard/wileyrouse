@@ -19,7 +19,7 @@ const WileyBios: FC = () => {
 
   return (
     <div className={styles.biosContainer}>
-      <h2>Directors and Conductors</h2>
+      <h1>Directors and Conductors</h1>
       {wileyDirectorData.map(({ name, imgSrc, details, title }) => (
         <div id={name} key={name}>
           <ComposerCard
