@@ -6,6 +6,7 @@ import { routeLocations } from "../Routes/const";
 import { Button } from "@mui/material";
 import SchoolCard from "../Components/Shared/SchoolCard";
 import { performingSchoolData } from "./const";
+import Footer from "../Components/Shared/Footer";
 
 const LandingPage: FC = () => {
   const location = useLocation();
@@ -51,6 +52,8 @@ const LandingPage: FC = () => {
 
       {/* Render the route elements based on the configuration */}
       {element}
+
+      <Footer />
     </div>
   );
 };
