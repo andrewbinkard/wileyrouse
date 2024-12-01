@@ -1,12 +1,13 @@
 import { FC } from "react";
 import AboutProgramCard from "../../../Components/Shared/AboutProgramCard";
-import { wileyAboutProgramInfo } from "./const";
+import { wileyPreviousBandInfo } from "./const";
 import Footer from "../../../Components/Shared/Footer";
 
-const WileyAboutProgram: FC = () => {
-  const { programName, programInfo, imgSrc } = wileyAboutProgramInfo;
+const WileyPreviousBand: FC = () => {
+  const { programName, programInfo, imgSrc } = wileyPreviousBandInfo;
   return (
     <>
+      <h1>Thank You!</h1>
       <AboutProgramCard
         programName={programName}
         programInfo={programInfo}
@@ -17,4 +18,4 @@ const WileyAboutProgram: FC = () => {
   );
 };
 
-export default WileyAboutProgram;
+export default WileyPreviousBand;

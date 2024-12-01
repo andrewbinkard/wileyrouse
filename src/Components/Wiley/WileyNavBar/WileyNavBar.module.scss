@@ -19,11 +19,11 @@
   font-weight: bold;
   font-size: 1.25rem;
 
-  @media (max-width: $breakpoint-medium) {
+  @media (max-width: calc($breakpoint-medium + 20px)) {
     font-size: 1rem;
   }
 
-  @media (max-width: $breakpoint-small) {
+  @media (max-width: calc($breakpoint-small + 20px)) {
     display: none; /* Hide desktop nav links on mobile */
   }
 }
@@ -43,7 +43,7 @@
   color: $rouse-red;
   cursor: pointer;
 
-  @media (max-width: $breakpoint-small) {
+  @media (max-width: calc($breakpoint-small + 20px)) {
     display: block; /* Show hamburger menu on mobile */
   }
 }

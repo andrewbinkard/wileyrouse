@@ -77,10 +77,10 @@ const WileyMain: FC = () => {
       <Button
         classes={{ root: styles.linkButton }}
         component={Link}
-        to={""}
+        to={"wiley-previous-band"}
         variant="contained"
       >
-        2023-24 Wind Ensemble
+        2023-2024 Wind Ensemble
       </Button>
       <Outlet />
       <Footer />

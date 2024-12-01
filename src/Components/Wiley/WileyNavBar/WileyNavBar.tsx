@@ -81,6 +81,14 @@ const WileyNavBar: FC = () => {
           >
             Letters of Recognition
           </NavLink>
+          <NavLink
+            to="wiley-about-program"
+            className={({ isActive }) =>
+              isActive ? styles.activeLink : undefined
+            }
+          >
+            About
+          </NavLink>
         </div>
 
         {/* Mobile Hamburger Menu */}
@@ -159,6 +167,15 @@ const WileyNavBar: FC = () => {
             onClick={toggleMobileMenu}
           >
             Letters of Recognition
+          </NavLink>
+          <NavLink
+            to="wiley-about-program"
+            className={({ isActive }) =>
+              isActive ? styles.activeLink : undefined
+            }
+            onClick={toggleMobileMenu}
+          >
+            About
           </NavLink>
         </nav>
       </div>

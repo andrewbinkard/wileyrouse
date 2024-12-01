@@ -12,6 +12,7 @@ import WileyComposers from "../Features/Wiley/WileyComposers";
 import WileyBios from "../Features/Wiley/WileyBios";
 import WileyMusicians from "../Features/Wiley/WileyMusicians";
 import WileyAboutProgram from "../Features/Wiley/WileyAboutProgram/WileyAboutProgram";
+import WileyPreviousBand from "../Features/Wiley/WileyPreviousBand";
 
 // Define routes as an array of RouteObjects
 export const routes: RouteObject[] = [
@@ -50,6 +51,10 @@ export const routes: RouteObject[] = [
       {
         path: "wiley-about-program",
         element: <WileyAboutProgram />,
+      },
+      {
+        path: "wiley-previous-band",
+        element: <WileyPreviousBand />,
       },
     ],
   },
