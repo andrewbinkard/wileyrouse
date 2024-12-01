@@ -12,6 +12,19 @@ import euphoniumSectionPhoto from "../../../assets/images/WileySectionPhotos/10W
 import tubaSectionPhoto from "../../../assets/images/WileySectionPhotos/11WileyTubas.jpg";
 import percussionSectionPhoto from "../../../assets/images/WileySectionPhotos/12Wiley_Percussion.jpg";
 
+import o1 from "../../../assets/images/WileySectionCandids/01.jpg";
+import o2 from "../../../assets/images/WileySectionCandids/02.jpg";
+import o3 from "../../../assets/images/WileySectionCandids/03.jpg";
+import o4 from "../../../assets/images/WileySectionCandids/04.jpg";
+import o5 from "../../../assets/images/WileySectionCandids/05.jpg";
+import o6 from "../../../assets/images/WileySectionCandids/06.jpg";
+import o7 from "../../../assets/images/WileySectionCandids/07.jpg";
+import o8 from "../../../assets/images/WileySectionCandids/08.jpg";
+import o9 from "../../../assets/images/WileySectionCandids/09.jpg";
+import o10 from "../../../assets/images/WileySectionCandids/10.jpg";
+import o11 from "../../../assets/images/WileySectionCandids/11.jpg";
+import o12 from "../../../assets/images/WileySectionCandids/12.jpg";
+
 export const wileySections: SectionProps[] = [
   {
     imgSrc: fluteSectionPhoto,
@@ -110,4 +123,19 @@ export const wileySections: SectionProps[] = [
       "Student",
     ],
   },
+];
+
+export const wileyCandids = [
+  { imgSrc: o1 },
+  { imgSrc: o2 },
+  { imgSrc: o3 },
+  { imgSrc: o4 },
+  { imgSrc: o5 },
+  { imgSrc: o6 },
+  { imgSrc: o7 },
+  { imgSrc: o8 },
+  { imgSrc: o9 },
+  { imgSrc: o10 },
+  { imgSrc: o11 },
+  { imgSrc: o12 },
 ];

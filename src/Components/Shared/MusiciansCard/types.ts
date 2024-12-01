@@ -1,5 +1,5 @@
 export interface MusiciansCardProps {
   imgSrc: string;
-  sectionName: string;
+  sectionName?: string;
   sectionMembers?: string[];
 }

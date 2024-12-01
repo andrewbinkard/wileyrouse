@@ -1,7 +1,8 @@
 import { FC } from "react";
-import { wileySections } from "./const";
+import { wileySections, wileyCandids } from "./const";
 import MusiciansCard from "../../../Components/Shared/MusiciansCard";
 import Footer from "../../../Components/Shared/Footer";
+import ImageCarousel from "../../../Components/Shared/ImageCarousel";
 
 const WileyMusicians: FC = () => {
   return (
@@ -16,6 +17,7 @@ const WileyMusicians: FC = () => {
           />
         );
       })}
+      <ImageCarousel imgData={wileyCandids} />
 
       <Footer />
     </div>
