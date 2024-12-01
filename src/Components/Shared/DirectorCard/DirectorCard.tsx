@@ -1,10 +1,18 @@
 import { FC } from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./DirectorCard.module.scss";
 import { DirectorCardProps } from "./types";
 
 const DirectorCard: FC<DirectorCardProps> = ({ name, imgSrc, title }) => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate(`/wiley/wiley-bios/${name}`);
+    console.log("penguin", { name });
+  };
+
   return (
-    <div className={styles.cardContainer}>
+    <div className={styles.cardContainer} onClick={handleClick}>
       <img
         src={imgSrc}
         alt={`Image of ${name}`}
