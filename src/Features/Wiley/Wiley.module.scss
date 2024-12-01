@@ -28,12 +28,27 @@
   width: 100vw;
   overflow: hidden;
   margin-bottom: 2rem;
+  height: auto;
+
+  /* Set a dynamic height for smaller screens */
+  @media (max-width: 1024px) {
+    // Tablet and below
+    height: auto; // Allow height to adjust naturally
+  }
+
+  @media (min-width: 1025px) {
+    // Desktop and above
+    height: 70vh; // Set a max height as a percentage of the viewport
+    max-height: 500px; // Optional: Set a fixed maximum height if needed
+  }
 }
 
 .groupImage {
   width: 100%;
-  height: auto;
+  height: 100%; // Ensure the image stretches to fill the container height
+  object-fit: cover; // Crop and center the image to fit the container
   display: block;
+  position: relative; // This ensures the image stays within its container
 }
 
 /* Gradient overlay */

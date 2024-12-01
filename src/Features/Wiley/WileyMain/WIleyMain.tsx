@@ -22,6 +22,7 @@ const WileyMain: FC = () => {
       >
         Meet the Composers
       </Button>
+      <h2>Musicians</h2>
       <ImageCarousel imgData={wileySections} />
       <Button
         classes={{ root: styles.linkButton }}
@@ -39,6 +40,47 @@ const WileyMain: FC = () => {
         variant="contained"
       >
         Read Bios
+      </Button>
+      <h2>Other Links</h2>
+      <Button
+        classes={{ root: styles.linkButton }}
+        component={Link}
+        to={"wiley-private-lesson-faculty"}
+        variant="contained"
+      >
+        Private Lesson Faculty
+      </Button>
+      <Button
+        classes={{ root: styles.linkButton }}
+        component={Link}
+        to={"wiley-acknowledgements"}
+        variant="contained"
+      >
+        Acknowledgements
+      </Button>
+      <Button
+        classes={{ root: styles.linkButton }}
+        component={Link}
+        to={"wiley-letters-of-recognition"}
+        variant="contained"
+      >
+        Letters of Recognition
+      </Button>
+      <Button
+        classes={{ root: styles.linkButton }}
+        component={Link}
+        to={"wiley-about-program"}
+        variant="contained"
+      >
+        About the Program
+      </Button>
+      <Button
+        classes={{ root: styles.linkButton }}
+        component={Link}
+        to={"wiley-previous-band"}
+        variant="contained"
+      >
+        2023-2024 Wind Ensemble
       </Button>
       <Outlet />
       <Footer />

@@ -1,0 +1,45 @@
+.cardContainer {
+  background-color: $rouse-red-darker;
+  border-radius: 12px; // Rounded corners
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); // Same shadow as other cards
+  max-width: 60vw; // Max width for desktop
+  padding: 2rem; // Padding inside the card
+  margin: 0 auto; // Center the card
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (max-width: $breakpoint-large) {
+    // Tablet and below
+    max-width: 80vw; // Adjust max width for smaller screens
+  }
+}
+
+.cardImage {
+  width: 100%; // Responsive image width
+  height: auto; // Maintain aspect ratio
+  border-radius: 12px; // Same rounded corners as the card
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); // Same box-shadow as the card
+  margin-bottom: 1.5rem; // Space between the image and text
+}
+
+.cardTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+
+  @media (max-width: $breakpoint-small) {
+    font-size: 1.5rem;
+  }
+}
+
+.cardText {
+  color: white;
+  font-size: 1.2rem;
+  text-align: justify; // Justify the text
+  line-height: 1.6; // Better readability
+  @media (max-width: $breakpoint-small) {
+    font-size: 1rem;
+  }
+}

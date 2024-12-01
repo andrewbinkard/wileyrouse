@@ -11,7 +11,7 @@ const SchoolCard: FC<SchoolCardProps> = ({
     <div className={styles.cardContainer}>
       <img
         src={imgSrc}
-        alt={`Image of ${schoolName}`}
+        alt={`${schoolName} Logo`}
         className={styles.schoolLogo}
       />
       <div>

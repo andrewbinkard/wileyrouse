@@ -3,10 +3,11 @@ import { wileySections, wileyCandids } from "./const";
 import MusiciansCard from "../../../Components/Shared/MusiciansCard";
 import Footer from "../../../Components/Shared/Footer";
 import ImageCarousel from "../../../Components/Shared/ImageCarousel";
+import styles from "./WileyMusicians.module.scss";
 
 const WileyMusicians: FC = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <h2>Musicians</h2>
       {wileySections.map(({ imgSrc, section, members }) => {
         return (

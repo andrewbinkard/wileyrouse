@@ -13,14 +13,9 @@
   width: 100%;
   max-width: 1200px; // Optional: Limit maximum width for large screens
   margin: 0 auto; // Center the wrapper on the page
-  aspect-ratio: 16 / 9; // Enforce 16:9 ratio for responsiveness
-  background-color: $rouse-red-darkest; // Placeholder background
+  aspect-ratio: 3 / 2;
+  background-color: $rouse-red-darkest;
   overflow: hidden;
-
-  @supports not (aspect-ratio: 16 / 9) {
-    padding-top: 56.25%; // Fallback for browsers without aspect-ratio support
-    height: 0;
-  }
 }
 
 .image {
@@ -29,7 +24,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; // Maintain aspect ratio without distortion
+  object-fit: cover;
   display: block;
 }
 
@@ -48,8 +43,8 @@
 }
 
 .carouselContainer {
-  width: 90vw; // Take up 90% of the viewport width
-  max-width: 1200px; // Optional: Limit max width for larger screens
-  margin: 0 auto; // Center the carousel
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   border-radius: $standard-rounding;
 }

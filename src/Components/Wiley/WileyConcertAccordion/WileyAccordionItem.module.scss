@@ -4,32 +4,42 @@
   border-bottom: 1px solid white;
 }
 
-.summary {
+.summary.summary.summary {
+  display: flex; // Ensures the container aligns items horizontally
+  justify-content: space-between; // Pushes expandButton to the far right
+  align-items: center; // Vertically aligns content
   color: white;
+  width: 100%; // Ensures the summary takes full width
 }
 
-.expandButton {
+.summaryContent.summaryContent.summaryContent {
+  display: flex; // Stacks titleText and composerText vertically
+  flex-direction: column;
+  align-items: flex-start; // Aligns text to the left
+  flex-grow: 1; // Allows it to take up available space
+}
+
+.expandButton.expandButton.expandButton {
   color: white;
 }
 
 .titleText.titleText.titleText {
   font-weight: bold;
-  width: 33%;
-  flex-shrink: 0;
-
+  margin-bottom: 0.5rem; // Adds spacing between title and composer
+  font-size: 18px;
   @media (max-width: $breakpoint-xsmall) {
-    width: 50%;
     font-size: 14px;
   }
 }
 
 .composerText.composerText.composerText {
   font-weight: lighter;
+  font-size: 16px;
   @media (max-width: $breakpoint-xsmall) {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
-.details {
+.details.details.details {
   text-align: justify;
 }
