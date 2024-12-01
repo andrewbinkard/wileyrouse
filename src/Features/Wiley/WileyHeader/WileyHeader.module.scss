@@ -15,26 +15,3 @@
     max-width: 80vw;
   }
 }
-
-.headerContainer h1 {
-  // font-size: clamp(
-  //   1.5rem,
-  //   4vw,
-  //   3rem
-  // ); /* Responsive scaling: min, preferred, max */
-  // margin: 0.5rem 0; /* Adjust spacing around the heading */
-}
-
-.headerContainer h2 {
-  // font-size: clamp(
-  //   1rem,
-  //   3vw,
-  //   2rem
-  // ); /* Responsive scaling: min, preferred, max */
-  // margin: 0.5rem 0; /* Adjust spacing around the heading */
-}
-
-.headerContainer p {
-  // font-size: clamp(1rem, 2.5vw, 1.5rem); /* Scale smoothly for paragraph text */
-  // margin: 0.3rem 0; /* Adjust spacing around paragraphs */
-}
