@@ -22,6 +22,7 @@ const WileyMain: FC = () => {
       >
         Meet the Composers
       </Button>
+      <br />
       <h2>Musicians</h2>
       <ImageCarousel imgData={wileySections} />
       <Button
@@ -32,6 +33,7 @@ const WileyMain: FC = () => {
       >
         Meet the Musicians
       </Button>
+      <br />
       <WileyDirectors />
       <Button
         classes={{ root: styles.linkButton }}
@@ -41,6 +43,7 @@ const WileyMain: FC = () => {
       >
         Read Bios
       </Button>
+      <br />
       <h2>Other Links</h2>
       <Button
         classes={{ root: styles.linkButton }}
@@ -83,6 +86,7 @@ const WileyMain: FC = () => {
         2023-2024 Wind Ensemble
       </Button>
       <Outlet />
+      <br />
       <Footer />
     </div>
   );

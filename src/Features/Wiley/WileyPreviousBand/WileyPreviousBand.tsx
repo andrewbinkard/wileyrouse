@@ -4,7 +4,7 @@ import { wileyPreviousBandInfo } from "./const";
 import Footer from "../../../Components/Shared/Footer";
 
 const WileyPreviousBand: FC = () => {
-  const { programName, programInfo, imgSrc } = wileyPreviousBandInfo;
+  const { programName, programInfo, imgSrc, roster } = wileyPreviousBandInfo;
   return (
     <>
       <h1>Thank You!</h1>
@@ -12,6 +12,7 @@ const WileyPreviousBand: FC = () => {
         programName={programName}
         programInfo={programInfo}
         imgSrc={imgSrc}
+        roster={roster}
       />
       <Footer />
     </>

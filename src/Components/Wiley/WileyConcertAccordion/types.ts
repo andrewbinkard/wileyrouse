@@ -5,4 +5,8 @@ export interface AccordionItemProps {
   title: string;
   composer: string;
   details: string;
+  grade: string;
+  time: string;
+  year?: string;
+  conductor?: string;
 }

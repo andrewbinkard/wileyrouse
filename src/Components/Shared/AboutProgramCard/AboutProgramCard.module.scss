@@ -1,26 +1,26 @@
 .cardContainer {
   background-color: $rouse-red-darker;
-  border-radius: 12px; // Rounded corners
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); // Same shadow as other cards
-  max-width: 60vw; // Max width for desktop
-  padding: 2rem; // Padding inside the card
-  margin: 0 auto; // Center the card
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  max-width: 60vw;
+  padding: 2rem;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 
   @media (max-width: $breakpoint-large) {
-    // Tablet and below
-    max-width: 80vw; // Adjust max width for smaller screens
+    max-width: 80vw;
   }
 }
 
 .cardImage {
-  width: 100%; // Responsive image width
-  height: auto; // Maintain aspect ratio
-  border-radius: 12px; // Same rounded corners as the card
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); // Same box-shadow as the card
-  margin-bottom: 1.5rem; // Space between the image and text
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1.5rem;
+  object-fit: cover;
 }
 
 .cardTitle {
@@ -37,9 +37,49 @@
 .cardText {
   color: white;
   font-size: 1.2rem;
-  text-align: justify; // Justify the text
-  line-height: 1.6; // Better readability
+  text-align: justify;
+  line-height: 1.6;
   @media (max-width: $breakpoint-small) {
+    font-size: 1rem;
+  }
+  white-space: pre-line;
+}
+
+.rosterContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); // 3 columns on desktop
+  grid-template-rows: repeat(20, 1fr);
+  grid-auto-flow: column;
+  gap: 1rem; // Space between columns and rows
+  width: 100%; // Ensure the grid takes the full width
+  margin-top: 1rem; // Add spacing above the roster
+
+  @media (max-width: 1024px) {
+    // Tablet and below
+    grid-template-columns: repeat(2, 1fr); // 2 columns
+    grid-template-rows: repeat(30, 1fr);
+    grid-auto-flow: column;
+  }
+
+  @media (max-width: 768px) {
+    // Phones
+    grid-template-columns: 1fr; // 1 column
+    grid-template-rows: none;
+    grid-auto-flow: row;
+  }
+}
+
+.rosterName {
+  text-align: center; // Center text within its column
+  font-size: 1.2rem;
+  color: white;
+
+  @media (max-width: 1024px) {
+    font-size: 1.1rem;
+  }
+
+  @media (max-width: 768px) {
+    // Phones
     font-size: 1rem;
   }
 }

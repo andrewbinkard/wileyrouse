@@ -42,4 +42,23 @@
 
 .details.details.details {
   text-align: justify;
+  white-space: pre-line;
+}
+
+.performanceDetails.performanceDetails.performanceDetails {
+  p {
+    font-size: 16px;
+    font-weight: bold;
+
+    @media (max-width: $breakpoint-xsmall) {
+      font-size: 12px;
+    }
+  }
+
+  .conductorText {
+    justify-self: center;
+    font-style: italic;
+    margin-bottom: $margin-xlarge;
+  }
+  margin-bottom: $margin-xlarge;
 }

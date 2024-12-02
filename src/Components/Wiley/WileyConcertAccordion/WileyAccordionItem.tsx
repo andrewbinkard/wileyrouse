@@ -14,6 +14,9 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
   title,
   composer,
   details,
+  grade,
+  time,
+  conductor,
 }) => {
   return (
     <Accordion
@@ -34,6 +37,15 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
         </div>
       </AccordionSummary>
       <AccordionDetails classes={{ root: styles.details }}>
+        <Typography classes={{ root: styles.performanceDetails }}>
+          {conductor && (
+            <p
+              className={styles.conductorText}
+            >{`Conducted by ${conductor}`}</p>
+          )}
+          <p>{`Grade: ${grade}`}</p>
+          <p>{`Performance time: ${time}`}</p>
+        </Typography>
         <Typography>{details}</Typography>
       </AccordionDetails>
     </Accordion>

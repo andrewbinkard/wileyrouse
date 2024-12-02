@@ -27,25 +27,35 @@
 }
 
 .sectionName {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
   text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
 }
 
 .membersContainer {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-auto-flow: column; // Fill columns first
+  grid-template-rows: repeat(5, auto); // Two rows
   gap: 0.5rem;
-  justify-items: center;
 
   @media (max-width: 768px) {
-    grid-template-columns: 1fr;
+    grid-auto-flow: row; // Reset to row-first for single column
+    grid-template-rows: none; // Remove row restriction
+    grid-template-columns: 1fr; // Single column
   }
 }
 
 .member {
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
 }
 
 .placeholder {
