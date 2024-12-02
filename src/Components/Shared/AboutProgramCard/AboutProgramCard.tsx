@@ -6,6 +6,7 @@ const AboutProgramCard: FC<AboutProgramCardProps> = ({
   programInfo,
   imgSrc,
   programName,
+  roster,
 }) => {
   return (
     <div className={styles.cardContainer}>
@@ -16,6 +17,19 @@ const AboutProgramCard: FC<AboutProgramCardProps> = ({
         alt={`Image of ${programName}`}
       />
       <p className={styles.cardText}>{programInfo}</p>
+      <br />
+      {roster && (
+        <>
+          <h3>{`${programName} Members`}</h3>
+          <div className={styles.rosterContainer}>
+            {roster.map((name, index) => (
+              <span key={index} className={styles.rosterName}>
+                {name}
+              </span>
+            ))}
+          </div>
+        </>
+      )}
     </div>
   );
 };

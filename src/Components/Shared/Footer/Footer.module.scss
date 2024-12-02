@@ -6,12 +6,24 @@
     margin: unset;
   }
 
+  a {
+    font-size: 20px;
+    color: $rouse-gold-light;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 2rem 0;
 
-  .copyright {
+  .copyright.copyright.copyright {
+    p {
+      font-size: 16px;
+    }
     padding-top: 1rem;
     text-align: center;
   }
