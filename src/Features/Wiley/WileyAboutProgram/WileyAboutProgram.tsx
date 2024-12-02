@@ -7,19 +7,17 @@ import styles from "./WileyAboutProgram.module.scss";
 const WileyAboutProgram: FC = () => {
   return (
     <>
-      {wileyAboutProgramInfo.map(
-        ({ programName, programInfo, imgSrc, roster }) => {
-          return (
-            <div className={styles.cardContainer}>
-              <AboutProgramCard
-                programName={programName}
-                programInfo={programInfo}
-                imgSrc={imgSrc}
-              />
-            </div>
-          );
-        }
-      )}
+      {wileyAboutProgramInfo.map(({ programName, programInfo, imgSrc }) => {
+        return (
+          <div className={styles.cardContainer}>
+            <AboutProgramCard
+              programName={programName}
+              programInfo={programInfo}
+              imgSrc={imgSrc}
+            />
+          </div>
+        );
+      })}
       <Footer />
     </>
   );
