@@ -10,10 +10,10 @@
 }
 
 .linkButton.linkButton.linkButton {
-  color: $rouse-gold-light;
-  border-color: $rouse-gold-light;
-  background-color: $rouse-red-darker;
-  border: 2px solid $rouse-gold-light;
+  color: $wiley-gray-light;
+  border-color: $wiley-gray-light;
+  background-color: $rouse-red-darkest;
+  border: 2px solid $wiley-gray-light;
   border-radius: $standard-rounding;
   width: 40vw;
   min-width: 212px;
@@ -28,13 +28,13 @@
 
   &:active {
     background-color: $rouse-red-darkest;
-    border-color: $rouse-gold;
-    color: $rouse-gold;
+    border-color: $wiley-gray-dark;
+    color: $wiley-gray-dark;
   }
 
   @media (max-width: $breakpoint-medium) {
     &:hover {
-      background-color: $rouse-red-darker;
+      background-color: $rouse-red-darkest;
     }
   }
 }

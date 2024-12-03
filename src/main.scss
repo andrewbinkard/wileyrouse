@@ -17,7 +17,8 @@ h1,
 h2,
 h3,
 h4 {
-  color: $rouse-gold-light;
+  // color: $wiley-gray-light;
+  color: #b8b8b8;
   align-self: center;
   text-align: center;
 }
@@ -61,7 +62,7 @@ a {
   opacity: 100%;
 
   &:hover {
-    color: $rouse-gold; // Hover color for links
+    color: $wiley-gray-dark; // Hover color for links
   }
 }
 
