@@ -14,6 +14,14 @@
   transition: opacity 0.5s ease, transform 0.5s ease;
   z-index: 10;
 
+  @media (max-width: 1024px) {
+    height: 100px;
+  }
+
+  @media (max-width: 768px) {
+    height: 90px;
+  }
+
   &::after {
     content: ""; /* Necessary for pseudo-element to render */
     position: absolute;
@@ -23,7 +31,7 @@
     height: 100%; /* Height of the gradient */
     background: linear-gradient(
       rgba(255, 255, 255, 1) 0%,
-      /* 100% opaque at the top */ rgba(255, 255, 255, 0) 80%
+      /* 100% opaque at the top */ rgba(255, 255, 255, 0) 100%
         /* Fully transparent at the bottom */
     );
     pointer-events: none; /* Ensure it doesn't block interactions */
