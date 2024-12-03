@@ -11,14 +11,16 @@ const Wiley: FC = () => {
   const location = useLocation();
 
   useEffect(() => {
-    let lastScrollTop =
-      window.pageYOffset || document.documentElement.scrollTop;
+    let lastScrollTop = 0; // Initialize to 0 to avoid hiding on first load
 
     const handleScroll = () => {
       const scrollTop =
         window.pageYOffset || document.documentElement.scrollTop;
 
-      if (scrollTop < lastScrollTop) {
+      if (scrollTop === 0) {
+        // Ensure the navbar is always visible when at the top of the page
+        setIsNavVisible(true);
+      } else if (scrollTop < lastScrollTop) {
         // User is scrolling up
         setIsNavVisible(true);
       } else {
