@@ -1,6 +1,6 @@
 import { FC, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { wileyDirectorData } from "../WileyDirectors/const";
+import { directorData } from "../../SharedData/directorData";
 import ComposerCard from "../../../Components/Shared/ComposerCard";
 import styles from "./WileyBios.module.scss";
 import Footer from "../../../Components/Shared/Footer";
@@ -20,16 +20,22 @@ const WileyBios: FC = () => {
   return (
     <div className={styles.biosContainer}>
       <h1>Directors and Conductors</h1>
-      {wileyDirectorData.map(({ name, imgSrc, details, title }) => (
-        <div id={name} key={name}>
-          <ComposerCard
-            name={name}
-            imgSrc={imgSrc}
-            details={details}
-            title={title}
-          />
-        </div>
-      ))}
+      {directorData
+        .filter(({ wiley }) => {
+          return wiley;
+        })
+        .map(({ name, imgSrc, details, title }) => {
+          return (
+            <div id={name} key={name}>
+              <ComposerCard
+                name={name}
+                imgSrc={imgSrc}
+                details={details}
+                title={title}
+              />
+            </div>
+          );
+        })}
       <Footer />
     </div>
   );

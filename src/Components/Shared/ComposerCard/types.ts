@@ -4,4 +4,6 @@ export interface ComposerCardProps {
   details?: string;
   website?: string;
   title?: string;
+  wiley?: boolean;
+  rouse?: boolean;
 }

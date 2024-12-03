@@ -1,6 +1,6 @@
 import DirectorCard from "../../../Components/Shared/DirectorCard";
 import Footer from "../../../Components/Shared/Footer";
-import { privateLessonTeacherData } from "../../SharedData/privateLessonFaculty";
+import { privateLessonTeacherData } from "../../SharedData/privateLessonFacultyData";
 import styles from "./WileyPrivateLessonFaculty.module.scss";
 
 const WileyPrivateLessonFaculty = () => {
