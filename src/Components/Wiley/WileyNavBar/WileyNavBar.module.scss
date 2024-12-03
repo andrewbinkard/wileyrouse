@@ -2,13 +2,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 1rem;
+  margin: 1rem auto;
   width: 100vw;
   position: relative; /* Necessary for hamburger menu positioning */
 
   .logo {
     height: 50px;
     object-fit: contain;
+    margin-left: 1rem;
   }
 }
 
@@ -19,11 +20,11 @@
   font-weight: bold;
   font-size: 1.25rem;
 
-  @media (max-width: calc($breakpoint-medium + 20px)) {
+  @media (max-width: calc($breakpoint-medium + 30px)) {
     font-size: 1rem;
   }
 
-  @media (max-width: calc($breakpoint-small + 20px)) {
+  @media (max-width: calc($breakpoint-small + 35px)) {
     display: none; /* Hide desktop nav links on mobile */
   }
 }
@@ -43,7 +44,7 @@
   color: $rouse-red;
   cursor: pointer;
 
-  @media (max-width: calc($breakpoint-small + 20px)) {
+  @media (max-width: calc($breakpoint-small + 35px)) {
     display: block; /* Show hamburger menu on mobile */
   }
 }
