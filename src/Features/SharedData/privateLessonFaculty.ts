@@ -1,24 +1,24 @@
 import { DirectorCardProps } from "../../Components/Shared/DirectorCard/types";
-import NickGoodwin from "../../../assets/images/RousePLFaculty/NickGoodwin.jpeg";
-import RachelKaplan from "../../../assets/images/RousePLFaculty/RachelKaplan.jpeg";
-import AmySuggs from "../../../assets/images/WileyPLFaculty/AmySuggs.jpeg";
-import SuzanneSegredo from "../../../assets/images/WileyPLFaculty/SuzanneSegredo.jpeg";
-import JoelleMorales from "../../../assets/images/WileyPLFaculty/JoelleMorales.jpeg";
-import KevinVorabout from "../../../assets/images/WileyPLFaculty/KevinVorabout.jpeg";
-import KelseyBehnfeldt from "../../../assets/images/WileyPLFaculty/KelseyBehnfeldt.jpeg";
-import BenKessler from "../../../assets/images/WileyPLFaculty/BenKessler.jpeg";
-import MarcSutton from "../../../assets/images/WileyPLFaculty/MarcSutton.jpeg";
-import CaseyMartin from "../../../assets/images/WileyPLFaculty/CaseyMartin.jpeg";
-import SarahAu from "../../../assets/images/RousePLFaculty/SarahAu.jpeg";
-import EileenKane from "../../../assets/images/RousePLFaculty/EileenKane.jpeg";
-import GenevieveRucker from "../../../assets/images/WileyPLFaculty/GenevieveRucker.jpg";
-import MikeDorato from "../../../assets/images/WileyPLFaculty/MikeDorato.jpeg";
-import AmeliaRosenberger from "../../../assets/images/RousePLFaculty/AmeliaRosenberger.jpeg";
-import BrettBlackstone from "../../../assets/images/RousePLFaculty/BrettBlackstone.jpeg";
-import JosephRaby from "../../../assets/images/WileyPLFaculty/JosephRaby.jpeg";
-import DavidHummel from "../../../assets/images/WileyPLFaculty/DavidHummel.jpg";
-import EmilyDurocher from "../../../assets/images/WileyPLFaculty/EmilyDurocher.jpeg";
-import ConorNolan from "../../../assets/images/WileyPLFaculty/ConorNolan.jpg";
+import NickGoodwin from "../../assets/images/RousePLFaculty/NickGoodwin.jpeg";
+import RachelKaplan from "../../assets/images/RousePLFaculty/RachelKaplan.jpeg";
+import AmySuggs from "../../assets/images/WileyPLFaculty/AmySuggs.jpeg";
+import SuzanneSegredo from "../../assets/images/WileyPLFaculty/SuzanneSegredo.jpeg";
+import JoelleMorales from "../../assets/images/WileyPLFaculty/JoelleMorales.jpeg";
+import KevinVorabout from "../../assets/images/WileyPLFaculty/KevinVorabout.jpeg";
+import KelseyBehnfeldt from "../../assets/images/WileyPLFaculty/KelseyBehnfeldt.jpeg";
+import BenKessler from "../../assets/images/WileyPLFaculty/BenKessler.jpeg";
+import MarcSutton from "../../assets/images/WileyPLFaculty/MarcSutton.jpeg";
+import CaseyMartin from "../../assets/images/WileyPLFaculty/CaseyMartin.jpeg";
+import SarahAu from "../../assets/images/RousePLFaculty/SarahAu.jpeg";
+import EileenKane from "../../assets/images/RousePLFaculty/EileenKane.jpeg";
+import GenevieveRucker from "../../assets/images/WileyPLFaculty/GenevieveRucker.jpg";
+import MikeDorato from "../../assets/images/WileyPLFaculty/MikeDorato.jpeg";
+import AmeliaRosenberger from "../../assets/images/RousePLFaculty/AmeliaRosenberger.jpeg";
+import BrettBlackstone from "../../assets/images/RousePLFaculty/BrettBlackstone.jpeg";
+import JosephRaby from "../../assets/images/WileyPLFaculty/JosephRaby.jpeg";
+import DavidHummel from "../../assets/images/WileyPLFaculty/DavidHummel.jpg";
+import EmilyDurocher from "../../assets/images/WileyPLFaculty/EmilyDurocher.jpeg";
+import ConorNolan from "../../assets/images/WileyPLFaculty/ConorNolan.jpg";
 
 export const privateLessonTeacherData: DirectorCardProps[] = [
   {
