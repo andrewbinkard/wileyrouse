@@ -58,8 +58,7 @@
     }
 
     h2 {
-      margin: 0 0 0.5rem 0;
-      padding-bottom: 1rem;
+      margin: 0 0 $margin-small 0;
       align-self: start;
       font-size: 3rem;
 
@@ -82,7 +81,7 @@
     }
 
     a {
-      color: $rouse-gold-light;
+      color: $wiley-gray-light;
       text-decoration: none;
       margin-bottom: 0.5rem;
       word-break: break-word;
@@ -110,7 +109,7 @@
       margin: 0;
       font-size: 1.2rem;
       font-weight: lighter;
-      color: #ffffff;
+      color: $wiley-gray-light;
       text-align: justify;
 
       /* Remove max-width restriction */
@@ -124,10 +123,10 @@
   }
 
   .readMoreButton {
-    color: $rouse-gold-light;
-    border-color: $rouse-gold-light;
-    background-color: $rouse-red-darker;
-    border: 2px solid $rouse-gold-light;
+    color: $wiley-gray-light;
+    border-color: $wiley-gray-light;
+    background-color: $rouse-red-darkest;
+    border: 2px solid $wiley-gray-light;
     border-radius: $standard-rounding;
     width: 250px;
     min-width: 212px;
@@ -139,13 +138,13 @@
 
     &:active {
       background-color: $rouse-red-darkest;
-      border-color: $rouse-gold;
-      color: $rouse-gold;
+      border-color: $wiley-gray-dark;
+      color: $wiley-gray-dark;
     }
 
     @media (max-width: $breakpoint-medium) {
       &:hover {
-        background-color: $rouse-red-darker;
+        background-color: $rouse-red-darkest;
       }
     }
   }

@@ -8,7 +8,12 @@ const SchoolCard: FC<SchoolCardProps> = ({
   performanceDetails,
 }) => {
   return (
-    <div className={styles.cardContainer}>
+    <div
+      className={styles.cardContainer}
+      style={{
+        borderColor: schoolName === "Rouse High School" ? "#ac894e" : "#b8b8b8",
+      }}
+    >
       <img
         src={imgSrc}
         alt={`${schoolName} Logo`}

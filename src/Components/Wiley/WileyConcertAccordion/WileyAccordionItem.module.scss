@@ -24,6 +24,7 @@
 }
 
 .titleText.titleText.titleText {
+  color: $wiley-gray-light;
   font-weight: bold;
   margin-bottom: 0.5rem; // Adds spacing between title and composer
   font-size: 18px;
@@ -33,6 +34,7 @@
 }
 
 .composerText.composerText.composerText {
+  color: $wiley-gray-light;
   font-weight: lighter;
   font-size: 16px;
   @media (max-width: $breakpoint-xsmall) {
@@ -41,6 +43,7 @@
 }
 
 .details.details.details {
+  color: $wiley-gray-light;
   text-align: justify;
   white-space: pre-line;
 }
@@ -49,6 +52,7 @@
   p {
     font-size: 16px;
     font-weight: bold;
+    color: $wiley-gray-light;
 
     @media (max-width: $breakpoint-xsmall) {
       font-size: 12px;
@@ -63,4 +67,5 @@
   font-style: italic;
   font-weight: bold;
   margin-bottom: $margin-xlarge;
+  color: $wiley-gray-light;
 }
