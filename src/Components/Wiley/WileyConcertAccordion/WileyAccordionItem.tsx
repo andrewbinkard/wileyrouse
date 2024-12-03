@@ -37,15 +37,16 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
         </div>
       </AccordionSummary>
       <AccordionDetails classes={{ root: styles.details }}>
-        <Typography classes={{ root: styles.performanceDetails }}>
-          {conductor && (
-            <p
-              className={styles.conductorText}
-            >{`Conducted by ${conductor}`}</p>
-          )}
-          <p>{`Grade: ${grade}`}</p>
-          <p>{`Performance time: ${time}`}</p>
-        </Typography>
+        {conductor && (
+          <Typography
+            classes={{ root: styles.conductorText }}
+          >{`Conducted by ${conductor}`}</Typography>
+        )}
+        <div className={styles.performanceDetails}>
+          <Typography>{`Grade: ${grade}`}</Typography>
+          <Typography>{`Performance time: ${time}`}</Typography>
+        </div>
+
         <Typography>{details}</Typography>
       </AccordionDetails>
     </Accordion>

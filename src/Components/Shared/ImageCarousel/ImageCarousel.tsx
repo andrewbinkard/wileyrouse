@@ -18,8 +18,10 @@ const ImageCarousel: FC<ImageCarouselProps> = ({ imgData }) => {
       animation={"slide"}
       navButtonsAlwaysVisible
     >
-      {imgData.map(({ imgSrc, section }) => {
-        return <ImageCarouselItem imgSrc={imgSrc} section={section} />;
+      {imgData.map(({ imgSrc, section }, idx) => {
+        return (
+          <ImageCarouselItem key={idx} imgSrc={imgSrc} section={section} />
+        );
       })}
     </Carousel>
   );

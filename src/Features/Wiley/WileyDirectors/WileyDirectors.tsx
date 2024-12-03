@@ -8,9 +8,9 @@ const WileyDirectors: FC = () => {
     <div>
       <h2>Directors</h2>
       <div className={styles.directorGrid}>
-        {wileyDirectorData.map(({ name, title, imgSrc }) => {
+        {wileyDirectorData.map(({ name, title, imgSrc }, idx) => {
           return (
-            <div className={styles.directorCard}>
+            <div className={styles.directorCard} key={idx}>
               <DirectorCard name={name} title={title} imgSrc={imgSrc} />
             </div>
           );

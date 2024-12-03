@@ -8,9 +8,14 @@ const WileyPrivateLessonFaculty = () => {
     <div className={styles.container}>
       <h1>Private Lesson Faculty</h1>
       <div className={styles.facultyContainer}>
-        {privateLessonTeacherData.map(({ name, instrument, imgSrc }) => {
+        {privateLessonTeacherData.map(({ name, instrument, imgSrc }, idx) => {
           return (
-            <DirectorCard name={name} instrument={instrument} imgSrc={imgSrc} />
+            <DirectorCard
+              key={idx}
+              name={name}
+              instrument={instrument}
+              imgSrc={imgSrc}
+            />
           );
         })}
       </div>

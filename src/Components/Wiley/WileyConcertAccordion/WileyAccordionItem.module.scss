@@ -55,10 +55,12 @@
     }
   }
 
-  .conductorText {
-    justify-self: center;
-    font-style: italic;
-    margin-bottom: $margin-xlarge;
-  }
+  margin-bottom: $margin-xlarge;
+}
+
+.conductorText.conductorText.conductorText {
+  justify-self: center;
+  font-style: italic;
+  font-weight: bold;
   margin-bottom: $margin-xlarge;
 }
