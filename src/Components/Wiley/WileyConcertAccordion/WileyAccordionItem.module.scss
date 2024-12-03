@@ -1,6 +1,6 @@
 .accordion.accordion.accordion {
   color: white;
-  background-color: $rouse-red-darker;
+  background-color: $rouse-red-darkest;
   border-bottom: 1px solid white;
 }
 
@@ -55,10 +55,12 @@
     }
   }
 
-  .conductorText {
-    justify-self: center;
-    font-style: italic;
-    margin-bottom: $margin-xlarge;
-  }
+  margin-bottom: $margin-xlarge;
+}
+
+.conductorText.conductorText.conductorText {
+  justify-self: center;
+  font-style: italic;
+  font-weight: bold;
   margin-bottom: $margin-xlarge;
 }

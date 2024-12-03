@@ -1,12 +1,21 @@
 import { FC } from "react";
 import styles from "./WileyAcknowledgements.module.scss";
+import { wileyAcknowledgementsData } from "./const";
+import AcknowledgementsCard from "../../../Components/Shared/AcknowledgementsCard";
 
-interface AcknowledgementsProps {
-  // school: string;
-}
-
-const WileyAcknowledgements: FC<AcknowledgementsProps> = () => {
-  return <div className={styles.container}>Acknowledgements</div>;
+const WileyAcknowledgements: FC = () => {
+  return (
+    <div>
+      <h2>Acknowledgements</h2>
+      <div className={styles.cardContainer}>
+        {wileyAcknowledgementsData.map(({ toWhom, content }, idx) => {
+          return (
+            <AcknowledgementsCard key={idx} toWhom={toWhom} content={content} />
+          );
+        })}
+      </div>
+    </div>
+  );
 };
 
 export default WileyAcknowledgements;

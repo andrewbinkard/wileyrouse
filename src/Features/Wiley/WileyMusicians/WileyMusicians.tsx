@@ -10,9 +10,10 @@ const WileyMusicians: FC = () => {
     <div className={styles.container}>
       <h2>Musicians</h2>
       <h4>Names listed Left to Right</h4>
-      {wileySections.map(({ imgSrc, section, members }) => {
+      {wileySections.map(({ imgSrc, section, members }, idx) => {
         return (
           <MusiciansCard
+            key={idx}
             imgSrc={imgSrc}
             sectionName={section}
             sectionMembers={members}

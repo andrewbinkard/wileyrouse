@@ -128,7 +128,7 @@
   .readMoreButton {
     color: $rouse-gold-light;
     border-color: $rouse-gold-light;
-    background-color: $rouse-red;
+    background-color: $rouse-red-darker;
     border: 2px solid $rouse-gold-light;
     border-radius: $standard-rounding;
     width: 250px;
@@ -136,7 +136,7 @@
     margin-top: 1rem;
 
     &:hover {
-      background-color: $rouse-red-darker;
+      background-color: $rouse-red;
     }
 
     &:active {
@@ -147,7 +147,7 @@
 
     @media (max-width: $breakpoint-medium) {
       &:hover {
-        background-color: $rouse-red;
+        background-color: $rouse-red-darker;
       }
     }
   }

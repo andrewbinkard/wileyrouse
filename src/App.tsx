@@ -18,15 +18,19 @@ const App: FC = () => {
 
         {/* Wiley Routes */}
         <Route path="/wiley" element={<Wiley />}>
-          {wileyRoutes?.map((route) => {
-            return <Route path={route.path} element={route.element} />;
+          {wileyRoutes?.map((route, idx) => {
+            return (
+              <Route key={idx} path={route.path} element={route.element} />
+            );
           })}
         </Route>
 
         {/* Rouse Routes */}
         <Route path="/rouse" element={<Rouse />}>
-          {rouseRoutes?.map((route) => {
-            return <Route path={route.path} element={route.element} />;
+          {rouseRoutes?.map((route, idx) => {
+            return (
+              <Route key={idx} path={route.path} element={route.element} />
+            );
           })}
         </Route>
       </Routes>

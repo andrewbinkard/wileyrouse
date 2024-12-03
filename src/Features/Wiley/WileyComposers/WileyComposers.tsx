@@ -8,9 +8,10 @@ const WileyComposers: FC = () => {
   return (
     <div className={styles.composersContainer}>
       <h1>Composers</h1>
-      {composerData.map(({ name, imgSrc, details, website }) => {
+      {composerData.map(({ name, imgSrc, details, website }, idx) => {
         return (
           <ComposerCard
+            key={idx}
             name={name}
             imgSrc={imgSrc}
             details={details}
