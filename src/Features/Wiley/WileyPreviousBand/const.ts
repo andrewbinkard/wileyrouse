@@ -3,7 +3,7 @@ import PreviousYearBand from "../../../assets/images/2324WMSWE.jpeg";
 
 export const wileyPreviousBandInfo: AboutProgramCardProps = {
   programName: "2023-2024 Wiley Wind Ensemble",
-  programInfo: `Thank you for the incredible musicians of the 2023-2024 Wiley Wind Ensemble for their hard work and dedication to our program. Your efforts and musicianships is what made today’s performance a reality. We are forever grateful for you and all you have done to leave your mark on our program!`,
+  programInfo: `Thank you to the incredible musicians of the 2023-2024 Wiley Wind Ensemble for their hard work and dedication to our program. Your efforts and musicianship are what made today’s performance a reality. We are forever grateful for you and all you have done to leave your mark on our program!`,
   imgSrc: PreviousYearBand,
   roster: [
     "Kasey Actkinson",
