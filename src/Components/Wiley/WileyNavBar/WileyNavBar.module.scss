@@ -59,7 +59,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; /* Center all content vertically */
   z-index: 100;
   opacity: 0; /* Initially hidden */
   visibility: hidden; /* Prevents interaction when hidden */
@@ -72,17 +72,24 @@
     transform: scale(1);
   }
 
-  .mobileLogo {
+  /* Logo at the top */
+  .mobileLogoWrapper {
     position: absolute;
-    top: 2rem; /* Position the logo at the top */
-    height: 80px; /* Adjust as needed */
-    object-fit: contain; /* Maintain aspect ratio */
+    top: 2rem; /* Keep the logo at the top */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
   }
 
+  .mobileLogo {
+    height: 80px;
+    object-fit: contain;
+  }
+
+  /* Close button */
   .closeMenu {
     position: absolute;
-    top: 0.25rem;
-    right: -1rem;
+    top: 1rem;
+    right: 1rem;
     background: none;
     border: none;
     font-size: 2rem;
@@ -90,11 +97,13 @@
     cursor: pointer;
   }
 
+  /* Centered navigation links */
   .mobileNavLinks {
-    margin-top: 3rem; /* Push links down slightly */
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    align-items: center;
+    gap: 2rem; /* Space between links */
+    margin: auto;
 
     a {
       color: white;
