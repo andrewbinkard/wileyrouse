@@ -8,28 +8,36 @@ import WileyMain from "./WileyMain/WIleyMain";
 
 const Wiley: FC = () => {
   const [isNavVisible, setIsNavVisible] = useState(true);
-
   const location = useLocation();
 
   useEffect(() => {
-    let lastScrollTop = 0;
+    let lastScrollTop =
+      window.pageYOffset || document.documentElement.scrollTop;
 
     const handleScroll = () => {
       const scrollTop =
         window.pageYOffset || document.documentElement.scrollTop;
 
-      // Hide the navbar if scrolling down, show it if scrolling up
-      if (scrollTop > lastScrollTop) {
-        setIsNavVisible(false); // Scrolling down
+      if (scrollTop < lastScrollTop) {
+        // User is scrolling up
+        setIsNavVisible(true);
       } else {
-        setIsNavVisible(true); // Scrolling up
+        // User is scrolling down
+        setIsNavVisible(false);
       }
-      lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For mobile or negative scrolling
+
+      lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // Prevent negative values
     };
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  useEffect(() => {
+    if (location.pathname === routeLocations.wiley) {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }, [location]);
 
   const isWileyMain = location.pathname === routeLocations.wiley;
 
