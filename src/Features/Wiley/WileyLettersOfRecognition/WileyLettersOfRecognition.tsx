@@ -1,6 +1,7 @@
 import { FC } from "react";
 import { wileyLettersOfRecData } from "./const";
 import LetterOfRecCard from "../../../Components/Shared/LetterOfRecCard";
+import Footer from "../../../Components/Shared/Footer";
 
 const WileyLettersOfRecognition: FC = () => {
   return (
@@ -16,6 +17,7 @@ const WileyLettersOfRecognition: FC = () => {
           />
         );
       })}
+      <Footer />
     </div>
   );
 };
