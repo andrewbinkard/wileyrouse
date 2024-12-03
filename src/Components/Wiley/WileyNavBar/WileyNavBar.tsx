@@ -34,9 +34,9 @@ const WileyNavBar: FC = () => {
     <>
       <div className={styles.navBarContainer}>
         {/* Logo */}
-        <Link to="/wiley">
+        <NavLink to="/wiley">
           <img src={WileyLogo} alt="WileyLogo" className={styles.logo} />
-        </Link>
+        </NavLink>
 
         {/* Desktop Navigation Links */}
         <div className={styles.navLinks}>
@@ -108,8 +108,14 @@ const WileyNavBar: FC = () => {
         }`}
         aria-hidden={!isMobileMenuOpen}
       >
-        {/* Logo in the top center */}
-        <img src={WileyLogo} alt="Wiley Logo" className={styles.mobileLogo} />
+        {/* Logo at the top */}
+        <Link
+          to="/wiley"
+          onClick={toggleMobileMenu}
+          className={styles.mobileLogoWrapper}
+        >
+          <img src={WileyLogo} alt="Wiley Logo" className={styles.mobileLogo} />
+        </Link>
 
         {/* Close Button */}
         <button
