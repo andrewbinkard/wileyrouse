@@ -4,4 +4,7 @@ export interface DirectorCardProps {
   title?: string;
   details?: string;
   instrument?: string;
+  wiley?: boolean;
+  rouse?: boolean;
+  bio?: string;
 }

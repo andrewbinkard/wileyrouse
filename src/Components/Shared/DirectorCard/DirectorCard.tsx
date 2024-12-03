@@ -1,15 +1,19 @@
-import { FC } from "react";
+import { FC, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./DirectorCard.module.scss";
 import { DirectorCardProps } from "./types";
+import Button from "@mui/material/Button";
 
 const DirectorCard: FC<DirectorCardProps> = ({
   name,
   imgSrc,
   title,
   instrument,
+  bio,
 }) => {
+  const [expanded, setExpanded] = useState(false); // To toggle bio visibility
   const navigate = useNavigate();
+  const cardRef = useRef<HTMLDivElement>(null); // Reference for scrolling
 
   const handleClick = () => {
     // Using this component for PL faculty as well, who will not have a title passed in
@@ -17,8 +21,19 @@ const DirectorCard: FC<DirectorCardProps> = ({
     if (isDirector) navigate(`/wiley/wiley-bios/${name}`);
   };
 
+  const toggleExpanded = () => {
+    if (expanded) {
+      // Scroll back to the top of the card when collapsing
+      cardRef.current?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+    setExpanded(!expanded);
+  };
+
   return (
-    <div className={styles.cardContainer} onClick={handleClick}>
+    <div className={styles.cardContainer} ref={cardRef} onClick={handleClick}>
       <img
         src={imgSrc}
         alt={`Image of ${name}`}
@@ -29,6 +44,12 @@ const DirectorCard: FC<DirectorCardProps> = ({
         {title && <h4>{title}</h4>}
         {instrument && <h4>{instrument}</h4>}
       </div>
+      {bio && expanded && <p className={styles.bio}>{bio}</p>}
+      {bio && (
+        <Button className={styles.readMoreButton} onClick={toggleExpanded}>
+          {expanded ? "Show Less ▲" : "Read Bio ▼"}
+        </Button>
+      )}
     </div>
   );
 };

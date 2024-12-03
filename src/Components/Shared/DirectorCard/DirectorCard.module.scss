@@ -42,4 +42,33 @@
       font-size: 1rem;
     }
   }
+
+  .bio {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 1rem;
+    color: $wiley-gray-light; /* Slightly lighter text for the bio */
+    white-space: pre-line;
+  }
+
+  .readMoreButton {
+    color: $wiley-gray-light;
+    border-color: $wiley-gray-light;
+    background-color: $rouse-red-darkest;
+    border: 2px solid $wiley-gray-light;
+    border-radius: $standard-rounding;
+    width: 150px;
+    margin-top: 1rem;
+
+    &:hover {
+      background-color: $rouse-red;
+    }
+
+    &:active {
+      background-color: $rouse-red-darkest;
+      border-color: $wiley-gray-dark;
+      color: $wiley-gray-dark;
+    }
+  }
 }
