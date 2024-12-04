@@ -26,11 +26,11 @@
     }
   }
 
-  @media (max-width: calc($breakpoint-medium + 30px)) {
+  @media (max-width: calc($breakpoint-medium + 60px)) {
     font-size: 1rem;
   }
 
-  @media (max-width: calc($breakpoint-small + 35px)) {
+  @media (max-width: calc($breakpoint-small + 80px)) {
     display: none; /* Hide desktop nav links on mobile */
   }
 }
@@ -50,7 +50,7 @@
   color: $rouse-red;
   cursor: pointer;
 
-  @media (max-width: calc($breakpoint-small + 35px)) {
+  @media (max-width: calc($breakpoint-small + 80px)) {
     display: block; /* Show hamburger menu on mobile */
   }
 }

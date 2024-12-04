@@ -20,7 +20,7 @@ const AboutProgramCard: FC<AboutProgramCardProps> = ({
       <br />
       {roster && (
         <>
-          <h3>{`${programName} Members`}</h3>
+          <h2>{`${programName} Members`}</h2>
           <div className={styles.rosterContainer}>
             {roster.map((name, index) => (
               <span key={index} className={styles.rosterName}>
