@@ -13,7 +13,7 @@ const WileyConcertAccordion: FC = () => {
 
   return (
     <div className={styles.container}>
-      <h2>Concert Selections</h2>
+      <h2>CONCERT SELECTIONS</h2>
       <div className={styles.accordionContainer}>
         {wileyAccordionData.map(
           ({

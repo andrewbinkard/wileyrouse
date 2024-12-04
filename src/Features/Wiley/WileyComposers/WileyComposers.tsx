@@ -7,7 +7,7 @@ import Footer from "../../../Components/Shared/Footer";
 const WileyComposers: FC = () => {
   return (
     <div className={styles.composersContainer}>
-      <h1>Composers</h1>
+      <h1>COMPOSERS</h1>
       {composerData
         .filter(({ wiley }) => {
           return wiley;

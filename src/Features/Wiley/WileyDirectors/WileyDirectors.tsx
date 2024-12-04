@@ -6,7 +6,7 @@ import styles from "./WileyDirectors.module.scss";
 const WileyDirectors: FC = () => {
   return (
     <div>
-      <h2>Directors</h2>
+      <h2>DIRECTORS</h2>
       <div className={styles.directorGrid}>
         {directorData
           .filter(({ wiley }) => {

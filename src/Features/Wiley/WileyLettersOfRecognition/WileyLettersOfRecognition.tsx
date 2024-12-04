@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { wileyLettersOfRecData } from "./const";
+import { wileyLettersOfRecData } from "../../SharedData/lettersOfRecData";
 import LetterOfRecCard from "../../../Components/Shared/LetterOfRecCard";
 import Footer from "../../../Components/Shared/Footer";
 

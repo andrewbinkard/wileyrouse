@@ -38,7 +38,7 @@ export const directorData: DirectorCardProps[] = [
     wiley: true,
     rouse: false,
     imgSrc: TaylorWilliamsonHeadshot,
-    details: `Jonathon Taylor Williamson is in his tenth year of teaching and sixth year as Director of Bands at Wiley Middle School. Prior to coming to Leander ISD in 2018, he was the Director of Bands at both Richardson North Junior High and Forest Meadow Junior High in the Richardson ISD in Richardson, Texas.
+    details: `Jonathon Taylor Williamson is in his eleventh year of teaching and seventh year as Director of Bands at Wiley Middle School. Prior to coming to Leander ISD in 2018, he was the Director of Bands at both Richardson North Junior High and Forest Meadow Junior High in the Richardson ISD in Richardson, Texas.
 
     At Wiley Middle School, Mr. Williamson teaches the Wind Ensemble, assists with the Symphonic and Concert bands, and teaches beginning trumpet, french horn, trombone, and tuba. Since beginning his career in music education, Mr. Williamson's bands have achieved UIL Sweepstakes ratings, as well as unanimous first division ratings. Over the past six years of leading the Wiley Band, the program has grown from just under 200 students to now consistently having 300+ students in band each year, which is usually 50-60% of the total student population. In 2022, 2023, and 2024, the Wiley Wind Ensemble earned the distinction as a National Wind Band Honors Class AA winner. Most recently, the Wiley Middle School Wind Ensemble was named the 2023 TMEA Class CC Honor Band and a 2024 Midwest Clinic Invited Ensemble.
 

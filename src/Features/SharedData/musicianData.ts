@@ -1,34 +1,34 @@
-import { SectionProps } from "../../../Components/Shared/ImageCarousel/types";
-import fluteSectionPhoto from "../../../assets/images/WileySectionPhotos/01Wiley_Flutes.jpg";
-import oboeSectionPhoto from "../../../assets/images/WileySectionPhotos/02Wiley_Oboes.jpg";
-import bassoonSectionPhoto from "../../../assets/images/WileySectionPhotos/03Wiley_Bassoons.jpg";
-import clarinetSectionPhoto from "../../../assets/images/WileySectionPhotos/04Wiley_Clarinets.jpg";
-import bassClarinetSectionPhoto from "../../../assets/images/WileySectionPhotos/05Wiley_BassClarinets.jpg";
-import saxophoneSectionPhoto from "../../../assets/images/WileySectionPhotos/06WileySaxes.jpg";
-import trumpetSectionPhoto from "../../../assets/images/WileySectionPhotos/07Wiley_Trumpets.jpg";
-import hornSectionPhoto from "../../../assets/images/WileySectionPhotos/08Wiley_Horns.jpg";
-import tromboneSectionPhoto from "../../../assets/images/WileySectionPhotos/09WileyTrombones.jpg";
-import euphoniumSectionPhoto from "../../../assets/images/WileySectionPhotos/10Wiley_Euphs.jpg";
-import tubaSectionPhoto from "../../../assets/images/WileySectionPhotos/11WileyTubas.jpg";
-import percussionSectionPhoto from "../../../assets/images/WileySectionPhotos/12Wiley_Percussion.jpg";
+import { SectionProps } from "../../Components/Shared/ImageCarousel/types";
+import fluteSectionPhoto from "../../assets/images/WileySectionPhotos/01Wiley_Flutes.jpg";
+import oboeSectionPhoto from "../../assets/images/WileySectionPhotos/02Wiley_Oboes.jpg";
+import bassoonSectionPhoto from "../../assets/images/WileySectionPhotos/03Wiley_Bassoons.jpg";
+import clarinetSectionPhoto from "../../assets/images/WileySectionPhotos/04Wiley_Clarinets.jpg";
+import bassClarinetSectionPhoto from "../../assets/images/WileySectionPhotos/05Wiley_BassClarinets.jpg";
+import saxophoneSectionPhoto from "../../assets/images/WileySectionPhotos/06WileySaxes.jpg";
+import trumpetSectionPhoto from "../../assets/images/WileySectionPhotos/07Wiley_Trumpets.jpg";
+import hornSectionPhoto from "../../assets/images/WileySectionPhotos/08Wiley_Horns.jpg";
+import tromboneSectionPhoto from "../../assets/images/WileySectionPhotos/09WileyTrombones.jpg";
+import euphoniumSectionPhoto from "../../assets/images/WileySectionPhotos/10Wiley_Euphs.jpg";
+import tubaSectionPhoto from "../../assets/images/WileySectionPhotos/11WileyTubas.jpg";
+import percussionSectionPhoto from "../../assets/images/WileySectionPhotos/12Wiley_Percussion.jpg";
 
-import o1 from "../../../assets/images/WileySectionCandids/01.jpg";
-import o2 from "../../../assets/images/WileySectionCandids/02.jpg";
-import o3 from "../../../assets/images/WileySectionCandids/03.jpg";
-import o4 from "../../../assets/images/WileySectionCandids/04.jpg";
-import o5 from "../../../assets/images/WileySectionCandids/05.jpg";
-import o6 from "../../../assets/images/WileySectionCandids/06.jpg";
-import o7 from "../../../assets/images/WileySectionCandids/07.jpg";
-import o8 from "../../../assets/images/WileySectionCandids/08.jpg";
-import o9 from "../../../assets/images/WileySectionCandids/09.jpg";
-import o10 from "../../../assets/images/WileySectionCandids/10.jpg";
-import o11 from "../../../assets/images/WileySectionCandids/11.jpg";
-import o12 from "../../../assets/images/WileySectionCandids/12.jpg";
+import o1 from "../../assets/images/WileySectionCandids/01.jpg";
+import o2 from "../../assets/images/WileySectionCandids/02.jpg";
+import o3 from "../../assets/images/WileySectionCandids/03.jpg";
+import o4 from "../../assets/images/WileySectionCandids/04.jpg";
+import o5 from "../../assets/images/WileySectionCandids/05.jpg";
+import o6 from "../../assets/images/WileySectionCandids/06.jpg";
+import o7 from "../../assets/images/WileySectionCandids/07.jpg";
+import o8 from "../../assets/images/WileySectionCandids/08.jpg";
+import o9 from "../../assets/images/WileySectionCandids/09.jpg";
+import o10 from "../../assets/images/WileySectionCandids/10.jpg";
+import o11 from "../../assets/images/WileySectionCandids/11.jpg";
+import o12 from "../../assets/images/WileySectionCandids/12.jpg";
 
 export const wileySections: SectionProps[] = [
   {
     imgSrc: fluteSectionPhoto,
-    section: "Flutes",
+    section: "FLUTES",
     members: [
       "Thuy Thuong Le",
       "Parinita Rajeshkumar",
@@ -43,17 +43,17 @@ export const wileySections: SectionProps[] = [
   },
   {
     imgSrc: oboeSectionPhoto,
-    section: "Oboes",
+    section: "OBOES",
     members: ["Jayden Kang", "Saloni Nandigam"],
   },
   {
     imgSrc: bassoonSectionPhoto,
-    section: "Bassoons",
+    section: "BASSOONS",
     members: ["Elliot King", "Avi Kale", "Isaac Stoddard", "Brayden Lopez"],
   },
   {
     imgSrc: clarinetSectionPhoto,
-    section: "Clarinets",
+    section: "CLARINETS",
     members: [
       "Lydia Armstrong",
       "Jason Chavez Garcia",
@@ -68,12 +68,12 @@ export const wileySections: SectionProps[] = [
   },
   {
     imgSrc: bassClarinetSectionPhoto,
-    section: "Bass Clarinets",
+    section: "BASS CLARINETS",
     members: ["Ashley Taubert", "Mitchell Tanteri"],
   },
   {
     imgSrc: saxophoneSectionPhoto,
-    section: "Saxophones",
+    section: "SAXOPHONES",
     members: [
       "Waylon Lemons",
       "Shrikar Sudarshan",
@@ -83,7 +83,7 @@ export const wileySections: SectionProps[] = [
   },
   {
     imgSrc: trumpetSectionPhoto,
-    section: "Trumpets",
+    section: "TRUMPETS",
     members: [
       "Tatum Valenzuela",
       "Niron Shrestha",
@@ -97,7 +97,7 @@ export const wileySections: SectionProps[] = [
   },
   {
     imgSrc: hornSectionPhoto,
-    section: "Horns",
+    section: "HORNS",
     members: [
       "Isabela Moreno",
       "River Actkinson",
@@ -108,7 +108,7 @@ export const wileySections: SectionProps[] = [
   },
   {
     imgSrc: tromboneSectionPhoto,
-    section: "Trombones",
+    section: "TROMBONES",
     members: [
       "Elliott Whitten",
       "Bemnet Kasu",
@@ -120,7 +120,7 @@ export const wileySections: SectionProps[] = [
   },
   {
     imgSrc: euphoniumSectionPhoto,
-    section: "Euphoniums",
+    section: "EUPHONIUMS",
     members: [
       "Patricio Covarrubias",
       "Bradley Jacob Reardon",
@@ -129,7 +129,7 @@ export const wileySections: SectionProps[] = [
   },
   {
     imgSrc: tubaSectionPhoto,
-    section: "Tubas",
+    section: "TUBAS",
     members: [
       "Bernardo Covarrubias",
       "Ian Doyle",
@@ -140,7 +140,7 @@ export const wileySections: SectionProps[] = [
   },
   {
     imgSrc: percussionSectionPhoto,
-    section: "Percussion",
+    section: "PERCUSSION",
     members: [
       "Emma Love",
       "Joshua Romriell",
@@ -167,3 +167,7 @@ export const wileyCandids = [
   { imgSrc: o11 },
   { imgSrc: o12 },
 ];
+
+export const rouseSections: SectionProps[] = [];
+
+export const rouseCandids = [];

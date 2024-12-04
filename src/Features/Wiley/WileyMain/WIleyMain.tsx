@@ -7,7 +7,7 @@ import { Link, Outlet } from "react-router-dom";
 import WileyDirectors from "../WileyDirectors";
 import Footer from "../../../Components/Shared/Footer/Footer";
 import ImageCarousel from "../../../Components/Shared/ImageCarousel";
-import { wileySections } from "../WileyMusicians/const";
+import { wileySections } from "../../SharedData/musicianData";
 
 const WileyMain: FC = () => {
   return (
@@ -23,7 +23,7 @@ const WileyMain: FC = () => {
         Meet the Composers
       </Button>
       <br />
-      <h2>Musicians</h2>
+      <h2>MUSICIANS</h2>
       <ImageCarousel imgData={wileySections} />
       <Button
         classes={{ root: styles.linkButton }}
@@ -44,7 +44,7 @@ const WileyMain: FC = () => {
         Read Bios
       </Button>
       <br />
-      <h2>Other Links</h2>
+      <h2>OTHER LINKS</h2>
       <Button
         classes={{ root: styles.linkButton }}
         component={Link}

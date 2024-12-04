@@ -37,7 +37,7 @@ const ComposerCard: FC<ComposerCardProps> = ({
       <div className={styles.content}>
         <h2>{name}</h2>
         {title ? (
-          <h3>{title}</h3>
+          <h4>{title}</h4>
         ) : (
           <a href={website} target="_blank" rel="noopener noreferrer">
             {website}
