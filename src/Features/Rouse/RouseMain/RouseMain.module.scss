@@ -1,0 +1,40 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 $margin-large;
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.linkButton.linkButton.linkButton {
+  color: $rouse-gold-light;
+  border-color: $rouse-gold-light;
+  background-color: $rouse-red-darkest;
+  border: 2px solid $rouse-gold-light;
+  border-radius: $standard-rounding;
+  width: 40vw;
+  min-width: 212px;
+
+  @media (max-width: $breakpoint-small) {
+    width: 100%;
+  }
+
+  &:hover {
+    background-color: $rouse-red;
+  }
+
+  &:active {
+    background-color: $rouse-red-darkest;
+    border-color: $rouse-gold;
+    color: $rouse-gold;
+  }
+
+  @media (max-width: $breakpoint-medium) {
+    &:hover {
+      background-color: $rouse-red-darkest;
+    }
+  }
+}

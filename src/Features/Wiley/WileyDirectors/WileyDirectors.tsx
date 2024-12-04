@@ -12,10 +12,15 @@ const WileyDirectors: FC = () => {
           .filter(({ wiley }) => {
             return wiley;
           })
-          .map(({ name, title, imgSrc }, idx) => {
+          .map(({ name, title, imgSrc, wiley }, idx) => {
             return (
               <div className={styles.directorCard} key={idx}>
-                <DirectorCard name={name} title={title} imgSrc={imgSrc} />
+                <DirectorCard
+                  name={name}
+                  title={title}
+                  imgSrc={imgSrc}
+                  wiley={wiley}
+                />
               </div>
             );
           })}

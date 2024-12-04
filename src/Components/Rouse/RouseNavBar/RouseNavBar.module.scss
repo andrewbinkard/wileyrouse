@@ -1,0 +1,128 @@
+.navBarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem auto;
+  width: 100vw;
+  position: relative; /* Necessary for hamburger menu positioning */
+
+  .logo {
+    height: 50px;
+    object-fit: contain;
+    margin-left: 1rem;
+  }
+}
+
+.navLinks {
+  display: flex;
+  gap: 1rem;
+  margin-right: 24px;
+  font-weight: bold;
+  font-size: 1.25rem;
+
+  a {
+    &.hover {
+      color: $rouse-gold !important;
+    }
+  }
+
+  @media (max-width: calc($breakpoint-medium + 30px)) {
+    font-size: 1rem;
+  }
+
+  @media (max-width: calc($breakpoint-small + 35px)) {
+    display: none; /* Hide desktop nav links on mobile */
+  }
+}
+
+.activeLink {
+  text-decoration: underline;
+  text-decoration-color: $rouse-gold;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.hamburgerMenu {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: $rouse-red;
+  cursor: pointer;
+
+  @media (max-width: calc($breakpoint-small + 35px)) {
+    display: block; /* Show hamburger menu on mobile */
+  }
+}
+
+.mobileMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.1);
+  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+
+  &.open {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+  }
+
+  /* Logo at the top */
+  .mobileLogoWrapper {
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .mobileLogo {
+    height: 80px;
+    object-fit: contain;
+  }
+
+  /* Close button */
+  .closeMenu {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: $rouse-red;
+    cursor: pointer;
+  }
+
+  /* Centered navigation links */
+  .mobileNavLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: auto;
+
+    a {
+      color: white;
+      font-size: 1.5rem;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .activeLink {
+      text-decoration: underline;
+      text-decoration-color: $rouse-gold;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 4px;
+    }
+  }
+}

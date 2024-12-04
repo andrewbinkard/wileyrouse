@@ -37,22 +37,21 @@ const ComposerCard: FC<ComposerCardProps> = ({
       <div className={styles.content}>
         <h2>{name}</h2>
         {title ? (
-          <h4>{title}</h4>
+          <h3>{title}</h3>
         ) : (
           <a href={website} target="_blank" rel="noopener noreferrer">
             {website}
           </a>
         )}
-        <p>
-          {paragraphs?.[0]}
-          {expanded &&
-            paragraphs?.slice(1).map((para, index) => (
-              <p key={index}>
-                <br />
-                {para}
-              </p>
-            ))}
-        </p>
+        <p>{paragraphs?.[0]}</p>
+        {expanded &&
+          paragraphs?.slice(1).map((para, index) => (
+            <p key={index}>
+              <br />
+              {para}
+            </p>
+          ))}
+
         <Button className={styles.readMoreButton} onClick={toggleExpanded}>
           {expanded ? "Show Less ▲" : "Read More ▼"}
         </Button>

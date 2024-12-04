@@ -135,22 +135,6 @@ export const directorData: DirectorCardProps[] = [
     Zildjian Cymbals`,
   },
   {
-    name: "Cynthia A. Lansford",
-    title: "Guest Conductor",
-    wiley: true,
-    rouse: false,
-    imgSrc: CynthiaLansfordHeadshot,
-    details: `After graduating with a degree in Music Education from Texas Tech University in 1976, Cindy Lansford began her teaching career at her alma mater, Robert E. Lee High School, in Baytown, Texas. After relocating to north Texas in 1978, she began a twelve-year stint in the Plano Independent School District, first at Plano Senior High School followed by ten years at Carpenter Middle School. In 1991, Ms. Lansford joined the Birdville Independent School District and taught at Haltom High School. In 1996 she moved to North Ridge Middle School in the B. I. S. D. where she taught until her retirement in 2007.
-
-    During her tenure at Carpenter, Ms. Lansford was named Teacher of the Year and was a recipient of the Ross Perot Excellence in Teaching Award. She was again named Teacher of the Year at North Ridge. Ms. Lansford served on the Prescribed Music List selection committee 2002-2006 and served her regions throughout the years in various leadership positions. She has been a frequent presenter at conventions for both Texas and Oklahoma Music Educators Associations. She has also been a frequent presenter at the Texas and Oklahoma Bandmasters Associations as well as through the T. B. A. Professional Development program. In 2008 Ms. Lansford received the Meritorious Achievement Award from the Texas Bandmasters Association.
-
-    The bands under Ms. Lansford’s direction enjoyed much success throughout the years. Continuous achievement at U. I. L. contests, numerous festivals, as well as state recognition were the norm, and individual student accomplishments were status quo. In 2004 the North Ridge Middle School Band was awarded the prestigious Sudler Cup award presented by the John Philip Sousa Foundation to outstanding middle school bands. In 2005 the North Ridge Honors Band performed at the Fifty-Ninth Annual Midwest Band and Orchestra Clinic in Chicago.
-
-    In 2006 the North Ridge Band was the first middle school band program to be recognized by the Texas Bandmasters Association as “An Exemplary Program”. The 2007-2008 school year marked the first year of retirement from a public school position for Ms. Lansford, and she started her second “career” doing freelance work as a consultant, clinician, mentor, adjudicator and teacher. She has been in contact with hundreds of teachers and thousands of students through region and all state bands and band camps stretching from Alaska to Georgia. She also works one-on-one with individual programs and teachers.
-
-    Ms. Lansford’s professional affiliations include Texas Bandmasters Association, Texas Music Educators Association, Texas Music Adjudicators Association, and she is past president of Alpha Chapter of Phi Beta Mu, the International Bandmasters Fraternity. She is currently serving on the Executive Board of Phi Beta Mu International. Ms. Lansford was recently inducted into the Phi Beta Mu Bandmasters Hall of Fame in Texas.`,
-  },
-  {
     name: "Thomas Bennett",
     title: "Guest Conductor",
     wiley: false,
@@ -163,6 +147,22 @@ export const directorData: DirectorCardProps[] = [
     During his tenure at the University of Houston, Mr. Bennett’s ensembles performed at the Texas Music Educator’s Convention and the Southwest Regional Convention of the College Band Director’s National Association. In 2003 the International Grainger Society awarded him the Grainger Medallion for Distinctive Contribution for his work on a CD of transcriptions done by Percy Grainger. This CD was the fourth in a series begun by Mr. Eddie Green and the Moores School of Music Wind Ensemble. This fourth volume was honored with a prestigious Grammy List Nomination in 2004. In February of 2006, a CD of Vittorio Giannini’s band works performed by the Moores School of Music Wind Ensemble was released internationally by the Naxos Recording Company.
 
     Professional affiliations include the Texas Bandmasters Association, Texas Music Educators Association, and Phi Beta Mu, honorary band fraternity. He resides in San Antonio, Texas, and his children, Thomas Riley and Teresa are business professionals residing in Dallas and Galveston respectively.`,
+  },
+  {
+    name: "Cynthia A. Lansford",
+    title: "Guest Conductor",
+    wiley: true,
+    rouse: true,
+    imgSrc: CynthiaLansfordHeadshot,
+    details: `After graduating with a degree in Music Education from Texas Tech University in 1976, Cindy Lansford began her teaching career at her alma mater, Robert E. Lee High School, in Baytown, Texas. After relocating to north Texas in 1978, she began a twelve-year stint in the Plano Independent School District, first at Plano Senior High School followed by ten years at Carpenter Middle School. In 1991, Ms. Lansford joined the Birdville Independent School District and taught at Haltom High School. In 1996 she moved to North Ridge Middle School in the B. I. S. D. where she taught until her retirement in 2007.
+
+    During her tenure at Carpenter, Ms. Lansford was named Teacher of the Year and was a recipient of the Ross Perot Excellence in Teaching Award. She was again named Teacher of the Year at North Ridge. Ms. Lansford served on the Prescribed Music List selection committee 2002-2006 and served her regions throughout the years in various leadership positions. She has been a frequent presenter at conventions for both Texas and Oklahoma Music Educators Associations. She has also been a frequent presenter at the Texas and Oklahoma Bandmasters Associations as well as through the T. B. A. Professional Development program. In 2008 Ms. Lansford received the Meritorious Achievement Award from the Texas Bandmasters Association.
+
+    The bands under Ms. Lansford’s direction enjoyed much success throughout the years. Continuous achievement at U. I. L. contests, numerous festivals, as well as state recognition were the norm, and individual student accomplishments were status quo. In 2004 the North Ridge Middle School Band was awarded the prestigious Sudler Cup award presented by the John Philip Sousa Foundation to outstanding middle school bands. In 2005 the North Ridge Honors Band performed at the Fifty-Ninth Annual Midwest Band and Orchestra Clinic in Chicago.
+
+    In 2006 the North Ridge Band was the first middle school band program to be recognized by the Texas Bandmasters Association as “An Exemplary Program”. The 2007-2008 school year marked the first year of retirement from a public school position for Ms. Lansford, and she started her second “career” doing freelance work as a consultant, clinician, mentor, adjudicator and teacher. She has been in contact with hundreds of teachers and thousands of students through region and all state bands and band camps stretching from Alaska to Georgia. She also works one-on-one with individual programs and teachers.
+
+    Ms. Lansford’s professional affiliations include Texas Bandmasters Association, Texas Music Educators Association, Texas Music Adjudicators Association, and she is past president of Alpha Chapter of Phi Beta Mu, the International Bandmasters Fraternity. She is currently serving on the Executive Board of Phi Beta Mu International. Ms. Lansford was recently inducted into the Phi Beta Mu Bandmasters Hall of Fame in Texas.`,
   },
   {
     name: "Caleb Hudson",

@@ -1,0 +1,9 @@
+.biosContainer {
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    justify-self: center;
+    align-self: center;
+  }
+}
