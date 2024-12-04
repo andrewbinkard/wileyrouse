@@ -110,7 +110,7 @@ const RouseNavBar: FC = () => {
       >
         {/* Logo at the top */}
         <Link
-          to="/wiley"
+          to="/rouse"
           onClick={toggleMobileMenu}
           className={styles.mobileLogoWrapper}
         >
