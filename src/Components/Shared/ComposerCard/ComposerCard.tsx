@@ -27,6 +27,10 @@ const ComposerCard: FC<ComposerCardProps> = ({
     setExpanded(!expanded);
   };
 
+  const websiteTitle = name.endsWith("s")
+    ? `${name}' website`
+    : `${name}'s website`;
+
   return (
     <div className={styles.cardContainer} ref={cardRef}>
       <img
@@ -40,7 +44,7 @@ const ComposerCard: FC<ComposerCardProps> = ({
           <h3>{title}</h3>
         ) : (
           <a href={website} target="_blank" rel="noopener noreferrer">
-            {website}
+            {websiteTitle}
           </a>
         )}
         <p>{paragraphs?.[0]}</p>

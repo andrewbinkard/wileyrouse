@@ -7,11 +7,13 @@ const SchoolCard: FC<SchoolCardProps> = ({
   imgSrc,
   performanceDetails,
 }) => {
+  const color = schoolName === "Rouse High School" ? "#cdb894" : "#b8b8b8";
+
   return (
     <div
       className={styles.cardContainer}
       style={{
-        borderColor: schoolName === "Rouse High School" ? "#ac894e" : "#b8b8b8",
+        borderColor: color,
       }}
     >
       <img
@@ -20,10 +22,29 @@ const SchoolCard: FC<SchoolCardProps> = ({
         className={styles.schoolLogo}
       />
       <div>
-        <h2>{schoolName}</h2>
-        <p>{performanceDetails}</p>
+        <h2
+          style={{
+            color: color,
+          }}
+        >
+          {schoolName}
+        </h2>
+        <p
+          style={{
+            color: color,
+          }}
+        >
+          {performanceDetails}
+        </p>
         <br />
-        <p className={styles.clickMessage}>Click to see program</p>
+        <p
+          className={styles.clickMessage}
+          style={{
+            color: color,
+          }}
+        >
+          Click to see program
+        </p>
       </div>
     </div>
   );

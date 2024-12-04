@@ -19,7 +19,7 @@ const WileyBios: FC = () => {
 
   return (
     <div className={styles.biosContainer}>
-      <h1>Directors and Conductors</h1>
+      <h1>Conductors</h1>
       {directorData
         .filter(({ wiley }) => {
           return wiley;
