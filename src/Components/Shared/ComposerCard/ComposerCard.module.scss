@@ -3,41 +3,39 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  background-color: $rouse-red-darkest; /* Dark red background */
-  color: #ffffff; /* White text for better contrast */
-  border-radius: $standard-rounding; /* Rounded corners */
+  background-color: $rouse-red-darkest;
+  color: #ffffff;
+  border-radius: $standard-rounding;
   padding: 1.5rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   width: 85vw;
-  min-width: 316px; // for that awful samsung fold
+  min-width: 316px;
   margin: 0 auto 2rem auto;
-  box-sizing: border-box; /* Include padding and border in width calculations */
+  box-sizing: border-box;
 
   @media (max-width: $breakpoint-medium) {
-    flex-direction: column; /* Switch to vertical layout on small screens */
-    align-items: center; /* Center-align items in the column layout */
+    flex-direction: column;
+    align-items: center;
   }
 
   .composerImage {
     width: 33%;
-    max-width: 50%; /* Prevent the image from growing larger than its allocated space */
+    max-width: 50%;
     height: auto;
-    object-fit: cover; /* Ensures image covers the designated area */
+    object-fit: cover;
     border-radius: $standard-rounding;
     align-self: start;
     margin-top: 1rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 
-    /* Ensure the image stops shrinking below a certain size */
-    min-width: 325px; /* Set the minimum width */
+    min-width: 325px;
 
     @media (max-width: $breakpoint-medium) {
       align-self: center;
       width: 50%;
       margin-bottom: 1rem;
 
-      /* Ensure minimum dimensions are respected on smaller screens */
-      min-width: 300px; /* Adjust minimum width for smaller breakpoints */
+      min-width: 300px;
     }
   }
 
@@ -45,16 +43,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex: 1; /* Allow content to shrink and grow within available space */
-    min-width: 0; /* Prevent content from overflowing parent flex container */
+    flex: 1;
+    min-width: 0;
     margin: 0 1rem;
     padding: 1rem;
 
     @media (max-width: $breakpoint-medium) {
-      width: 100%; /* Full width below breakpoint */
+      width: 100%;
       margin: unset;
-      align-items: center; /* Center-align content within the container */
-      text-align: center; /* Center-align text within the content */
+      align-items: center;
+      text-align: center;
     }
 
     h2 {
@@ -86,9 +84,9 @@
       margin-bottom: 0.5rem;
       word-break: break-word;
       overflow-wrap: break-word;
-      max-width: 100%; /* Prevent the link from overflowing */
+      max-width: 100%;
       text-overflow: ellipsis;
-      white-space: nowrap; /* Single line on wider screens */
+      white-space: nowrap;
       overflow: hidden;
       transition: color 0.2s ease;
       font-size: 1.25rem;
@@ -99,7 +97,7 @@
       }
 
       @media (max-width: $breakpoint-medium) {
-        white-space: normal; /* Allow wrapping on smaller screens */
+        white-space: normal;
         align-self: center;
         font-size: 1rem;
       }
@@ -112,12 +110,11 @@
       color: $wiley-gray-light;
       text-align: justify;
 
-      /* Remove max-width restriction */
-      max-width: 100%; /* Ensure the text fits within the container */
-      box-sizing: border-box; /* Include padding/border in width */
+      max-width: 100%;
+      box-sizing: border-box;
 
       @media (max-width: $breakpoint-medium) {
-        text-align: justify; /* Center-align text on smaller screens */
+        text-align: justify;
       }
     }
   }

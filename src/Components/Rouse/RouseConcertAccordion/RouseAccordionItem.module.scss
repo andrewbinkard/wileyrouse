@@ -5,18 +5,18 @@
 }
 
 .summary.summary.summary {
-  display: flex; // Ensures the container aligns items horizontally
-  justify-content: space-between; // Pushes expandButton to the far right
-  align-items: center; // Vertically aligns content
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   color: white;
-  width: 100%; // Ensures the summary takes full width
+  width: 100%;
 }
 
 .summaryContent.summaryContent.summaryContent {
-  display: flex; // Stacks titleText and composerText vertically
+  display: flex;
   flex-direction: column;
-  align-items: flex-start; // Aligns text to the left
-  flex-grow: 1; // Allows it to take up available space
+  align-items: flex-start;
+  flex-grow: 1;
 }
 
 .expandButton.expandButton.expandButton {
@@ -26,7 +26,7 @@
 .titleText.titleText.titleText {
   color: $rouse-gold-light;
   font-weight: bold;
-  margin-bottom: 0.5rem; // Adds spacing between title and composer
+  margin-bottom: 0.5rem;
   font-size: 18px;
   @media (max-width: $breakpoint-xsmall) {
     font-size: 14px;

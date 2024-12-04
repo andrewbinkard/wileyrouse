@@ -13,13 +13,13 @@
 
   a {
     &:hover {
-      color: $rouse-gold; // Hover color for links
+      color: $rouse-gold;
     }
   }
 }
 
 .navBarWrapper {
-  position: fixed; /* Fixed to stay at the top */
+  position: fixed;
   top: 0;
   width: 100%;
   height: 130px;
@@ -36,18 +36,17 @@
   }
 
   &::after {
-    content: ""; /* Necessary for pseudo-element to render */
+    content: "";
     position: absolute;
-    bottom: 0; /* Start the gradient at the bottom of the navbar */
+    bottom: 0;
     left: 0;
     width: 100%;
-    height: 100%; /* Height of the gradient */
+    height: 100%;
     background: linear-gradient(
       rgba(255, 255, 255, 1) 0%,
-      /* 100% opaque at the top */ rgba(255, 255, 255, 0) 100%
-        /* Fully transparent at the bottom */
+      rgba(255, 255, 255, 0) 100%
     );
-    pointer-events: none; /* Ensure it doesn't block interactions */
+    pointer-events: none;
     z-index: -1;
   }
 }
@@ -69,7 +68,6 @@
   margin-bottom: 2rem;
   height: auto;
 
-  /* Set a dynamic height for smaller screens */
   @media (max-width: 1024px) {
     // Tablet and below
     height: auto;

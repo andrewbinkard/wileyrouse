@@ -11,8 +11,8 @@
 .imageWrapper {
   position: relative;
   width: 100%;
-  max-width: 1200px; // Optional: Limit maximum width for large screens
-  margin: 0 auto; // Center the wrapper on the page
+  max-width: 1200px;
+  margin: 0 auto;
   aspect-ratio: 3 / 2;
   background-color: $rouse-red-darkest;
   overflow: hidden;

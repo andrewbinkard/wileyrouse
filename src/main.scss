@@ -17,52 +17,39 @@ h1,
 h2,
 h3,
 h4 {
-  // color: $wiley-gray-light;
-  color: #b8b8b8;
+  color: $wiley-gray-light;
   align-self: center;
   text-align: center;
 }
 
 h1 {
-  font-size: clamp(
-    2rem,
-    4vw,
-    3rem
-  ); /* Responsive scaling: min, preferred, max */
-  margin: 0.5rem 0; /* Adjust spacing around the heading */
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin: 0.5rem 0;
 }
 
 h2 {
-  font-size: clamp(
-    1.5rem,
-    3vw,
-    2rem
-  ); /* Responsive scaling: min, preferred, max */
-  margin: 0.5rem 0; /* Adjust spacing around the heading */
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  margin: 0.5rem 0;
 }
 
 h3 {
-  font-size: clamp(
-    1rem,
-    2vw,
-    1rem
-  ); /* Responsive scaling: min, preferred, max */
-  margin: 0.5rem 0; /* Adjust spacing around the heading */
+  font-size: clamp(1rem, 2vw, 1rem);
+  margin: 0.5rem 0;
 }
 
 p {
-  font-size: clamp(1rem, 2.5vw, 1.5rem); /* Scale smoothly for paragraph text */
-  margin: 0.3rem 0; /* Adjust spacing around paragraphs */
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  margin: 0.3rem 0;
 }
 
 a {
-  color: $rouse-red; // Custom color for links
+  color: $rouse-red;
   text-decoration: none;
   transition: color 0.3s ease;
   opacity: 100%;
 
   &:hover {
-    color: $wiley-gray-dark; // Hover color for links
+    color: $wiley-gray-dark;
   }
 }
 

@@ -1,27 +1,26 @@
 .cardContainer {
   display: flex;
-  flex-direction: column; /* Stack content vertically */
+  flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  background-color: $rouse-red-darkest; /* Use your theme color */
-  color: #ffffff; /* White text for better contrast */
-  border-radius: $standard-rounding; /* Rounded corners */
+  background-color: $rouse-red-darkest;
+  color: #ffffff;
+  border-radius: $standard-rounding;
   padding: 1rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   text-align: center;
-  box-sizing: border-box; /* Include padding and border in width calculations */
+  box-sizing: border-box;
   max-width: 300px;
 
-  /* Ensure cards are responsive and flexible */
-  width: 100%; /* Fit the grid cell */
+  width: 100%;
   height: fit-content;
 
   .directorImage {
     width: 100%;
     height: auto;
-    max-height: 500px; /* Prevent excessively tall images */
-    object-fit: contain; /* Ensures the image covers the designated area */
-    border-radius: $standard-rounding; /* Rounded corners for the image */
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: $standard-rounding;
     margin-bottom: 1rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   }
@@ -34,7 +33,7 @@
 
     h3 {
       margin: 0;
-      font-size: 1.5rem; /* Slightly smaller font for DirectorCard */
+      font-size: 1.5rem;
     }
 
     h4 {
@@ -48,8 +47,8 @@
     line-height: 1.5;
     text-align: justify;
     margin-top: 1rem;
-    color: $wiley-gray-light; /* Slightly lighter text for the bio */
-    white-space: pre-line;
+    color: $wiley-gray-light;
+    white-space: pre;
   }
 
   .readMoreButton {

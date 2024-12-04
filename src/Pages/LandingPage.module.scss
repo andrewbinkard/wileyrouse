@@ -17,19 +17,18 @@
     gap: 1rem;
   }
 
-  // Ensure padding doesn’t cause offsets
   box-sizing: border-box;
 }
 
 .cardBlock {
   display: flex;
-  flex-direction: column; // Always vertical layout
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%; // Full container width
-  max-width: 320px; // Cards will not exceed this width
-  gap: 3rem; // Consistent gap between cards
-  margin: 0 auto; // Centers the block within the parent
+  width: 100%;
+  max-width: 320px;
+  gap: 3rem;
+  margin: 0 auto;
 
   @media (max-width: $breakpoint-small) {
     gap: 2rem;
@@ -39,6 +38,5 @@
     gap: 1rem;
   }
 
-  // Ensure padding doesn’t cause offsets
   box-sizing: border-box;
 }
