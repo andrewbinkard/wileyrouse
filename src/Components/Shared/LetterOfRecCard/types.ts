@@ -3,4 +3,6 @@ export interface LetterOfRecCardProps {
   title: string;
   headshotSrc: string;
   letterSrc: string;
+  wiley?: boolean;
+  rouse?: boolean;
 }
