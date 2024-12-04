@@ -7,13 +7,13 @@ const SchoolCard: FC<SchoolCardProps> = ({
   imgSrc,
   performanceDetails,
 }) => {
-  const textColor = schoolName === "Rouse High School" ? "#ac894e" : "#b8b8b8";
+  const color = schoolName === "Rouse High School" ? "#cdb894" : "#b8b8b8";
 
   return (
     <div
       className={styles.cardContainer}
       style={{
-        borderColor: schoolName === "Rouse High School" ? "#ac894e" : "#b8b8b8",
+        borderColor: color,
       }}
     >
       <img
@@ -24,14 +24,14 @@ const SchoolCard: FC<SchoolCardProps> = ({
       <div>
         <h2
           style={{
-            color: textColor,
+            color: color,
           }}
         >
           {schoolName}
         </h2>
         <p
           style={{
-            color: textColor,
+            color: color,
           }}
         >
           {performanceDetails}
@@ -40,7 +40,7 @@ const SchoolCard: FC<SchoolCardProps> = ({
         <p
           className={styles.clickMessage}
           style={{
-            color: textColor,
+            color: color,
           }}
         >
           Click to see program
