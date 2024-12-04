@@ -79,8 +79,10 @@
     }
 
     a {
-      color: $wiley-gray-light;
-      text-decoration: none;
+      color: $rouse-gold-light;
+      text-decoration: underline;
+      text-decoration-color: $rouse-gold-light;
+      text-underline-offset: 4px;
       margin-bottom: 0.5rem;
       word-break: break-word;
       overflow-wrap: break-word;

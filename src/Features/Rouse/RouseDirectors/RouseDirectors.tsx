@@ -6,7 +6,7 @@ import styles from "./RouseDirectors.module.scss";
 const RouseDirectors: FC = () => {
   return (
     <div>
-      <h2>DIRECTORS & SOLOIST</h2>
+      <h2>CONDUCTORS & SOLOIST</h2>
       <div className={styles.directorGrid}>
         {directorData
           .filter(({ rouse }) => {

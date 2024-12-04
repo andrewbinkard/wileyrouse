@@ -7,7 +7,7 @@ import Footer from "../../../Components/Shared/Footer";
 const RouseComposers: FC = () => {
   return (
     <div className={styles.composersContainer}>
-      <h1>COMPOSERS</h1>
+      <h1>COMPOSERS & ARRANGERS</h1>
       {composerData
         .filter(({ rouse }) => {
           return rouse;

@@ -18,7 +18,7 @@ const RouseBios: FC = () => {
 
   return (
     <div className={styles.biosContainer}>
-      <h1>Directors and Conductors</h1>
+      <h1>Conductors & Soloist</h1>
       {directorData
         .filter(({ rouse }) => {
           return rouse;

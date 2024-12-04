@@ -8,6 +8,12 @@ import KevinMixon from "../../assets/images/KevinMixon.jpg";
 import YukikoNishimura from "../../assets/images/YukikoNishimura.jpg";
 import TylerSGrant from "../../assets/images/TylerSGrant.jpeg";
 import RandallStandridge from "../../assets/images/RandallStandridge.jpg";
+import AndersonCollinsworth from "../../assets/images/RouseComposers/AndersonCollinsworth.jpg";
+import JohnMackey from "../../assets/images/RouseComposers/JohnMackey.jpg";
+import CarolBrittinChambers from "../../assets/images/RouseComposers/CarolBrittinChambers.jpeg";
+import CheldonWilliams from "../../assets/images/RouseComposers/CheldonWilliams.jpeg";
+import VietCuong from "../../assets/images/RouseComposers/VietCuong.jpg";
+import ChrisColetti from "../../assets/images/RouseComposers/ChrisColetti.jpg";
 
 export const composerData: ComposerCardProps[] = [
   {
@@ -18,11 +24,55 @@ export const composerData: ComposerCardProps[] = [
     rouse: false,
     details: `Shuhei Tamura (b. 1986, Okayama City, Japan) is a Japanese composer. Mr. Tamura graduated from Tokyo University of the Arts, Department of Music, School of Music, and completed a master’s degree in pedagogy from Tokyo Gakugei University with an emphasis in music education.
 
-Tamura is an arranger as well as a composer who has written for orchestras, choruses, and brass bands. He is most prolific in the latter category, with a large number of published scores in this area. Tamura’s music is heavily influenced by Western music forms that have become the foundation of Japanese instrumental music traditions. These hybrid musical aesthetics, with the replication of Western forms, emerged through intercultural transmission (teaching and learning of a foreign tradition) and music acculturation (mastery of a foreign genre and embracing it as part of one’s own culture).
+    Tamura is an arranger as well as a composer who has written for orchestras, choruses, and brass bands. He is most prolific in the latter category, with a large number of published scores in this area. Tamura’s music is heavily influenced by Western music forms that have become the foundation of Japanese instrumental music traditions. These hybrid musical aesthetics, with the replication of Western forms, emerged through intercultural transmission (teaching and learning of a foreign tradition) and music acculturation (mastery of a foreign genre and embracing it as part of one’s own culture).
 
-He took third place in the 17th Music Collection Nippon Kyokyou Competition Composition Division (General Section), and was first in the Osamu Composition Competition (cum audience prize).`,
+    He took third place in the 17th Music Collection Nippon Kyokyou Competition Composition Division (General Section), and was first in the Osamu Composition Competition (cum audience prize).`,
   },
+  {
+    name: "R. Anderson Collinsworth",
+    imgSrc: AndersonCollinsworth,
+    website: "https://music.sonoma.edu/faculty-staff/andy-collinsworth",
+    wiley: false,
+    rouse: true,
+    details: `R. Anderson “Andy” Collinsworth is the Director of Bands at Sonoma State University, where he leads the university Symphonic Wind Ensemble and Concert Band. Professor Collinsworth earned his Doctor of Musical Arts degree in Conducting at Arizona State University, where he studied with Gary W. Hill. He holds a Master of Music in Saxophone Performance and Bachelor of Music Education degree from the University of Nevada at Reno.
 
+    Now in his 33rd year of teaching, Professor Collinsworth brings a wealth of knowledge and experience to the ensembles he leads and the courses he teaches in conducting pedagogy and music education. In addition to teaching duties, he serves as Chair of the Department of Music at SSU.
+
+    Professor Collinsworth maintains an active schedule as a guest conductor, adjudicator and rehearsal clinician throughout the western states. He is conductor and artistic director for the Saint Helena Community Band, an ensemble established and sponsored by director Francis Ford Coppola. He is the founder and director of the Sonoma Summer Wind Band Conducting Symposium, an annual weeklong conducting seminar for music educators. He is the artistic director and coordinator of the Sonoma Invitational Wind Band and Orchestra Festival—a signature three-day event that brings over 2,500 high school and community college students to campus each year. He received the Outstanding Music Educator from CMEA Bay Section in 2022 and was previously recognized as the John Swain Outstanding University Music Educator Award for outstanding contributions to music education at the collegiate level by the California Music Educators Association in 2014. He is a nominee for membership in the American Bandmasters Association.`,
+  },
+  {
+    name: "John Mackey",
+    imgSrc: JohnMackey,
+    website: "https://www.johnmackey.com/",
+    wiley: false,
+    rouse: true,
+    details: `John Mackey (he/him) has written for orchestras (Brooklyn Philharmonic, New York Youth Symphony), theater (Dallas Theater Center), and extensively for dance (Alvin Ailey American Dance Theater, Parsons Dance Company, New York City Ballet), but the majority of his work for the past decade has been for wind ensembles (the fancy name for concert bands), and his band catalog now receives annual performances numbering in the thousands.
+
+    Recent commissions include works for the BBC Singers, the Dallas Wind Symphony, military, high school, middle school, and university bands across America and Japan, and concertos for Joseph Alessi (principal trombone, New York Philharmonic), Christopher Martin (principal trumpet, New York Philharmonic), and Julian Bliss (international clarinet soloist). In 2014, he became the youngest composer ever inducted into the American Bandmasters Association. In 2018, he received the Wladimir & Rhoda Lakond Award from the American Academy of Arts and Letters. He resides in San Francisco, California, with his spouse, A. E. Jaques, a philosopher who works on the ethics of artificial intelligence for MIT, and also titles all of his pieces; and their cats, Noodle and Bloop.`,
+  },
+  {
+    name: "Carol Brittin Chambers",
+    imgSrc: CarolBrittinChambers,
+    website:
+      "https://www.tlu.edu/directory/chambers-carol#:~:text=Carol%20Brittin%20Chambers%20is%20currently,faculty%20at%20Texas%20Lutheran%20University.",
+    wiley: false,
+    rouse: true,
+    details: `Carol Brittin Chambers is currently the composer and owner of Aspenwood Music, LLC. She lives in San Antonio, Texas, where she is also on the music faculty at Texas Lutheran University. Chambers is commissioned each year to compose and arrange works for concert band, marching band, orchestra, and various other ensembles. Her concert works have been selected to the J.W. Pepper Editor’s Choice List and the Bandworld Top 100 and have been performed at state educator conferences across the country, including the Midwest Clinic in Chicago. She was most recently named the winner of the 2019 WBDI (Women Band Directors International) Composition Competition.
+
+    She has arranged and orchestrated marching shows for numerous high school and college bands across the country, as well as The Crossmen Drum Corps. Before coming to TLU, Chambers taught middle school and high school band and private lessons for many years in the North East Independent School District, San Antonio, TX. She has also consistently performed with groups such as the Mid-Texas and San Antonio Symphonies. Chambers received a Master of Music in Trumpet Performance from Northwestern University and a Bachelor of Music EducaQon from Texas Tech University. She studied under Vincent Cichowicz, John Paynter, Arnold Jacobs, James Sudduth, and Will Strieder.`,
+  },
+  {
+    name: "Dr. Cheldon Williams",
+    imgSrc: CheldonWilliams,
+    website: "https://creativeartsandmedia.wvu.edu/people/cheldon-williams",
+    wiley: false,
+    rouse: true,
+    details: `Dr. Cheldon Williams holds the positions of Associate Director of Bands and the Director of Athletic Bands at West Virginia University. Additionally, Williams teaches Music Arranging for Public School Groups as part of the undergraduate music education curriculum. Prior to his appointment at W.V.U., Williams earned his Bachelor of Music Education and Master of Music Education degrees from Florida State University in 2004 and 2014, served as Associate Director of Bands at New Mexico State University in 2016, and earned his Doctor of Musical Arts degree at The University of Texas at Austin in 2020. 
+
+    Dr. Williams works as a guest clinician and adjudicator for middle and high school bands, orchestras, and color guards across the United States. His research involves providing developing teachers and directors with the tools to assess the quality of ensemble music performance. The research findings were presented at the Midwest Band and Orchestra Clinic and at other national and international music educators’ conferences. Williams was also a recent contributor to the Vol. 12 edition of Teaching Music Through Performance in Band. Moreover, Williams is currently arranging and transcribing music for the wind band medium with the goal of introducing musicians to composers who have been historically underrepresented due to their race or gender with a project titled the Rediscovery Series. Under distribution through Murphy Music Press, his arrangements have been performed at the University of Texas at Austin and by the West Virginia University Symphonic Band. 
+
+    Dr. Williams is a former member of the Texas Music Educators Association, New Mexico Music Educators Association, Florida Bandmasters Association, Florida Music Education Association, Florida Orchestra Association, Broward Music Educators Association, and a current member of the West Virginia Music Educators Association, and the National Association for Music Education.`,
+  },
   {
     name: "Laura Estes",
     imgSrc: LauraEstes,
@@ -31,9 +81,23 @@ He took third place in the 17th Music Collection Nippon Kyokyou Competition Comp
     rouse: true,
     details: `After 36 years as a middle and high school band director, Laura Estes (b. 1959) retired in 2018 from the Cobb County School System (GA) and began composing. Her first piece, Kvetchers (Surprises in Controversial Time), was published in Excelcia Music Publishing’s 2020 catalog, and with her composition Walking on Air, Estes was named the winner of the 2021 Women Band Director’s International (WBDI) Composition Competition. Along with original music performed at The Midwest Clinic in Chicago, Estes’ concert works are frequently featured at state music conventions, All-State events, and regional honor bands throughout the United States. In addition to appearing on state festival and contest lists, several of Estes’ band and orchestra compositions have also been designated as J.W. Pepper Editor’s Choice.
 
-A recipient of the National Band Association’s Citation of Excellence, Estes’ bands consistently earned Superior ratings at performance evaluations throughout her career, and middle and high school bands under her direction were selected as guest performers at clinics and conventions in the Southeast. Estes has also presented at state conventions, on college campuses, and at the Midwest Clinic.
+    A recipient of the National Band Association’s Citation of Excellence, Estes’ bands consistently earned Superior ratings at performance evaluations throughout her career, and middle and high school bands under her direction were selected as guest performers at clinics and conventions in the Southeast. Estes has also presented at state conventions, on college campuses, and at the Midwest Clinic.
 
-A South Florida native, Estes earned her bachelor’s degree in music education from The Florida State University, and her master’s degree in music education from Georgia State University. In addition to composing, she continues to serve as an adjudicator, guest conductor, clinician, and mentor. Estes and her husband Gil reside in Marietta, GA, and have 5 amazing children, along with a host of equally amazing grandchildren.`,
+    A South Florida native, Estes earned her bachelor’s degree in music education from The Florida State University, and her master’s degree in music education from Georgia State University. In addition to composing, she continues to serve as an adjudicator, guest conductor, clinician, and mentor. Estes and her husband Gil reside in Marietta, GA, and have 5 amazing children, along with a host of equally amazing grandchildren.`,
+  },
+  {
+    name: "Viet Cuong",
+    imgSrc: VietCuong,
+    website: "https://vietcuongmusic.com/",
+    wiley: false,
+    rouse: true,
+    details: `The “alluring” (The New York Times), “arresting” (Gramophone), “irresistible” (San Francisco Chronicle), and “exhilarating” (Chicago Tribune) music of Vietnamese-American composer Viet Cuong (b. 1990) has been commissioned and performed on six continents by musicians and ensembles such as the New York Philharmonic, Eighth Blackbird, Saint Paul Chamber Orchestra, Sō Percussion, Alarm Will Sound, Atlanta Symphony, Sandbox Percussion, Albany Symphony, PRISM Quartet, and Dallas Winds, among many others. Cuong’s music has been featured in venues such as Carnegie Hall, Lincoln Center, the Kennedy Center, National Gallery of Art, and Library of Congress, and his works for wind ensemble have amassed several hundreds of performances worldwide, including at Midwest, WASBE, and CBDNA conferences.
+
+    In his music Cuong enjoys exploring the unexpected and whimsical, and he is often drawn to projects where he can make peculiar combinations and sounds feel enchanting or oddly satisfying. His notable works thus include concerti for tuba and dueling oboes, percussion quartets utilizing wine glasses and sandpaper, and pieces for double reed sextet, cello octet, and solo snare drum. This eclecticism extends to the variety of musical groups he writes for, and he has worked closely with ensembles ranging from middle school bands to Grammy-winning orchestras and chamber ensembles. His wind ensemble works are widely performed, having been programmed by the world’s preeminent wind bands such as the Dallas Winds and military bands including the United States Navy Band, “President’s Own” Marine Band, “Pershing’s Own” Army Band, Army Field Band, Coast Guard Band, and Air Force Band. These works have also been performed by the top wind ensembles at academic institutions such as the University of Texas at Austin, University of Michigan, University of North Texas, Louisiana State University, University of Miami, and Michigan State University. Passionate about bringing all these different facets of the contemporary music community together, his recent works include Vital Sines, a concerto for Eighth Blackbird and the United States Navy Band, and Re(new)al, a concerto for percussion quartet with a variety of ensemble accompaniments.
+
+    Cuong is the Pacific Symphony’s current Composer-in-Residence, and from 2020-23 was the California Symphony’s Young American Composer-in-Residence. He has held artist residencies at Copland House, Yaddo, Ucross, the Atlantic Center for the Arts, and at Dumbarton Oaks, where he served as the 2020 Early-Career Musician-in-Residence. His music has been awarded the Barlow Prize, William D. Revelli Prize, Frederick Fennell Prize, Walter Beeler Memorial Prize, Barlow Endowment Commission, ASCAP Morton Gould Composers Award, Theodore Presser Foundation Award, Suzanne and Lee Ettelson Composers Award, Cortona Prize, New York Youth Symphony First Music Commission, and Boston GuitarFest Composition Prize.
+
+    Cuong serves as Assistant Professor of Music Composition and Theory the University of Nevada, Las Vegas, where he teaches composition, orchestration, and music theory. He holds degrees in music composition from Princeton University (MFA/PhD), the Curtis Institute of Music (Artist Diploma), and the Peabody Conservatory (BM/MM). His mentors include Jennifer Higdon, David Serkin Ludwig, Donnacha Dennehy, Steve Mackey, Dan Trueman, Dmitri Tymoczko, Kevin Puts, and Oscar Bettison. During his studies, he held the Daniel W. Dietrich II Composition Fellowship at Curtis, Naumburg and Roger Sessions Fellowships at Princeton, and Evergreen House Foundation scholarship at Peabody, where he was also awarded the Peabody Alumni Award (the Valedictorian honor) and Gustav Klemm Award. A scholarship student at the Aspen, Bowdoin, and Lake Champlain music festivals, Cuong has been a fellow at the Orchestra of St. Luke’s DeGaetano Institute, Minnesota Orchestra Composers Institute, Mizzou International Composers Festival, Eighth Blackbird Creative Lab, Cabrillo Festival’s Young Composer Workshop, Cortona Sessions, and Copland House’s CULTIVATE workshop.`,
   },
   {
     name: "Robert W. Smith",
@@ -49,6 +113,18 @@ Mr. Smith’s music has received extensive airplay on major network television a
 
 Mr. Smith was the President/CEO of RWS Music Company, exclusively distributed through Alfred Music. In addition, he taught in the Music Industry program at Troy University in Troy, Alabama. His teaching responsibilities were focused in music composition, production, publishing and business.`,
   },
+  {
+    name: "Christopher Coletti",
+    imgSrc: ChrisColetti,
+    wiley: false,
+    rouse: true,
+    details: `Hailed as “… a technical superstar and household name…” by Maestro Paul Haas, and “One of the most remarkable double (music) threats… a brilliant trumpeter and imaginative arranger” by David Srebnik of Sirius XM, internationally acclaimed trumpeter, Chris Coletti, is equally renowned as a trumpet soloist, for his work as principal trumpet of numerous top orchestras, as a top call chamber musician, arranger and conductor. Coletti has performed and/or recorded with top orchestras and conductors, from the Metropolitan Opera Brass, the New York Philharmonic Brass, and St. Louis Symphony, Pierre Boulez, to popular artist such as Chris Thile, Jon Batiste, Kanye West, Gloria Estefan and Miami Sound, and Quincy Jones.
+
+    Coletti was thrust onto the world stage when joined Canadian Brass at age 22, and toured the world for ten years with the group from 2009-2019; having performed over a thousand concerts in the finest concert halls in the world, his trumpet playing, singing and arrangements have been enjoyed by more than half a billion people across countless live TV programs and radio broadcasts. He regularly performs with and in front of major symphony orchestras, and has thousands of monthly visitors to his online videos, blog, social media accounts and newsletter. Coletti’s discography includes 10 full length Canadian Brass recordings and dozens of additional singles and music videos—many of which feature his original arrangements, plus countless of recordings and music videos with other world-class artists and ensembles.
+
+    As a conductor, Coletti directs the Contemporary Ensemble at Ithaca College in NY where he is Assistant Professor of Trumpet. Coletti is also newly appointed principal trumpet of the groundbreaking ROCO (River Oakes Chamber Orchestra) based in Houston, TX, as well as Principal trumpet of Huntsville Symphony Orchestra in beautiful Huntsville, Alabama. Coletti regularly performs and records with The Knights NYC, as well as NOVUS NY. Coletti also plays baroque and natural trumpet, has a plethora of published arrangements for orchestra as well as brass, and has produced, co-produced and/or directed a myriad of recordings and video projects in various musical styles, from classical and baroque to indie-rock, salsa and jazz. Coletti is also a professional whistler, has recorded and performed on theremin, and lives with his wife and 2 children in Ithaca, NY.`,
+  },
+
   {
     name: "Brian Balmages",
     imgSrc: BrianBalmages,
