@@ -17,7 +17,7 @@ const MusiciansCard: FC<MusiciansCardProps> = ({
         />
       </div>
       <div className={styles.textContainer}>
-        <h3 className={styles.sectionName}>{sectionName}</h3>
+        <h2 className={styles.sectionName}>{sectionName}</h2>
         <div className={styles.membersContainer}>
           {sectionMembers?.map((member, index) => (
             <span key={index} className={styles.member}>

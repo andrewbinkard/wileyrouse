@@ -1,0 +1,19 @@
+.directorGrid {
+  display: grid;
+  gap: 1.5rem; /* Spacing between cards */
+  margin: 0 auto;
+  padding: 1rem;
+
+  /* Default layout: 3 columns */
+  grid-template-columns: repeat(3, 1fr);
+
+  @media (max-width: 768px) {
+    /* 2 columns for screens below 768px */
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 575px) {
+    /* Single column for screens below 575px */
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,1 +1,19 @@
+.container {
+  .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); // Two columns
+    gap: 2rem; // Equal spacing between rows and columns
+    padding: 1rem; // Padding around the container
+    margin: 0 auto; // Center the container
+    max-width: 1200px; // Limit the container width
 
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr; // Single column for mobile
+    }
+  }
+  h1 {
+    @media (max-width: 424px) {
+      font-size: 1.5em;
+    }
+  }
+}

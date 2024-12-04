@@ -1,9 +1,10 @@
+import { FC } from "react";
 import DirectorCard from "../../../Components/Shared/DirectorCard";
 import Footer from "../../../Components/Shared/Footer";
-import { privateLessonTeacherData } from "../../SharedData/privateLessonFaculty";
+import { privateLessonTeacherData } from "../../SharedData/privateLessonFacultyData";
 import styles from "./WileyPrivateLessonFaculty.module.scss";
 
-const WileyPrivateLessonFaculty = () => {
+const WileyPrivateLessonFaculty: FC = () => {
   return (
     <div className={styles.container}>
       <h1>Private Lesson Faculty</h1>

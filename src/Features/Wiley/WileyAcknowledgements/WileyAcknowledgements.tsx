@@ -5,8 +5,8 @@ import AcknowledgementsCard from "../../../Components/Shared/AcknowledgementsCar
 
 const WileyAcknowledgements: FC = () => {
   return (
-    <div>
-      <h2>Acknowledgements</h2>
+    <div className={styles.container}>
+      <h1>ACKNOWLEDGEMENTS</h1>
       <div className={styles.cardContainer}>
         {wileyAcknowledgementsData.map(({ toWhom, content }, idx) => {
           return (

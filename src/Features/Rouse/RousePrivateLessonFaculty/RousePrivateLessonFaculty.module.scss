@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .facultyContainer {
+    display: grid;
+    max-width: 80vw;
+    grid-template-columns: repeat(3, 1fr); // 3 cards per row on desktop
+    gap: 2rem; // Even spacing between cards
+    padding: 2rem; // Add padding around the grid
+
+    @media (max-width: 1024px) {
+      // Tablet
+      grid-template-columns: repeat(2, 1fr); // 2 cards per row
+    }
+
+    @media (max-width: 768px) {
+      // Phone
+      grid-template-columns: 1fr; // 1 card per row
+    }
+  }
+
+  .cardContainer {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+  }
+}

@@ -43,16 +43,15 @@ const ComposerCard: FC<ComposerCardProps> = ({
             {website}
           </a>
         )}
-        <p>
-          {paragraphs?.[0]}
-          {expanded &&
-            paragraphs?.slice(1).map((para, index) => (
-              <p key={index}>
-                <br />
-                {para}
-              </p>
-            ))}
-        </p>
+        <p>{paragraphs?.[0]}</p>
+        {expanded &&
+          paragraphs?.slice(1).map((para, index) => (
+            <p key={index}>
+              <br />
+              {para}
+            </p>
+          ))}
+
         <Button className={styles.readMoreButton} onClick={toggleExpanded}>
           {expanded ? "Show Less ▲" : "Read More ▼"}
         </Button>

@@ -1,12 +1,21 @@
 import { FC } from "react";
-// import styles from "./RouseAcknowledgements.module.scss";
+import styles from "./RouseAcknowledgements.module.scss";
+import { rouseAcknowledgementsData } from "./const";
+import AcknowledgementsCard from "../../../Components/Shared/AcknowledgementsCard";
 
-interface AcknowledgementsProps {
-  // school: string;
-}
-
-const RouseAcknowledgements: FC<AcknowledgementsProps> = () => {
-  return <div>Acknowledgements</div>;
+const RouseAcknowledgements: FC = () => {
+  return (
+    <div className={styles.container}>
+      <h1>ACKNOWLEDGEMENTS</h1>
+      <div className={styles.cardContainer}>
+        {rouseAcknowledgementsData.map(({ toWhom, content }, idx) => {
+          return (
+            <AcknowledgementsCard key={idx} toWhom={toWhom} content={content} />
+          );
+        })}
+      </div>
+    </div>
+  );
 };
 
 export default RouseAcknowledgements;

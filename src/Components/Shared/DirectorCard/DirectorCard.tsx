@@ -10,6 +10,7 @@ const DirectorCard: FC<DirectorCardProps> = ({
   title,
   instrument,
   bio,
+  wiley,
 }) => {
   const [expanded, setExpanded] = useState(false); // To toggle bio visibility
   const navigate = useNavigate();
@@ -18,7 +19,12 @@ const DirectorCard: FC<DirectorCardProps> = ({
   const handleClick = () => {
     // Using this component for PL faculty as well, who will not have a title passed in
     const isDirector = !!title;
-    if (isDirector) navigate(`/wiley/wiley-bios/${name}`);
+
+    const navString = wiley
+      ? `/wiley/wiley-bios/${name}`
+      : `/rouse/rouse-bios/${name}`;
+
+    if (isDirector) navigate(navString);
   };
 
   const toggleExpanded = () => {
