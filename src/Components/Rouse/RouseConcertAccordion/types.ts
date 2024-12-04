@@ -9,4 +9,5 @@ export interface AccordionItemProps {
   time: string;
   year?: string;
   conductor?: string;
+  soloist?: string;
 }

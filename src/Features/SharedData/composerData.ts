@@ -28,7 +28,7 @@ He took third place in the 17th Music Collection Nippon Kyokyou Competition Comp
     imgSrc: LauraEstes,
     website: "https://www.lauraestesmusic.com/",
     wiley: true,
-    rouse: false,
+    rouse: true,
     details: `After 36 years as a middle and high school band director, Laura Estes (b. 1959) retired in 2018 from the Cobb County School System (GA) and began composing. Her first piece, Kvetchers (Surprises in Controversial Time), was published in Excelcia Music Publishing’s 2020 catalog, and with her composition Walking on Air, Estes was named the winner of the 2021 Women Band Director’s International (WBDI) Composition Competition. Along with original music performed at The Midwest Clinic in Chicago, Estes’ concert works are frequently featured at state music conventions, All-State events, and regional honor bands throughout the United States. In addition to appearing on state festival and contest lists, several of Estes’ band and orchestra compositions have also been designated as J.W. Pepper Editor’s Choice.
 
 A recipient of the National Band Association’s Citation of Excellence, Estes’ bands consistently earned Superior ratings at performance evaluations throughout her career, and middle and high school bands under her direction were selected as guest performers at clinics and conventions in the Southeast. Estes has also presented at state conventions, on college campuses, and at the Midwest Clinic.
@@ -40,7 +40,7 @@ A South Florida native, Estes earned her bachelor’s degree in music education 
     imgSrc: RobertWSmith,
     website: "https://rwsmusic.com/composers/robert-w-smith/",
     wiley: true,
-    rouse: false,
+    rouse: true,
     details: `Robert W. Smith (1958-2023) was one of the most popular and prolific composers in America today. He has over 600 publications in print with the majority composed and arranged through his long association with Warner Bros. Publications and the Belwin catalog.
 
 Mr. Smith’s credits include many compositions and productions in all areas of the music field. His original works for winds and percussion have been programmed by countless military, university, high school, and middle school bands throughout the United States, Canada, Europe, Australia, South America and Asia. His Symphony #1 (The Divine Comedy), Symphony #2 (The Odyssey), Symphony #3 (Don Quixote), Inchon and Africa: Ceremony, Song and Ritual have received worldwide critical acclaim. His educational compositions such as The Tempest, Encanto, and The Great Locomotive Chase have become standards for developing bands throughout the world.
