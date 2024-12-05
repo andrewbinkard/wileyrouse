@@ -192,11 +192,11 @@ As a huge advocate for chamber music, Ms. Kane has directed numerous horn choir 
     wiley: true,
     rouse: true,
     imgSrc: MikeDorato,
-    bio: `Michael Dorato holds a Bachelor of Music in Music Performance from the State University of New York at Fredonia, where he studied with Carl Mazzio. After receiving his undergraduate degree, Michael moved to Pittsburgh, where he earned a Master of Music degree in Trombone Performance from Duquesne University, where he studied with James Nova, second trombonist of the GRAMMY Award-winning Pittsburgh Symphony Orchestra.
-
-Michael has performed with such groups as the Pittsburgh Symphony Orchestra, the Buffalo Philharmonic, Pittsburgh Opera, Canton Symphony, River City Brass Band, Westmoreland Symphony, Johnstown Symphony, and many more. He has played with musicians such as Michael Davis, Yo-Yo Ma, Weird Al Yankovic, and The Who.
-
-On top of having an active performing career, Michael has worked as the staff arranger for multiple Brass organizations including the Brass Roots in Pittsburgh Pennsylvania, and the Backyard Bones Quartet in Austin Texas. Michael also holds a substantial private teaching studio in the Greater Austin area including schools in the Georgetown, Round Rock, and Leander Independent School Districts. Michael Currently resides in Austin Texas.`,
+    bio: `Michael Dorato holds a Bachelor of Music in Music Performance from the State University of New York at Fredonia, where he studied with Carl Mazzio. After receiving his undergraduate degree, Michael moved to Pittsburgh, where he earned a Master of Music degree in Trombone Performance from Duquesne University, where he studied with James Nova, second trombonist of the GRAMMY Award-winning Pittsburgh Symphony Orchestra. 
+    
+    Michael has performed with such groups as the Pittsburgh Symphony Orchestra, the Buffalo Philharmonic, Pittsburgh Opera, Canton Symphony, River City Brass Band, Austin Symphony, San Antonio Philharmonic and many more. He has played with musicians such as Yo-Yo Ma, Weird Al Yankovic, and The Who.
+    
+    Michael holds a sizeable studio of trombone students across Leander ISD in Leander, TX. On top of performing and teaching Michael is an active arranger for many organizations in central Texas.`,
   },
   {
     name: "Amelia Rosenberger",
