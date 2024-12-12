@@ -21,16 +21,15 @@ export const directorData: DirectorCardProps[] = [
 
     The Rouse Marching Band has been a BOA Austin Champion and was a finalist at the 2023 BOA San Antonio Super Regional, placing 6th overall, and winning the 3A Championship. Additionally, the Rouse Marching Band was awarded the silver medal in the Class 5A UIL State Marching Band Championships in 2021, 2023 and 2024.
 
-    Prior to his positions at Rouse, Mr. Johnstone served as head band director at Canyon Vista and Aledo Middle Schools. Prior to his time as a middle school head director, he was an assistant director at Aledo High School and Eustace High School and Middle School for the first four years of his career.
+    Prior to his positions at Rouse, Mr. Johnstone served as head band director at Canyon Vista and Aledo Middle Schools. Prior to his time as a middle school head director, he was an assistant director at Aledo High School and Eustace High School and Middle School.
 
     His bands at Canyon Vista and Aledo Middle were consistent superior award winners at UIL and invitational festivals.  Top groups at each school also advanced to the Texas Music Educator Association’s State Honor Band Competition three times under his direction. Additionally, the Aledo Middle School Honor Winds were invited performers at the Midwest International Band and Orchestra Clinic in December 2013.  Mr. Johnstone was recipient of the “Texas Young Bandmaster of the Year” which he was awarded in 2012.
 
-    In addition to his teaching at Rouse High School, Mr. Johnstone is active as a guest clinician and music education consultant for other public school music programs.  He has also been a guest conductor/teacher for the Baylor University and TCU Summer Music Camps and has served on the brass staff for the Crossmen Drum Corps based in San Antonio, Texas. As an adjudicator, he’s served at events throughout Texas (UIL/TMEA) as well as Utah and Canada in both the marching and concert realms.  
+    In addition to his teaching at Rouse High School, Mr. Johnstone is active as a guest clinician and music education consultant for other public school music programs.  He has also been a guest conductor/teacher for the Baylor University and TCU Summer Music Camps and has served on the brass staff for the Crossmen Drum Corps based in San Antonio, Texas. As an adjudicator, he’s served at events throughout Texas (UIL/TMEA/BOA) as well as Utah and Canada in both the marching and concert realms. Mr. Johnstone was also a featured contributor to “Rehearsing the High School Band” volume 2 by Stephen Meyer and published by GIA Publications.
 
     His professional affiliations include membership in the Texas Music Educators' Association, Texas Bandmasters' Association, Texas Music Adjudicators’ Association, and Phi Beta Mu.  Mr. Johnstone has previously served as a member of numerous UIL and TMAA committees in service to the profession. He has presented clinics and served on panel discussions at the Midwest Clinic, Texas Music Educators Association Convention, and the Texas Bandmasters Convention. Mr. Johnstone is a graduate of the Curtis Institute and Yale University.
 
-    Mr. Johnstone is a resident of Liberty Hill, Texas where he lives with his wife Rachel and their two dogs, Rosie and Sophie. Rachel is also a music educator and is part of the Rouse cluster as a director at Wiley Middle School in Leander ISD.
-`,
+    Mr. Johnstone is a resident of Liberty Hill, Texas where he lives with his wife Rachel and their two dogs, Rosie and Sophie. Rachel is also a music educator and is part of the Rouse cluster as a band director at Wiley Middle School in Leander ISD.`,
   },
   {
     name: "Taylor Williamson",

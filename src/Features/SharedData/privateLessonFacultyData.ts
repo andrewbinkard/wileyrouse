@@ -103,6 +103,14 @@ Dr. Kaplan served as President of the Austin Flute Society from 2016-2019. As Pr
     wiley: true,
     rouse: true,
     imgSrc: JoelleMorales,
+    bio: `Joelle Morales earned her Bachelor of Music degree from the New England Conservatory of Music in Boston, MA. She studied classical bassoon performance under prestigious instructors Lori Tiberio, Marc Goldberg, and Richard Svoboda. While at NEC, Joelle successfully auditioned for and joined the Contemporary Improvisation Department at the start of her sophomore year. There, she studied under renowned improvisers such as Anthony Coleman, Tanya Kalmanovitch, and Joe Morris. Although Joelle’s true passion lies in experimental music, she strongly believes that a solid foundation in basic playing techniques is essential for any musical style.
+
+Through amplification of her bassoon, Joelle has performed and recorded with musicians across various genres, ranging from progressive rock to experimental death metal. When not using amplification, she enjoys engaging in free improvisation inspired by artists like Anthony Braxton and Albert Ayler.
+
+In addition to teaching, Joelle currently performs with Austin-based ensembles such as Stop Motion Orchestra and Wet Bulb. She also appears as a solo artist under the pseudonym Cenotes, exploring the sonic landscapes of drone and funeral doom metal. Her work as Cenotes draws deep inspiration from bands like Sunn O))) and Bell Witch, as well as film composer Jóhann Jóhannsson.
+
+With her background in experimental music and free improvisation, students can expect Joelle to approach classical bassoon repertoire through a diverse range of techniques and methods. She often emphasizes ear training and singing as essential tools to help students develop their embouchure and overall proficiency on the bassoon.
+`,
   },
   {
     name: "Kevin Vorabout",
@@ -123,6 +131,9 @@ Vorabout began his studies at the University of Central Arkansas, where he recei
     wiley: true,
     rouse: true,
     imgSrc: KelseyBehnfeldt,
+    bio: `Kelsey Behnfeldt has been performing and teaching clarinet for twelve years throughout Texas and parts of Northern California. After receiving her Bachelor’s degree in music performance from the University of North Texas, she taught privately throughout the Dallas-Fort Worth metroplex and performed as a freelance musician with several groups, including the Fort Worth Symphony and other pit orchestras. She and her husband spent several years in Northern California, where she taught privately at Shasta College and performed with both the Shasta Symphony of Redding and the North State Symphony of Chico. 
+
+Kelsey and her husband moved to Central Texas in 2019, when she began teaching private clarinet in Leander ISD. Today, she continues to teach in Leander while also performing as a freelance musician and regularly with the Austin Civic Orchestra. She resides in Lago Vista with her loving husband Kyle of nine years, two-year-old daughter Adelaie, 9-month-old son Leon, and their cat Stella.`,
   },
   {
     name: "Ben Kessler",
@@ -137,11 +148,16 @@ Ben is passionate about music and saxophone education. He maintains a large priv
 Ben received his Bachelors and Masters of Saxophone Performance at the University of Texas at Austin where he was also a graduate teaching assistant. His primary teachers are Harvey Pittel and Ron Jones.`,
   },
   {
-    name: "Marc Sutton",
+    name: "Dr. Marc Sutton",
     instrument: "Trumpet",
     wiley: true,
     rouse: true,
     imgSrc: MarcSutton,
+    bio: `Dr. Marc Lynn Sutton, originally from Duncan, Oklahoma, has been a teacher and performer in the Austin, Texas area since 2019 maintaining a studio of 70 trumpet students within Leander ISD. His students have competed at the National Trumpet Competition and International Trumpet Guild Conference, been selected as members of the 5A and 6A TMEA All State Bands, and have been a part of bands selected as TMEA Honor Bands and Midwest Clinic Performing Ensembles. They frequently advance in High School and Middle School district, region, area, and state auditions with some continuing music into college and have been accepted into college studios such as the UNT College of Music. 
+
+As a performer, Marc was named a finalist at the 2016 Ellsworth Smith International Trumpet Solo Competition and was invited to study and perform at The Center for Advanced Musical Studies at Chosen Vale in 2017. Starting in high school and throughout his college studies, he competed in the National Trumpet Competition solo and ensemble divisions, being named a finalist in 2011. Other highlights as a trumpet soloist include performing The Star-Spangled Banner at the opening game of the 2011 NCAA Women’s College World Series in Oklahoma City and competing in the Grand Valley State University International Trumpet Seminar Solo Competition (1st place 2010, 2nd place 2011) and Orchestral Excerpt Competition(1st place 2011). 
+
+Dr. Sutton’s education includes a DMA in Trumpet Performance from Texas Tech University, MM in Trumpet Performance from the Cleveland Institute of Music, and a BM in Trumpet Performance, with distinction, from the University of Oklahoma. Awards he received while pursuing his degrees are the TTU Horn Professors Graduate Achievement Award and Joshua D. Britt Memorial Graduate Fellowship; the Bernard Adelstein Prize in Trumpet at CIM and the Student Advisory Council Outstanding Senior Award from the Weitzenhoffer Family College of Fine Arts. His primary teachers include, Dr. Andrew Stetson, Michael Sachs, Dr. Karl Sievers, and John Moots.`,
   },
   {
     name: "Casey Martin",
