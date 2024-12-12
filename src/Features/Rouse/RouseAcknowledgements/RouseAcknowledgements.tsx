@@ -3,7 +3,7 @@ import styles from "./RouseAcknowledgements.module.scss";
 import { rouseAcknowledgementsData } from "../../SharedData/acknowledgementsData";
 import AcknowledgementsCard from "../../../Components/Shared/AcknowledgementsCard";
 import Footer from "../../../Components/Shared/Footer";
-import RouseSponsors from "../../../assets/images/RouseSponsors.png";
+import RouseSponsors from "../../../assets/images/RouseSponsors.jpeg";
 import RouseContributorsAndFAStaff from "./RouseContributorsAndFAStaff";
 
 const RouseAcknowledgements: FC = () => {

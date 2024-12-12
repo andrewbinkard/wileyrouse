@@ -6,8 +6,7 @@ const RouseContributorsAndFAStaff: FC = () => {
     <div className={styles.contributorsContainer}>
       <div className={styles.card}>
         <h2>Midwest Giving Campaign Contributors</h2>
-        <h3>…supporting scholarships for student trips</h3>
-        <br />
+        <h4>…supporting scholarships for student trips</h4>
         <h4>Patron Level: $50 - $99</h4>
         <p>Anonymous</p>
         <p>Anonymous</p>
