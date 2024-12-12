@@ -11,16 +11,17 @@ const RouseNavBar: FC = () => {
     setIsMobileMenuOpen((prev) => !prev);
   };
 
-  useEffect(() => {
-    const disableScroll = () => {
-      document.body.style.overflow = "hidden";
-      document.documentElement.style.overflow = "hidden";
-    };
+  const disableScroll = () => {
+    document.body.style.overflow = "hidden";
+    document.documentElement.style.overflow = "hidden";
+  };
 
-    const enableScroll = () => {
-      document.body.style.overflowY = "auto";
-      document.documentElement.style.overflowY = "auto";
-    };
+  const enableScroll = () => {
+    document.body.style.overflowY = "auto";
+    document.documentElement.style.overflowY = "auto";
+  };
+
+  useEffect(() => {
     if (isMobileMenuOpen) {
       disableScroll();
     } else {
@@ -33,8 +34,9 @@ const RouseNavBar: FC = () => {
   // Handle orientation changes
   useEffect(() => {
     const handleOrientationChange = () => {
-      document.body.style.overflowY = "auto";
-      document.documentElement.style.overflowY = "auto";
+      if (isMobileMenuOpen) disableScroll();
+
+      if (!isMobileMenuOpen) enableScroll();
 
       // Scroll back to the top of the viewport
       window.scrollTo(0, 0);
@@ -46,7 +48,7 @@ const RouseNavBar: FC = () => {
     return () => {
       mediaQuery.removeEventListener("change", handleOrientationChange);
     };
-  }, [isMobileMenuOpen]);
+  }, []);
 
   return (
     <>
