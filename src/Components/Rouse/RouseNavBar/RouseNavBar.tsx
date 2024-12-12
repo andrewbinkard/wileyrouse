@@ -11,17 +11,18 @@ const RouseNavBar: FC = () => {
     setIsMobileMenuOpen((prev) => !prev);
   };
 
+  const disableScroll = () => {
+    document.body.style.overflow = "hidden";
+    document.documentElement.style.overflow = "hidden";
+  };
+
+  const enableScroll = () => {
+    document.body.style.overflowY = "auto";
+    document.documentElement.style.overflowY = "auto";
+  };
+
+  // Manage scrolling when the menu state changes
   useEffect(() => {
-    const disableScroll = () => {
-      document.body.style.overflow = "hidden";
-      document.documentElement.style.overflow = "hidden";
-    };
-
-    const enableScroll = () => {
-      document.body.style.overflowY = "auto";
-      document.documentElement.style.overflowY = "auto";
-    };
-
     if (isMobileMenuOpen) {
       disableScroll();
     } else {
@@ -31,13 +32,15 @@ const RouseNavBar: FC = () => {
     return () => enableScroll();
   }, [isMobileMenuOpen]);
 
-  // Handle orientation changes
+  // Ensure the menu remains visible on orientation changes
   useEffect(() => {
     const handleOrientationChange = () => {
-      document.body.style.overflowY = "auto";
-      document.documentElement.style.overflowY = "auto";
+      // Prevent any scrolling
+      if (isMobileMenuOpen) {
+        disableScroll();
+      }
 
-      // Scroll back to the top of the viewport
+      // Ensure the menu is positioned at the top of the viewport
       window.scrollTo(0, 0);
     };
 
@@ -47,7 +50,7 @@ const RouseNavBar: FC = () => {
     return () => {
       mediaQuery.removeEventListener("change", handleOrientationChange);
     };
-  }, []);
+  }, [isMobileMenuOpen]);
 
   return (
     <>
