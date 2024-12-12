@@ -21,7 +21,6 @@ const RouseNavBar: FC = () => {
       document.body.style.overflowY = "auto";
       document.documentElement.style.overflowY = "auto";
     };
-
     if (isMobileMenuOpen) {
       disableScroll();
     } else {
@@ -47,7 +46,7 @@ const RouseNavBar: FC = () => {
     return () => {
       mediaQuery.removeEventListener("change", handleOrientationChange);
     };
-  }, []);
+  }, [isMobileMenuOpen]);
 
   return (
     <>
