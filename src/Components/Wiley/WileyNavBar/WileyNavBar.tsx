@@ -30,6 +30,24 @@ const WileyNavBar: FC = () => {
     };
   }, [isMobileMenuOpen]);
 
+  // Handle orientation changes
+  useEffect(() => {
+    const handleOrientationChange = () => {
+      document.body.style.overflowY = "auto";
+      document.documentElement.style.overflowY = "auto";
+
+      // Scroll back to the top of the viewport
+      window.scrollTo(0, 0);
+    };
+
+    const mediaQuery = window.matchMedia("(orientation: portrait)");
+    mediaQuery.addEventListener("change", handleOrientationChange);
+
+    return () => {
+      mediaQuery.removeEventListener("change", handleOrientationChange);
+    };
+  }, []);
+
   return (
     <>
       <div className={styles.navBarContainer}>

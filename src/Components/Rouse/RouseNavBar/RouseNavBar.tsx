@@ -34,8 +34,6 @@ const RouseNavBar: FC = () => {
   // Handle orientation changes
   useEffect(() => {
     const handleOrientationChange = () => {
-      // Close the menu and re-enable scrolling on orientation change
-      // setIsMobileMenuOpen(false);
       document.body.style.overflowY = "auto";
       document.documentElement.style.overflowY = "auto";
 
