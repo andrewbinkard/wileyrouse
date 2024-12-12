@@ -1,6 +1,6 @@
 import { DirectorCardProps } from "../../Components/Shared/DirectorCard/types";
 import TaylorWilliamsonHeadshot from "../../assets/images/Headshot_TaylorWilliamson.jpg";
-import CristinaBarreraHeadshot from "../../assets/images/Headshot_CristinaBarrera.jpg";
+import CristinaDavidsonHeadshot from "../../assets/images/Headshot_CristinaBarrera.jpg";
 import RachelJohnstoneHeadshot from "../../assets/images/Headshot_RachelJohnstone.jpg";
 import JamesSparlingHeadshot from "../../assets/images/JamesSparling_RouseHonorBand.jpg";
 import CynthiaLansfordHeadshot from "../../assets/images/Headshot_CynthiaLansford.jpg";
@@ -69,20 +69,21 @@ export const directorData: DirectorCardProps[] = [
     When Mrs. Wolf is not teaching band, she enjoys playing flute in her local community band, the Cedar Park Winds. She also enjoys spending time with her family - Craig, Harvey, and Henry.`,
   },
   {
-    name: "Cristina Barrera",
+    name: "Cristina Davidson",
     title: "Assistant Director of Bands",
     wiley: true,
     rouse: false,
-    imgSrc: CristinaBarreraHeadshot,
-    details: `Cristina Barrera is currently in her fifth year of teaching as an Assistant Band Director at Wiley Middle School. Ms. Barrera conducts the Symphonic Band, teaches the beginning clarinet, saxophone, euphonium classes, teaches the Chamber Music class, and assists with the Wind Ensemble and the Concert Band. Bands under the direction of Ms. Barrera have consistently earned Superior ratings at UIL Concert & Sight Reading Evaluations.
+    imgSrc: CristinaDavidsonHeadshot,
+    details: `Cristina Davidson is currently in her ninth year of teaching as an Assistant Band Director at Wiley Middle School.  Mrs. Davidson conducts the Symphonic Band, teaches the beginning clarinet, saxophone, euphonium, tuba classes, teaches the Chamber Music class, and assists with the Wind Ensemble and the Concert Band. Bands under the direction of Mrs. Davidson have consistently earned Superior ratings at UIL Concert & Sight Reading Evaluations.
 
-    Prior to moving to Wiley Middle School, Ms. Barrera began her teaching career in Houston, Texas. Upon graduating in the Fall of 2015, Mrs. Barrera served as an Assistant Band Director at Bammel Middle School in Spring ISD for the spring semester of 2016. She then was an Assistant Band Director at Angleton Middle School in Angleton ISD from 2016 - 2018.
+Prior to moving to Wiley Middle School, Mrs. Davidson began her teaching career in Houston, Texas. Upon graduating in the Fall of 2015, Mrs. Davidson served as an Assistant Band Director at Bammel Middle School in Spring ISD for the spring semester of 2016. She then was an Assistant Band Director at Angleton Middle School in Angleton ISD from 2016 - 2018.
 
-    In 2015, Ms. Barrera graduated Summa Cum Laude with an undergraduate degree in Music Education from Sam Houston State University. While at Sam Houston she had the opportunity to perform with the Sam Houston Wind Ensemble, Bearkat Marching Band, and various chamber ensembles. Ms. Barrera performed with the Sam Houston Wind Ensemble under the Direction of Matthew McInturf at TMEA. Ms. Barrera was a clarinet student of Dr. Patricia Card.
+In 2015, Mrs. Davidson graduated Summa Cum Laude with an undergraduate degree in Music Education from Sam Houston State University.  While at Sam Houston she had the opportunity to perform with the Sam Houston Wind Ensemble, Bearkat Marching band, and various chamber ensembles. Mrs. Davidson performed with the Sam Houston Wind Ensemble under the Direction of Matthew McInturf at TMEA. Mrs. Davidson was a clarinet student of Dr. Patricia Card. 
 
-    Ms. Barrera’s professional organizations include the Texas Music Educators Association and the Texas Bandmasters Association. She is a member of Sigma Alpha Iota, an international music fraternity of women where she has served in many local executive board positions and as a province officer.
+Mrs. Davidson’s professional organizations include the Texas Music Educators’s Association and the Texas Bandmasters Association. She is a member of Sigma Alpha lota, an international music fraternity of women where she has served in many local executive board positions and as a province officer. 
 
-    Ms. Barrera lives in Austin with her fiancé, Zac. They are looking forward to their wedding this summer!`,
+Mrs. Davidson lives in Austin with her husband Zac, and their Australian shepherd Cooper. 
+`,
   },
   {
     name: "Anna Bush",

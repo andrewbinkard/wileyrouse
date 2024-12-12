@@ -1,7 +1,7 @@
 import { FC } from "react";
 import styles from "./WileyAcknowledgements.module.scss";
-import { wileyAcknowledgementsData } from "./const";
 import AcknowledgementsCard from "../../../Components/Shared/AcknowledgementsCard";
+import { wileyAcknowledgementsData } from "../../SharedData/acknowledgementsData";
 
 const WileyAcknowledgements: FC = () => {
   return (

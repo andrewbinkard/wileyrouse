@@ -1,7 +1,10 @@
 import { FC } from "react";
 import styles from "./RouseAcknowledgements.module.scss";
-import { rouseAcknowledgementsData } from "./const";
+import { rouseAcknowledgementsData } from "../../SharedData/acknowledgementsData";
 import AcknowledgementsCard from "../../../Components/Shared/AcknowledgementsCard";
+import Footer from "../../../Components/Shared/Footer";
+import RouseSponsors from "../../../assets/images/RouseSponsors.png";
+import RouseContributorsAndFAStaff from "./RouseContributorsAndFAStaff";
 
 const RouseAcknowledgements: FC = () => {
   return (
@@ -10,10 +13,23 @@ const RouseAcknowledgements: FC = () => {
       <div className={styles.cardContainer}>
         {rouseAcknowledgementsData.map(({ toWhom, content }, idx) => {
           return (
-            <AcknowledgementsCard key={idx} toWhom={toWhom} content={content} />
+            <div>
+              <AcknowledgementsCard
+                key={idx}
+                toWhom={toWhom}
+                content={content}
+              />
+            </div>
           );
         })}
       </div>
+      <RouseContributorsAndFAStaff />
+      <img
+        src={RouseSponsors}
+        alt={"Image of Rouse Sponsors"}
+        className={styles.sponsorImage}
+      />
+      <Footer />
     </div>
   );
 };
