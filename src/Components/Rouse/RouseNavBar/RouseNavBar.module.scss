@@ -124,5 +124,17 @@
       text-decoration-thickness: 2px;
       text-underline-offset: 4px;
     }
+
+    // Landscape orientation: switch to two columns
+    @media (orientation: landscape) and (max-height: 500px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+
+      a {
+        flex: 1 1 calc(50% - 1rem); // Adjust width for two columns with spacing
+        text-align: center;
+      }
+    }
   }
 }

@@ -248,6 +248,11 @@ Mr. Blackstone currently resides in Georgetown, Texas with his wife Amanda.`,
     wiley: true,
     rouse: true,
     imgSrc: EmilyDurocher,
+    bio: `Dr. Emily Durocher, an active performer and educator, is a percussionist originally from Magnolia, TX. She is an active alumnae member of Sigma Alpha Iota and a member of the PAS Diversity Alliance. She has performed with the award winning UK Percussion Ensemble at the 2014 PAS International Convention and as a member of the Crossmen Front Ensemble from 2013-2015. As a member of Sigma Alpha Iota, she has been awarded the Sword of Honor, the Ruby Sword of Honor, and the Doctoral Performance Award. Her compositions for snare drum can be found in The Blue Book V ol. 2 and 3, published by Tapspace Publications. 
+
+Emily has maintained an active chamber and solo performance career in several states including Massachusetts, Texas, New Y ork, North Carolina, and Kentucky where she was recently an invited soloist to premier a new work for solo vibraphone and percussion quartet, Blue Ranger, by Andrea V enet. Emily has been an active educator across the states of Kentucky, Tennessee, Virginia, North Carolina, and Texas. During her time at the University of Kentucky, she held the Teaching Assistant position as the Co-Coordinator of the Drumline for the Wildcat Marching Band. 
+
+Emily is currently living in Cedar Park, Texas where she serves as the Front Ensemble Coordinator for Rouse High School and as a private lessons instructor for several schools across Leander ISD, including Stiles Middle School, Henry Middle School, Wiley Middle School, and Rouse High School. Emily has received degrees from The University of Kentucky (B.M.), Boston Conservatory (M.M.) and her Doctorate degree in the Musical Arts from the University of Kentucky (D.M.A.).`,
   },
   {
     name: "Conor Nolan",

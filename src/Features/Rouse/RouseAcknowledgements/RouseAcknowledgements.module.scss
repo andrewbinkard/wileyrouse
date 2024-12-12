@@ -16,4 +16,56 @@
       font-size: 1.5em;
     }
   }
+  .sponsorImage {
+    display: block;
+    margin: 2rem auto;
+    max-width: 90vw;
+    height: auto;
+  }
+}
+
+.contributorsContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 1200px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  background-color: $rouse-red-darkest;
+  border-radius: $standard-rounding;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5rem;
+  }
+
+  h3 {
+    font-size: 1.25em;
+    margin-bottom: 0.5rem;
+  }
+
+  h4 {
+    font-size: 1.1em;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    text-align: center;
+    font-size: 1rem;
+    margin: 0.25rem 0;
+  }
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+  }
 }
