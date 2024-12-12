@@ -255,7 +255,7 @@ export const rouseSections: SectionProps[] = [
       "Mason Azios",
       "Logan Matic",
       "Carson Frank",
-      "Micah Andersons",
+      "Micah Anderson",
     ],
   },
   {
