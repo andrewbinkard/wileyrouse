@@ -6,44 +6,41 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 const RouseNavBar: FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [orientation, setOrientation] = useState(
-    window.matchMedia("(orientation: portrait)").matches
-      ? "portrait"
-      : "landscape"
-  );
-
-  const disableScroll = () => {
-    document.body.style.overflow = "hidden";
-    document.documentElement.style.overflow = "hidden";
-  };
-
-  const enableScroll = () => {
-    document.body.style.overflowY = "auto";
-    document.documentElement.style.overflowY = "auto";
-  };
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen((prev) => !prev);
   };
 
-  // Handle scrolling state when the menu is toggled
   useEffect(() => {
-    if (isMobileMenuOpen) disableScroll();
-    else enableScroll();
+    const disableScroll = () => {
+      document.body.style.overflow = "hidden";
+      document.documentElement.style.overflow = "hidden";
+    };
+
+    const enableScroll = () => {
+      document.body.style.overflowY = "auto";
+      document.documentElement.style.overflowY = "auto";
+    };
+
+    if (isMobileMenuOpen) {
+      disableScroll();
+    } else {
+      enableScroll();
+    }
 
     return () => enableScroll();
   }, [isMobileMenuOpen]);
 
   // Handle orientation changes
   useEffect(() => {
-    const handleOrientationChange = (e: MediaQueryListEvent) => {
-      const newOrientation = e.matches ? "portrait" : "landscape";
-      setOrientation(newOrientation);
+    const handleOrientationChange = () => {
+      // Close the menu and re-enable scrolling on orientation change
+      setIsMobileMenuOpen(false);
+      document.body.style.overflowY = "auto";
+      document.documentElement.style.overflowY = "auto";
 
-      if (isMobileMenuOpen) {
-        disableScroll();
-        window.scrollTo(0, 0); // Reset scroll position
-      }
+      // Scroll back to the top of the viewport
+      window.scrollTo(0, 0);
     };
 
     const mediaQuery = window.matchMedia("(orientation: portrait)");
@@ -52,7 +49,7 @@ const RouseNavBar: FC = () => {
     return () => {
       mediaQuery.removeEventListener("change", handleOrientationChange);
     };
-  }, [isMobileMenuOpen]); // Track menu state as well as orientation
+  }, []);
 
   return (
     <>
