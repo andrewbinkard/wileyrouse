@@ -8,37 +8,56 @@ const RouseNavBar: FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
+    setIsMobileMenuOpen((prev) => !prev);
   };
 
-  // handle enabling and disabling of scrolling
   useEffect(() => {
-    if (isMobileMenuOpen) {
-      // Disable scrolling
+    const disableScroll = () => {
       document.body.style.overflow = "hidden";
       document.documentElement.style.overflow = "hidden";
-    } else {
-      // Enable scrolling
-      document.body.style.overflowY = "auto";
-      document.documentElement.style.overflowY = "auto";
-    }
+    };
 
-    // Cleanup when the component unmounts
-    return () => {
+    const enableScroll = () => {
       document.body.style.overflowY = "auto";
       document.documentElement.style.overflowY = "auto";
     };
+
+    if (isMobileMenuOpen) {
+      disableScroll();
+    } else {
+      enableScroll();
+    }
+
+    return () => enableScroll();
   }, [isMobileMenuOpen]);
+
+  // Handle orientation changes
+  useEffect(() => {
+    const handleOrientationChange = () => {
+      // Close the menu and re-enable scrolling on orientation change
+      setIsMobileMenuOpen(false);
+      document.body.style.overflowY = "auto";
+      document.documentElement.style.overflowY = "auto";
+
+      // Scroll back to the top of the viewport
+      window.scrollTo(0, 0);
+    };
+
+    const mediaQuery = window.matchMedia("(orientation: portrait)");
+    mediaQuery.addEventListener("change", handleOrientationChange);
+
+    return () => {
+      mediaQuery.removeEventListener("change", handleOrientationChange);
+    };
+  }, []);
 
   return (
     <>
       <div className={styles.navBarContainer}>
-        {/* Logo */}
         <NavLink to="/rouse">
           <img src={RouseLogo} alt="Rouse Logo" className={styles.logo} />
         </NavLink>
 
-        {/* Desktop Navigation Links */}
         <div className={styles.navLinks}>
           <NavLink
             to="/"
@@ -91,7 +110,6 @@ const RouseNavBar: FC = () => {
           </NavLink>
         </div>
 
-        {/* Mobile Hamburger Menu */}
         <button
           className={styles.hamburgerMenu}
           onClick={toggleMobileMenu}
@@ -101,14 +119,12 @@ const RouseNavBar: FC = () => {
         </button>
       </div>
 
-      {/* Mobile Modal */}
       <div
         className={`${styles.mobileMenu} ${
           isMobileMenuOpen ? styles.open : ""
         }`}
         aria-hidden={!isMobileMenuOpen}
       >
-        {/* Logo at the top */}
         <Link
           to="/rouse"
           onClick={toggleMobileMenu}
@@ -117,7 +133,6 @@ const RouseNavBar: FC = () => {
           <img src={RouseLogo} alt="Rouse Logo" className={styles.mobileLogo} />
         </Link>
 
-        {/* Close Button */}
         <button
           className={styles.closeMenu}
           onClick={toggleMobileMenu}
@@ -126,7 +141,6 @@ const RouseNavBar: FC = () => {
           <FaTimes />
         </button>
 
-        {/* Navigation Links */}
         <nav className={styles.mobileNavLinks}>
           <NavLink
             to="/"
