@@ -1,5 +1,7 @@
 import { AboutProgramCardProps } from "../../../Components/Shared/AboutProgramCard/types";
 import LISDLogo from "../../../assets/images/LISDLogo.jpeg";
+import RouseBuilding from "../../../assets/images/RouseHighSchoolBuilding.jpg";
+import RouseBandsRehearsal from "../../../assets/images/RouseBandsRehearsal.jpg";
 
 export const rouseAboutProgramInfo: AboutProgramCardProps[] = [
   {
@@ -18,12 +20,12 @@ All Rouse concert bands are consistently awarded “superior” ratings at UIL i
 
 As a program, our teaching philosophy is to grow each individual through our shared musical passion and journey. Key to our success is a constant awareness and drive to live up to the tenets of the The Rouse Band Way: 1) Demonstrate Character; 2) Come Prepared; 3) Participate with Enthusiasm; and 4) Support our Family.
 `,
-    imgSrc: "",
+    imgSrc: RouseBandsRehearsal,
   },
   {
     programName: "Rouse High School",
     programInfo: `Coming soon`,
-    imgSrc: "",
+    imgSrc: RouseBuilding,
   },
   {
     programName: "Leander Independent School District",
