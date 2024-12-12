@@ -7,20 +7,16 @@ const RouseLettersOfRecognition: FC = () => {
   return (
     <div>
       <h1>Letters Of Recognition</h1>
-      {rouseLettersOfRecData
-        .filter(({ rouse }) => {
-          return rouse;
-        })
-        .map(({ name, title, headshotSrc, letterSrc }) => {
-          return (
-            <LetterOfRecCard
-              name={name}
-              title={title}
-              headshotSrc={headshotSrc}
-              letterSrc={letterSrc}
-            />
-          );
-        })}
+      {rouseLettersOfRecData.map(({ name, title, headshotSrc, letterSrc }) => {
+        return (
+          <LetterOfRecCard
+            name={name}
+            title={title}
+            headshotSrc={headshotSrc}
+            letterSrc={letterSrc}
+          />
+        );
+      })}
       <Footer />
     </div>
   );
