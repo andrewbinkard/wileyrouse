@@ -72,7 +72,11 @@ export const rouseAccordionData: ConcertPiece[] = [
     year: "2024",
     grade: "5",
     time: "4:40",
-    details: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenetur fugiat, temporibus enim commodi iusto libero magni deleniti quod quam consequuntur! Commodi minima excepturi repudiandae velit hic maxime doloremque. Quaerat provident commodi consectetur veniam similique ad earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam quasi aliquam eligendi, placeat qui corporis!`,
+    details: `Fission is an exhilarating and dynamic work and is the concert band adaptation of Mackey’s contribution to Carolina Crown Drum and Bugle Corps 2024 show, “Promethean.” Known for his energetic and innovative compositions, Mackey has once again captured the imagination of performers and audiences alike with this electrifying work.
+
+The piece draws its inspiration from the concept of nuclear fission, where the nucleus of an atom splits into smaller parts, releasing a significant amount of energy. This scientific process serves as a powerful metaphor for the explosive energy and rapid changes that characterize the piece. Listeners will experience a musical journey that mirrors the intense energy release and transformative nature of fission.
+
+Fission received its original premiere at the 2024 Texas Bandmasters Association Convention.`,
   },
   {
     panelId: "panel4",
