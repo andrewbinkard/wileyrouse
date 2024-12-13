@@ -3,7 +3,7 @@ import RouseHonorBand2324 from "../../../assets/images/20232024RouseHonorBand.jp
 
 export const rousePreviousBandInfo: AboutProgramCardProps = {
   programName: "2023-2024 Rouse Honor Band",
-  programInfo: `Coming Soon`,
+  programInfo: `Thank you! Your contributions to our program continue to shine through the band program in so many ways. Your hard work and dedication were the impetus for this performance today. We miss you!`,
   imgSrc: RouseHonorBand2324,
   roster: [
     "Claire Allen",
