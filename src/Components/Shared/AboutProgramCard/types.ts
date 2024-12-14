@@ -3,4 +3,5 @@ export interface AboutProgramCardProps {
   programName: string;
   programInfo: string;
   roster?: string[];
+  imgSrc2?: string;
 }

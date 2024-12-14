@@ -8,13 +8,14 @@ const WileyAboutProgram: FC = () => {
   return (
     <>
       {rouseAboutProgramInfo.map(
-        ({ programName, programInfo, imgSrc }, idx) => {
+        ({ programName, programInfo, imgSrc, imgSrc2 }, idx) => {
           return (
             <div className={styles.cardContainer} key={idx}>
               <AboutProgramCard
                 programName={programName}
                 programInfo={programInfo}
                 imgSrc={imgSrc}
+                imgSrc2={imgSrc2}
               />
             </div>
           );
