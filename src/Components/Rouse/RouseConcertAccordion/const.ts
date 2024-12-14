@@ -1,3 +1,5 @@
+import EvergreenPicture from "../../../assets/images/EvergreenPicture.jpeg";
+
 interface ConcertPiece {
   panelId: string;
   title: string;
@@ -9,6 +11,7 @@ interface ConcertPiece {
   year?: string;
   conductor?: string;
   soloist?: string;
+  imgSrc?: string;
 }
 
 export const rouseAccordionData: ConcertPiece[] = [
@@ -20,13 +23,15 @@ export const rouseAccordionData: ConcertPiece[] = [
     year: "2009",
     grade: "4",
     time: "3:34",
-    details: `When famed composer Samuel Barber joined the United States Army in 1942, he quickly went to work writing music for the war effort.  Though not officially commissioned to do so by the US government, Barber’s first work after his military induction was Commando March, and it was premiered by the Army Air Forces Technical Command Training Band in early 1943.
+    details: `When famed composer Samuel Barber joined the United States Army in 1942, he quickly went to work writing music for the war effort.  Though not officially commissioned to do so by the US government, Barber’s first work after his military induction was Commando March, and it was premiered by the Army Air Forces Technical Command Training Band in early 1943.  Commando March enjoyed immediate success as the Goldman Band played the work throughout the summer of 1943, leading to a request by Serge Koussevitzky for Barber to adapt it for orchestra.  The orchestral adaptation received its premiere with the Boston Symphony under the baton of Koussevitzky in October of 1943.
     
-    Commando March enjoyed immediate success as the Goldman Band played the work throughout the summer of 1943, leading to a request by Serge Koussevitzky for Barber to adapt it for orchestra.  The orchestral adaptation received its premiere with the Boston Symphony under the baton of Koussevitzky in October of 1943. The rapid pace of composition, premiere, achieving popular success and orchestral adaptation in the same calendar year can be attributed to Barber’s high status as one of the most widely-accepted American composers of his time.
-    
-    Barber’s music gathered broad acclaim not just among his American colleagues, but throughout Europe as well, solidifying him as one of the titans of twentieth-century American music.  Commando March endures as a cornerstone work for wind band, standing as the singular, yet beloved contribution to the band genre from a two-time Pulitzer Prize winning icon of American music.
+    The rapid pace of composition, premiere, achieving popular success and orchestral adaptation in the same calendar year can be attributed to Barber’s high status as one of the most widely-accepted American composers of his time.  Barber’s music gathered broad acclaim not just among his American colleagues, but throughout Europe as well, solidifying him as one of the titans of twentieth-century American music.  Commando March endures as a cornerstone work for wind band, standing as the singular, yet beloved contribution to the band genre from a two-time Pulitzer Prize winning icon of American music.
 
     -Program note by Chris Nelson, adapted from score notes by R. Anderson Collinsworth
+
+    One of the wonderful traditions at Midwest is maintaining our commitment to our concert band roots and history. Programming a march is a requirement for high school bands, and this was an easy choice for us. Our 2024 seniors were freshmen during the fall of 2020, the height of the pandemic, and it was also my first year as the Director of Bands. We chose Commando March to perform for our contest / festival program and enjoyed working on it despite all that was going on in our world at the time. 
+
+    Today’s performance of Commando March is dedicated to our 2024 Rouse Honor Band seniors in celebration of their contributions and dedication to the Rouse Band program.
 `,
   },
   {
@@ -92,11 +97,9 @@ Fission received its original premiere at the 2024 Texas Bandmasters Association
 
     In Flight of the Ravens, the opening piano and chimes are meant to evoke feelings of beauty, majesty, and respect (creator). The first main theme and energetic tempo (beginning at measure 12, then 20), pays tribute to the Pacific Northwest Coast region in general. The second theme (measure 31), is what I refer to as the “Soaring Theme.” Setting this theme in 3/4 meter was intentional, evoking the feelings of flight and soaring high above the land.
 
-    The quote heard in the Xylophone several times, is playful and quirky, portraying some of the trickster idea. Measures 62-89 definitely represent the trickster idea even more, with sounds in the upper WW’s also emulating raven calls. The clarinets contribute another trickster effect in measures 100 and 102. At the very end, you’ll see a text note in the Timpani and Percussion 1 part suggesting the use of large black umbrellas or jackets. These ideas are meant to imitate the look and sound of raven wings, starting slowly, gradually
-    getting faster, then slowing again. Throughout my life, I have seen and heard ravens fly overhead many times, especially when spending time in the mountains, and the giant wingspan and loud “whoosh-whoosh” are imprinted in my mind.
+    The quote heard in the Xylophone several times, is playful and quirky, portraying some of the trickster idea. Measures 62-89 definitely represent the trickster idea even more, with sounds in the upper WW’s also emulating raven calls. The clarinets contribute another trickster effect in measures 100 and 102. At the very end, you’ll see a text note in the Timpani and Percussion 1 part suggesting the use of large black umbrellas or jackets. These ideas are meant to imitate the look and sound of raven wings, starting slowly, gradually getting faster, then slowing again. Throughout my life, I have seen and heard ravens fly overhead many times, especially when spending time in the mountains, and the giant wingspan and loud “whoosh-whoosh” are imprinted in my mind.
 
-    Finally, the main reason for writing about ravens in order to honor Professor Beth Bronk pertains to a specific story at TLU. One year, a family of ravens moved into the courtyard outside the TLU School of Music. They stayed around for a very long time, and faculty and students would recount various encounters, some of which involved the ravens scattering their branches and twigs or tapping on the windows late at night. While it is unknown if these particular birds will keep coming back year after year, they have made a lasting impact in the hearts and minds of
-    the people who knew them.
+    Finally, the main reason for writing about ravens in order to honor Professor Beth Bronk pertains to a specific story at TLU. One year, a family of ravens moved into the courtyard outside the TLU School of Music. They stayed around for a very long time, and faculty and students would recount various encounters, some of which involved the ravens scattering their branches and twigs or tapping on the windows late at night. While it is unknown if these particular birds will keep coming back year after year, they have made a lasting impact in the hearts and minds of the people who knew them.
 
     - Program note provided by the composer`,
     conductor: "Anna Bush",
@@ -109,11 +112,16 @@ Fission received its original premiere at the 2024 Texas Bandmasters Association
     year: "2024",
     grade: "4",
     time: "6:20",
-    details: `George Walker (1922 - 2018), a pioneering, Pulitzer Prize- winning figure in American classical music, left an indelible mark with his profound compositions and achievements. "Lyric for Strings" stands as a poignant testament to Walker's mastery of expression and emotional depth. Originally conceived as a movement within a larger string quartet during his undergraduate years at the Curtis Institute of Music, this piece underwent a transformative journey before emerging as a standalone work. 
+    details: `George Walker (1922 - 2018), a pioneering, Pulitzer Prize- winning figure in American classical music, left an indelible mark with his profound compositions and achievements. Lyric for Strings stands as a poignant testament to Walker's mastery of expression and emotional depth. Originally conceived as a movement within a larger string quartet during his undergraduate years at the Curtis Institute of Music, this piece underwent a transformative journey before
+emerging as a standalone work. 
 
-    Originally titled "Lament," likely because of the composition's personal nature and homage to his grandmother, this tender piece was an extraction from a string quartet. Before its first professional performance,	Walker renamed the piece "Adagio;" however, he ultimately	settled on the evocative title "Lyric for Strings" before its publication. 
+Originally titled "Lament," likely because of the composition's personal nature and homage to his grandmother, this tender piece was an extraction from a string quartet. Before its first professional performance,	Walker renamed the piece "Adagio;" however, he ultimately	settled on the evocative title Lyric for Strings before its publication. 
 
-    - Program note provided by the publisher`,
+- Program note provided by the publisher
+
+In April 2024, I happened upon Cheldon Williams’ Facebook post announcing that the second work of his Rediscovery Series, Lyric for Strings, was complete. This project followed Williams’ beautiful transcription of Florence Price’s Adoration. Having recently received our invitation to perform at Midwest, I had my eye out for new projects, so this definitely piqued my interest. As a trombone player, I was familiar with the brilliance of Walker’s music, having worked on his Concerto for Trombone on numerous occasions. 
+
+I was not familiar with Lyric for Strings but immediately became enthralled with the idea of programming this transcription based on the beauty of Walker’s original iteration for strings. Williams’ wind version is gorgeously crafted and provides so many wonderful opportunities for expansive musicianship and unique ensemble challenges. The percussion additions within the transcription were not only tastefully executed, the artistic use of these colors was also masterfully executed.`,
   },
   {
     panelId: "panel6",
@@ -123,13 +131,16 @@ Fission received its original premiere at the 2024 Texas Bandmasters Association
     year: "2020",
     grade: "2",
     time: "2:26",
-    details: `Who doesn’t have family members that love to complain or argue about something? In the Yiddish language, ‘kvetch’ means to complain, hence this piece was composed to playfully introduce young band students to several key concepts in the form of witty musical ‘complaints’ and ‘surprises’. From the	Trumpets’ initial childhood taunt of ‘Nana Nana Boo Boo’ to the percussion’s response of ‘Boo Boo Nana Nana’, every instrument section is in on the joke! Surprises include some one-note solos, a meter change to 6/8 and back, and a 3/4 measure out of nowhere. Complaints include ever-changing instrumental colors and groupings where everyone puts in their ‘two cents’ throughout the piece, culminating in an exciting eighth-note ‘Nana Nana’ final argument, after which all the instruments ‘make up’ in the last measure.
+    details: `Who doesn’t have family members that love to complain or argue about something? In the Yiddish language, ‘kvetch’ means to complain, hence this piece was composed to playfully introduce young band students to several key concepts in the form of witty musical ‘complaints’ and ‘surprises’. From the trumpets’ initial childhood taunt of ‘Nana Nana Boo Boo’ to the percussion’s response of ‘Boo Boo Nana Nana’, every instrument section is in on the joke! Surprises include some one-note solos, a meter change to 6/8 and back, and a 3/4 measure out of nowhere. Complaints include ever-changing instrumental colors and groupings where everyone puts in their ‘two cents’ throughout the piece, culminating in an exciting eighth-note ‘Nana Nana’ final argument, after which all the instruments ‘make up’ in the last measure.
 
-    Kvetchers is a mischievous musical argument in the form of a non-traditional concert march. Every section is featured in some fashion, and the percussionists will especially enjoy their role in the fun with two separate mallet parts, lots of ‘toys’, and a challenging snare part. Concepts to be introduced or reinforced for young players include part independence, use of chromatic versus diatonic notation in consecutive 4-note passages, Trombone glissandi, muted Trumpet, one easy time and meter change, trills, of-beats, shifting slurs, accidentals, and just a hint of 16th notes.
+Kvetchers is a mischievous musical argument in the form of a non-traditional concert march. Every section is featured in some fashion, and the percussionists will especially enjoy their role in the fun with two separate mallet parts, lots of ‘toys’, and a challenging snare part. Concepts to be introduced or reinforced for young players include part independence, use of chromatic versus diatonic notation in consecutive 4-note passages, Trombone glissandi, muted Trumpet, one easy time and meter change, trills, of-beats, shifting slurs, accidentals, and just a hint of 16th notes.
 
-    Kvetchers (Surprises in Controversial Time) has a ‘little something special’ for every instrument in the band and is sure to please even the most ardent of kvetchers. Enjoy!
+Kvetchers (Surprises in Controversial Time) has a ‘little something special’ for every instrument in the band and is sure to please even the most ardent of kvetchers. Enjoy!
 
-    - Program note provided by the composer`,
+- Program note provided by the composer
+
+This is the second time Kvetchers has been performed at Midwest. Stiles Middle School, a Rouse program feeder, performed the work in 2021 after not being able to perform in 2020. This fun and quirky work is so fun and super engaging for groups of all ages, and it serves to bring a smile or even a laugh or two after the profound heaviness of the previous work. This performance is dedicated to our Stiles Middle School seniors who should have performed at Midwest in 2020 but are finally getting the opportunity to do so today!
+`,
     conductor: "Caitlin Wolf",
   },
   {
@@ -139,16 +150,28 @@ Fission received its original premiere at the 2024 Texas Bandmasters Association
     publisher: "Manuscript",
     grade: "5",
     time: "5:50",
+    imgSrc: EvergreenPicture,
     details: `From Viet Cuong:
 
     A few years ago, I wrote a piece called Deciduous, born from a period of loss following my father’s passing. His absence left a deep void, and for a time, my creativity struggled under the weight of that pain. He was the first close family member I had lost, and it felt natural, even inevitable, to dwell on all that was missing. But in the years since, as I have cycled through ups and downs of healing, certain constants in my life have helped me find strength and meaning again—especially the people closest to me and, of course, music.
 
-    When I reflect on the journey through those difficult years, I find myself feeling more and more grateful for these enduring sources of support. Evergreen is a wistful yet exuberant tribute to these constants in our lives, the steadfast forces from which we draw love, energy, and resilience. In this sense, it serves as a companion piece—or perhaps a foil—to Deciduous. While loss may lead us to initially fixate on what is gone, remembering what remains—what has always been there, and what will continue to be—helps us move forward.
+When I reflect on the journey through those difficult years, I find myself feeling more and more grateful for these enduring sources of support. Evergreen is a wistful yet exuberant tribute to these constants in our lives, the steadfast forces from which we draw love, energy, and resilience. In this sense, it serves as a companion piece—or perhaps a foil—to Deciduous. While loss may lead us to initially fixate on what is gone, remembering what remains—what has always been there, and what will continue to be—helps us move forward.
 
-    Evergreen was commissioned by the Rouse High School Honor Band and their Director Ryan Johnstone for their 2024 Midwest Clinic Performance. Deepest thanks to all involved in this commission, and congratulations to Ryan Johnstone and the Rouse High School Honor Band for their invitation to Midwest.
+Evergreen was commissioned by the Rouse High School Honor Band and their Director Ryan Johnstone for their 2024 Midwest Clinic Performance. Deepest thanks to all involved in this commission, and congratulations to Ryan Johnstone and the Rouse High School Honor Band for their invitation to Midwest.
 
-    - Program note provided by the composer`,
-    soloist: "**World Premiere Performance**",
+- Program note provided by the composer
+
+The exhilaration of performing any new work is something all musicians look forward to. Having the opportunity to collaborate with THE Viet Cuong was “next level” for directors and students alike. We were so fortunate to enjoy his company and guidance throughout the process but were especially appreciative of his visit to Texas in November where he was present for the official premiere of Evergreen after several days of residency.
+
+Prior to receiving Viet’s notes about the piece, I inquired with him about the opportunity for one of our multi talented students, Charlotte Chen, to interact with his music via visual art. Viet loved this idea and Charlotte agreed to create something inspired by Evergreen. Additionally, it was decided that her work would be the cover art for the piece upon publication.
+
+Charlotte created a digital art piece in the style of WPA artwork. Below is her artist’s statement and work.
+
+“My main inspiration for the style of this artwork was artworks of national parks: they have a distinct style that can convey fine details but upon closer look, they are seemingly "messy" strokes. The main subject of the artwork is an abandoned steam train submerged in a lake, which symbolizes one's losses and grief. However, as "Evergreen" entails, there are always constants in life that help us heal. This "constant" is represented by nature as it is always there no matter what we put it through and its tendency to grow back and recover over time. Finally, a stork stands on top of the train in the light, symbolizing new beginnings and looking forward.”
+`,
+    soloist: `Commissioned by the 
+    Rouse High School Honor Band
+    Ryan Johnstone, Director`,
   },
   {
     panelId: "panel8",
@@ -160,14 +183,22 @@ Fission received its original premiere at the 2024 Texas Bandmasters Association
     time: "3:07",
     conductor: "Cynthia A. Lansford",
     details: `The title for the piece is derived from Serengeti National Park, a wildlife refuge in northern Tanzania, East Africa. The park was established in 1951 and extends east and southeast from the shores of Lake Victoria. Serengeti has an area of about 14,763 sq km (5,700 sq mi). Its hills and grassland ranges provide habitat to elephants, black rhinoceroses, lions, leopards, cheetahs,
+gazelles, wildebeests, hyenas, buffalo, zebras, giraffes, and antelope. The park is the only place in Africa where vast animal migrations, especially in May and June, can still be seen.
 
-    gazelles, wildebeests, hyenas, buffalo, zebras, giraffes, and antelope. The park is the only place in Africa where vast animal migrations, especially in May and June, can still be seen.
+Susan Smith, the composer’s wife, also remarked “Robert was inspired by his research and work on Africa Ceremony and Song to create more multicultural  works for younger students to expose them to the music of the world and to expand percussion experiences. Robert had a knack for writing engaging pieces that encouraged and motivated students to stay engaged in music. 
 
-    Susan Smith, the composer’s wife, also remarked “Robert was inspired by his research and work on Africa Ceremony and Song to create more multicultural  works for younger students to expose them to the music of the world and to expand percussion experiences. Robert had a knack for writing engaging pieces that encouraged and motivated students to stay engaged in music. 
+- Program note provided by the publisher
 
-    Our performance of “Serengeti Dreams” is in honor of Robert W. Smith for his profound and extensive contributions to band literature and music education.
+After completing graduate school as a performance major, you may be surprised to learn that I was in search of gainful employment (ha!). The absence of vacancies at any “big gigs” meant it was time to move back to Texas, find a teaching position, and practice all the other hours of the day in hopes that one of those highly coveted positions would come open soon.
 
-    - Program note provided by the publisher`,
+When I returned to Texas, the small community of Eustace (current population 1,157) gave me the opportunity of a lifetime, although I didn’t necessarily think so at the time. Moving from a conservatory environment performing the great standards of the orchestral fair to standing before a room full of small-town Texas kids who just wanted to learn how to play the soundtrack to “The Incredibles” may have been the most opposite ends of the musical spectrum imaginable. 
+
+Fast forward a few months, and I had soon found a new performance passion, and that was teaching! Before I could blink, it had been 10 years and now in year 19 I’ve never regretted getting “the big gig.” I’d say most days at Rouse are a great reminder that our unique story doesn’t always look the way we may have imagined it and oftentimes and most certainly in my case, it’s better than I could have ever dreamed!
+
+Serengeti Dreams was the first festival piece I taught at that humble little program from Eustace, Texas. Thank you, Mr. Smith, for being part of the flame that ignited this career that I love!
+
+Our performance of “Serengeti Dreams” is in honor of Robert W. Smith for his profound and extensive contributions to band literature and music education.
+`,
   },
   {
     panelId: "panel9",

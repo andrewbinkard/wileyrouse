@@ -66,6 +66,15 @@
   justify-self: center;
   font-style: italic;
   font-weight: bold;
+  text-align: center;
   margin-bottom: $margin-xlarge;
   color: $wiley-gray-light;
+}
+
+.image {
+  width: 100%;
+  max-height: 700px;
+  object-fit: contain;
+  border-radius: $standard-rounding;
+  margin: $margin-xlarge 0;
 }

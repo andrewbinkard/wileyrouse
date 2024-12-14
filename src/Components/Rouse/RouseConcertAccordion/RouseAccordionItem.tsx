@@ -18,6 +18,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
   time,
   conductor,
   soloist,
+  imgSrc,
 }) => {
   return (
     <Accordion
@@ -54,6 +55,13 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
         </div>
 
         <Typography>{details}</Typography>
+        {imgSrc && (
+          <img
+            src={imgSrc}
+            alt={`Program note image for ${title}`}
+            className={styles.image}
+          />
+        )}
       </AccordionDetails>
     </Accordion>
   );

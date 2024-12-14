@@ -10,4 +10,5 @@ export interface AccordionItemProps {
   year?: string;
   conductor?: string;
   soloist?: string;
+  imgSrc?: string;
 }

@@ -26,6 +26,7 @@ const RouseConcertAccordion: FC = () => {
             grade,
             time,
             soloist,
+            imgSrc,
           }) => (
             <WileyAccordionItem
               key={panelId}
@@ -40,6 +41,7 @@ const RouseConcertAccordion: FC = () => {
               grade={grade}
               time={time}
               soloist={soloist}
+              imgSrc={imgSrc}
             />
           )
         )}
