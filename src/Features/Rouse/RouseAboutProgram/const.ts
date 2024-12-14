@@ -2,11 +2,12 @@ import { AboutProgramCardProps } from "../../../Components/Shared/AboutProgramCa
 import LISDLogo from "../../../assets/images/LISDLogo.jpeg";
 import RouseBuilding from "../../../assets/images/RouseHighSchoolBuilding.jpg";
 import RouseBandsRehearsal from "../../../assets/images/RouseBandsRehearsal.jpg";
+import RouseBandWay from "../../../assets/images/RouseBandWay.jpeg";
 
 export const rouseAboutProgramInfo: AboutProgramCardProps[] = [
   {
     programName: "Rouse High School Bands",
-    programInfo: `The band program at Rouse High School serves more than 220 ninth- through twelfth-grade students, dispersed between 4 concert ensembles and our winter guard program.
+    programInfo: `The band program at Rouse High School serves more than 220 ninth through twelfth-grade students, dispersed between 4 concert ensembles and our winter guard program.
 
 The Rouse Honor Band is the premier concert ensemble within the Rouse High School Band program. Students are selected through a rigorous audition process each spring and fall. Currently, the band has students from grades nine through twelve. 
 
@@ -21,10 +22,16 @@ All Rouse concert bands are consistently awarded “superior” ratings at UIL i
 As a program, our teaching philosophy is to grow each individual through our shared musical passion and journey. Key to our success is a constant awareness and drive to live up to the tenets of the The Rouse Band Way: 1) Demonstrate Character; 2) Come Prepared; 3) Participate with Enthusiasm; and 4) Support our Family.
 `,
     imgSrc: RouseBandsRehearsal,
+    imgSrc2: RouseBandWay,
   },
   {
     programName: "Rouse High School",
-    programInfo: `Coming soon`,
+    programInfo: `Rouse High School is a vibrant educational institution located in the northwest Austin suburb of Leander, Texas. It is part of the Leander Independent School District and was established in 2008. Rouse High School has quickly developed a reputation for academic excellence, diverse extracurricular offerings, and a strong sense of community.
+
+The campus serves students in ninth, tenth, eleventh, and twelfth grades and has a current enrollment of over 2100 students. Student diversity is a strong attribute with 47.5% of the population being minority (22.3% Hispanic, 15.2% Asian, 5.1% Two or More Races, 4.2% Black, 0.5% American Indian/Alaska Native, and 0.1% Native Hawaiian/Pacific Islander). 13% of students are considered economically disadvantaged.
+
+The school benefits from a strong network of local businesses and community organizations that provide sponsorships, scholarships, and mentorship programs. This support not only enhances the educational experience but also fosters a culture of giving back to the community, encouraging students to participate in service projects and leadership roles.
+`,
     imgSrc: RouseBuilding,
   },
   {

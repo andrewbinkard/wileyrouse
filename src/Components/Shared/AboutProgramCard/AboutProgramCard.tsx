@@ -7,6 +7,7 @@ const AboutProgramCard: FC<AboutProgramCardProps> = ({
   imgSrc,
   programName,
   roster,
+  imgSrc2,
 }) => {
   return (
     <div className={styles.cardContainer}>
@@ -18,6 +19,13 @@ const AboutProgramCard: FC<AboutProgramCardProps> = ({
       />
       <p className={styles.cardText}>{programInfo}</p>
       <br />
+      {imgSrc2 && (
+        <img
+          className={styles.cardImage}
+          src={imgSrc2}
+          alt={`Image of ${programName}`}
+        />
+      )}
       {roster && (
         <>
           <h2>{`${programName} Members`}</h2>
