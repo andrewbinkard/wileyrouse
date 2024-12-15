@@ -12,6 +12,7 @@ interface ConcertPiece {
   conductor?: string;
   soloist?: string;
   imgSrc?: string;
+  directorNotes?: string;
 }
 
 export const rouseAccordionData: ConcertPiece[] = [
@@ -27,12 +28,10 @@ export const rouseAccordionData: ConcertPiece[] = [
     
     The rapid pace of composition, premiere, achieving popular success and orchestral adaptation in the same calendar year can be attributed to Barber’s high status as one of the most widely-accepted American composers of his time.  Barber’s music gathered broad acclaim not just among his American colleagues, but throughout Europe as well, solidifying him as one of the titans of twentieth-century American music.  Commando March endures as a cornerstone work for wind band, standing as the singular, yet beloved contribution to the band genre from a two-time Pulitzer Prize winning icon of American music.
 
-    -Program note by Chris Nelson, adapted from score notes by R. Anderson Collinsworth
+    -Program note by Chris Nelson, adapted from score notes by R. Anderson Collinsworth`,
+    directorNotes: `One of the wonderful traditions at Midwest is maintaining our commitment to our concert band roots and history. Programming a march is a requirement for high school bands, and this was an easy choice for us. Our 2024 seniors were freshmen during the fall of 2020, the height of the pandemic, and it was also my first year as the Director of Bands. We chose Commando March to perform for our contest / festival program and enjoyed working on it despite all that was going on in our world at the time. 
 
-    One of the wonderful traditions at Midwest is maintaining our commitment to our concert band roots and history. Programming a march is a requirement for high school bands, and this was an easy choice for us. Our 2024 seniors were freshmen during the fall of 2020, the height of the pandemic, and it was also my first year as the Director of Bands. We chose Commando March to perform for our contest / festival program and enjoyed working on it despite all that was going on in our world at the time. 
-
-    Today’s performance of Commando March is dedicated to our 2024 Rouse Honor Band seniors in celebration of their contributions and dedication to the Rouse Band program.
-`,
+    Today’s performance of Commando March is dedicated to our 2024 Rouse Honor Band seniors in celebration of their contributions and dedication to the Rouse Band program.`,
   },
   {
     panelId: "panel2",
@@ -81,16 +80,14 @@ export const rouseAccordionData: ConcertPiece[] = [
 
 The piece draws its inspiration from the concept of nuclear fission, where the nucleus of an atom splits into smaller parts, releasing a significant amount of energy. This scientific process serves as a powerful metaphor for the explosive energy and rapid changes that characterize the piece. Listeners will experience a musical journey that mirrors the intense energy release and transformative nature of fission.
 
-Fission received its original premiere at the 2024 Texas Bandmasters Association Convention.
-
-John reached out in late April to let me know about this project he was working on with Carolina Crown. At the time, he could only share the drum corps version of the piece since the wind ensemble version had not been fully realized yet. This prospect of this project really excited me due to the uncommon adaption or repertoire from the marching arts to wind ensemble. To my knowledge, this is the first such transcription (if not, it's certainly the most prolific).
+Fission received its original premiere at the 2024 Texas Bandmasters Association Convention.`,
+    directorNotes: `John reached out in late April to let me know about this project he was working on with Carolina Crown. At the time, he could only share the drum corps version of the piece since the wind ensemble version had not been fully realized yet. This prospect of this project really excited me due to the uncommon adaption or repertoire from the marching arts to wind ensemble. To my knowledge, this is the first such transcription (if not, it's certainly the most prolific).
 
 My apprehension got the best of me since there was not a final band version to see, so I passed on the opportunity to reserve it at that time and hoped I wouldn’t regret it later.
 
 Fast forward two months later and my wife and I were on vacation with some of our band director friends in Mexico, and I received another email from John. The piece was complete, so I could hear the midi and see the score. In my mind, we had finalized our program, so you can imagine my angst at the thought of missing out on this opportunity (while on vacation, nonetheless!). Knowing that this undertaking would be a challenge for everyone but especially our students, my aim was to finalize the program early so that they would have time to begin the learning process before the craziness of school and marching season started back up in August (iykyk). I mulled the pros and cons, consulted close friends and confidants (you know, typical enneagram six behaviors), and ultimately came to the conclusion that we HAD to do this. The rest was history.
 
-Unfortunately, we were not able to have John join us for in-person clinics, but he was so fabulous to work with via shared recordings and correspondence through email / social media. He was so appreciative and complimentary to the ensemble’s work while also requesting adjustments or improvements. I loved being able to share his sentiments with our students. This piece is unique and unlike anything else on our program which made it an easy choice for inclusion. While challenging, I know this piece is one of the students’ favorites on our program!
-`,
+Unfortunately, we were not able to have John join us for in-person clinics, but he was so fabulous to work with via shared recordings and correspondence through email / social media. He was so appreciative and complimentary to the ensemble’s work while also requesting adjustments or improvements. I loved being able to share his sentiments with our students. This piece is unique and unlike anything else on our program which made it an easy choice for inclusion. While challenging, I know this piece is one of the students’ favorites on our program!`,
   },
   {
     panelId: "panel4",
@@ -110,13 +107,13 @@ Unfortunately, we were not able to have John join us for in-person clinics, but 
 
     Finally, the main reason for writing about ravens in order to honor Professor Beth Bronk pertains to a specific story at TLU. One year, a family of ravens moved into the courtyard outside the TLU School of Music. They stayed around for a very long time, and faculty and students would recount various encounters, some of which involved the ravens scattering their branches and twigs or tapping on the windows late at night. While it is unknown if these particular birds will keep coming back year after year, they have made a lasting impact in the hearts and minds of the people who knew them.
 
-    - Program note provided by the composer
-    
-    Texas is home to so many great band programs and educators, so it shouldn’t come as a surprise that we also have a good number of composers who are writing wonderful new works for the idiom. I was born and raised in Texas, so featuring a work by one of our awesome Texas composers was a must. Upon invitation, we immediately began looking into some of Carol Brittin Chambers’ newer works, and this one went to the top of our list. We liked it so much that we actually programmed it for our Symphonic Band (3rd ensemble) for the Spring Concert last year! This was also a unique way to include our other bands in the magic of Midwest. Our Symphonic Band students felt special knowing Flight of the Ravens was one that the Honor Band would be showcasing at our concert.
-
-    Carol lives a few hours away in San Antonio, so we were excited about the prospect of a clinic with her, and thankfully, we were able to work it out! Our time together was memorable, and I know our students enjoyed this experience very much. Thank you, Carol!
-`,
+    - Program note provided by the composer`,
     conductor: "Anna Bush",
+    directorNotes: `Texas is home to so many great band programs and educators, so it shouldn’t come as a surprise that we also have a good number of composers who are writing wonderful new works for the idiom. I was born and raised in Texas, so featuring a work by one of our awesome Texas composers was a must. Upon invitation, we immediately began looking into some of Carol Brittin Chambers’ newer works, and this one went to the top of our list. We liked it so much that we actually programmed it for our Symphonic Band (3rd ensemble) for the Spring Concert last year! This was also a unique way to include our other bands in the magic of Midwest. Our Symphonic Band students felt special knowing Flight of the Ravens was one that the Honor Band would be showcasing at our concert.
+
+    Carol lives a few hours away in San Antonio, so we were excited about the prospect of a clinic with her, and thankfully, we were able to work it out! Our time together was memorable, and I know our students enjoyed this experience very much.
+    
+    Thank you, Carol!`,
   },
   {
     panelId: "panel5",
@@ -131,9 +128,8 @@ emerging as a standalone work.
 
 Originally titled "Lament," likely because of the composition's personal nature and homage to his grandmother, this tender piece was an extraction from a string quartet. Before its first professional performance,	Walker renamed the piece "Adagio;" however, he ultimately	settled on the evocative title Lyric for Strings before its publication. 
 
-- Program note provided by the publisher
-
-In April 2024, I happened upon Dr. Cheldon Williams’ Facebook post announcing that the second work of his Rediscovery Series, Lyric for Strings, was complete. This project followed Williams’ beautiful transcription of Florence Price’s Adoration. Having recently received our invitation to perform at Midwest, I had my eye out for new projects, so this definitely piqued my interest. As a trombone player, I was familiar with the brilliance of Walker’s music, having worked on his Concerto for Trombone on numerous occasions. 
+- Program note provided by the publisher`,
+    directorNotes: `In April 2024, I happened upon Dr. Cheldon Williams’ Facebook post announcing that the second work of his Rediscovery Series, Lyric for Strings, was complete. This project followed Williams’ beautiful transcription of Florence Price’s Adoration. Having recently received our invitation to perform at Midwest, I had my eye out for new projects, so this definitely piqued my interest. As a trombone player, I was familiar with the brilliance of Walker’s music, having worked on his Concerto for Trombone on numerous occasions. 
 
 I was not familiar with Lyric for Strings but immediately became enthralled with the idea of programming this transcription based on the beauty of Walker’s original setting for string orchestra. Williams’ wind version is gorgeously crafted and provides so many wonderful opportunities for expansive musicianship and unique ensemble challenges. The percussion additions within the transcription were not only tasteful, the artistic use of these colors was also masterfully executed.`,
   },
@@ -151,13 +147,12 @@ Kvetchers is a mischievous musical argument in the form of a non-traditional con
 
 Kvetchers (Surprises in Controversial Time) has a ‘little something special’ for every instrument in the band and is sure to please even the most ardent of kvetchers. Enjoy!
 
-- Program note provided by the composer
-
-This is the second time Kvetchers has been performed at Midwest. Stiles Middle School, a Rouse program feeder, performed the work in 2021 after not being able to perform in 2020. This fun and quirky work is so fun and super engaging for groups of all ages, and it serves to bring a smile or even a laugh or two after the profound heaviness of the previous work. This performance is dedicated to our Stiles Middle School seniors who should have performed at Midwest in 2020 but are finally getting the opportunity to do so today!
+- Program note provided by the composer`,
+    conductor: "Caitlin Wolf",
+    directorNotes: `This is the second time Kvetchers has been performed at Midwest. Stiles Middle School, a Rouse program feeder, performed the work in 2021 after not being able to perform in 2020. This fun and quirky work is so fun and super engaging for groups of all ages, and it serves to bring a smile or even a laugh or two after the profound heaviness of the previous work. This performance is dedicated to our Stiles Middle School seniors who should have performed at Midwest in 2020 but are finally getting the opportunity to do so today!
 
 Interesting aside #1: It wasn’t until Viet’s visit to Texas in November to work with us on our commission, Evergreen, that I learned that the composer of Kvetchers, Laura Estes, was his band director in seventh grade. Viet had started band at a different school in sixth grade, and when he moved to his new school he had determined that band wasn’t for him and that he wasn’t going to try it at his new school. When he went to sign up for classes, his dad convinced him to try it at the new school. Viet went on to speak so fondly of his experience in Mrs. Estes’ band which he believes was a major catalyst to his early enthusiasm and also the impetus for the artistic path he’s on today. 
 `,
-    conductor: "Caitlin Wolf",
   },
   {
     panelId: "panel7",
@@ -175,16 +170,14 @@ When I reflect on the journey through those difficult years, I find myself feeli
 
 Evergreen was commissioned by the Rouse High School Honor Band and their Director Ryan Johnstone for their 2024 Midwest Clinic Performance. Deepest thanks to all involved in this commission, and congratulations to Ryan Johnstone and the Rouse High School Honor Band for their invitation to Midwest.
 
-- Program note provided by the composer
-
-The exhilaration of performing any new work is something all musicians look forward to. Having the opportunity to collaborate with THE Viet Cuong was “next level” for directors and students alike. We were so fortunate to enjoy his company and guidance throughout the process but were especially appreciative of his visit to Texas in November where he was present for the official premiere of Evergreen after several days of residency.
+- Program note provided by the composer`,
+    directorNotes: `The exhilaration of performing any new work is something all musicians look forward to. Having the opportunity to collaborate with THE Viet Cuong was “next level” for directors and students alike. We were so fortunate to enjoy his company and guidance throughout the process but were especially appreciative of his visit to Texas in November where he was present for the official premiere of Evergreen after several days of residency.
 
 Prior to receiving Viet’s notes about the piece, I inquired with him about the opportunity for one of our multi talented students, Charlotte Chen, to interact with his music via visual art. Viet loved this idea and Charlotte agreed to create something inspired by Evergreen. Additionally, it was decided that her work would be the cover art for the piece upon publication.
 
 Charlotte created a digital art piece in the style of WPA artwork. Below is her artist’s statement and work.
 
-“My main inspiration for the style of this artwork was artworks of national parks: they have a distinct style that can convey fine details but upon closer look, they are seemingly "messy" strokes. The main subject of the artwork is an abandoned steam train submerged in a lake, which symbolizes one's losses and grief. However, as "Evergreen" entails, there are always constants in life that help us heal. This "constant" is represented by nature as it is always there no matter what we put it through and its tendency to grow back and recover over time. Finally, a stork stands on top of the train in the light, symbolizing new beginnings and looking forward.”
-`,
+“My main inspiration for the style of this artwork was artworks of national parks: they have a distinct style that can convey fine details but upon closer look, they are seemingly "messy" strokes. The main subject of the artwork is an abandoned steam train submerged in a lake, which symbolizes one's losses and grief. However, as "Evergreen" entails, there are always constants in life that help us heal. This "constant" is represented by nature as it is always there no matter what we put it through and its tendency to grow back and recover over time. Finally, a stork stands on top of the train in the light, symbolizing new beginnings and looking forward.”`,
     soloist: `Commissioned by the 
     Rouse High School Honor Band
     Ryan Johnstone, Director`,
@@ -203,9 +196,8 @@ gazelles, wildebeests, hyenas, buffalo, zebras, giraffes, and antelope. The park
 
 Susan Smith, the composer’s wife, also remarked “Robert was inspired by his research and work on Africa Ceremony and Song to create more multicultural  works for younger students to expose them to the music of the world and to expand percussion experiences. Robert had a knack for writing engaging pieces that encouraged and motivated students to stay engaged in music. 
 
-- Program note provided by the publisher
-
-After completing graduate school as a performance major, you may be surprised to learn that I was in search of gainful employment (ha!). The absence of vacancies at any “big gigs” meant it was time to move back to Texas, find a teaching position, and practice all the other hours of the day in hopes that one of those highly coveted positions would come open soon.
+- Program note provided by the publisher`,
+    directorNotes: `After completing graduate school as a performance major, you may be surprised to learn that I was in search of gainful employment (ha!). The absence of vacancies at any “big gigs” meant it was time to move back to Texas, find a teaching position, and practice all the other hours of the day in hopes that one of those highly coveted positions would come open soon.
 
 When I returned to Texas, the small community of Eustace (current population 1,157) gave me the opportunity of a lifetime, although I didn’t necessarily think so at the time. Moving from a conservatory environment performing the great standards of the orchestral fair to standing before a room full of small-town Texas kids who just wanted to learn how to play the soundtrack to “The Incredibles” may have been the most opposite ends of the musical spectrum imaginable. 
 
@@ -236,9 +228,8 @@ Our performance of “Serengeti Dreams” is in honor of Robert W. Smith for his
 
     The Canadian Brass' iconic rendition of Lennon & McCartney's “Penny Lane” has become a must-play arrangement for brass quintet featuring solo piccolo trumpet. This Chris Dedrick arrangement has now been further adapted by Chris Coletti for two solo trumpets and wind ensemble. 
 
-    -Program note from Chuck Daellenbach, Canadian Brass
-    
-    When Aledo Middle School Honor Winds came to perform at Midwest in 2013, we had the wonderful opportunity to partner with Victoria Luperi (formerly Principal Clarinet of the Fort Worth Symphony and current Associate Principal Clarinet / Principal E-flat Clarinet of the Pittsburgh Symphony). After that experience, I knew that if I ever had the fortune of having another ensemble perform at Midwest, a guest artist was a must! Seeing the look of amazement in your students upon them hearing such beauty and artistry is priceless. 
+    -Program note from Chuck Daellenbach, Canadian Brass`,
+    directorNotes: `When Aledo Middle School Honor Winds came to perform at Midwest in 2013, we had the wonderful opportunity to partner with Victoria Luperi (formerly Principal Clarinet of the Fort Worth Symphony and current Associate Principal Clarinet / Principal E-flat Clarinet of the Pittsburgh Symphony). After that experience, I knew that if I ever had the fortune of having another ensemble perform at Midwest, a guest artist was a must! Seeing the look of amazement in your students upon them hearing such beauty and artistry is priceless. 
 
 Our experience with Caleb Hudson has been equally as inspiring, and it has been an absolute delight to collaborate with him on this arrangement of a classic. I had the idea of asking Caleb to perform with us after watching a YouTube performance of him performing this same arrangement with the University of Texas Wind Ensemble (Prof. Jerry Junkin, conducting). We would like to offer our special thanks to Canadian Brass Publications and Hal-Leonard for formally publishing this work to allow for our performance today!
 `,
@@ -258,13 +249,12 @@ Our experience with Caleb Hudson has been equally as inspiring, and it has been 
 
     The final section of the Pines of Rome is titled Pines of the Appian Way. Respighi gives the following colorful description of an ancient Roman army on the march: “Misty Dawn on the Appian Way. Solitary pines stand guard over the tragic countryside. We hear the faint unceasing rhythm of numberless steps. A vision of ancient glories appears to the poet, trumpets blare and a consular army erupts in the brilliance of the newly risen sun — towards the Sacred Way, mounting to a triumph on the Capitoline Hill.” The movement opens quietly, with a slow and inexorable march, but builds gradually towards an enormous brassy peak (with several brassy knolls along the way...). To create this picture of Roman military might, Respighi’s score calls for six bucinae—Roman war trumpets. He also provides the helpful suggestion that modern trumpets may be used if bucinae are not available!
 
-    - Program note by William V. Johnson for the San Luis Obispo Wind Orchestra concert program, 15 May 2010
-    
-    This Respighi has always been a favorite of mine, and the nostalgia runs deep since it was one of my earliest experiences performing in a full orchestra while I was a member of the Greater Dallas Youth Orchestra. I typically program at least one transcription per year just so our students are exposed to some of the great masterworks! The challenge of pulling out details within the orchestration to create textures that typically only full orchestras can achieve is also something I enjoy, although I’m not sure this movement from Respighi gives us ample opportunity to explore those typical intricacies because of all that BRASS!
+    - Program note by William V. Johnson for the San Luis Obispo Wind Orchestra concert program, 15 May 2010`,
+    directorNotes: `This Respighi has always been a favorite of mine, and the nostalgia runs deep since it was one of my earliest experiences performing in a full orchestra while I was a member of the Greater Dallas Youth Orchestra. I typically program at least one transcription per year just so our students are exposed to some of the great masterworks! The challenge of pulling out details within the orchestration to create textures that typically only full orchestras can achieve is also something I enjoy, although I’m not sure this movement from Respighi gives us ample opportunity to explore those typical intricacies because of all that BRASS!
 
 Interesting aside #2: Viet was completely unaware that we had programmed the Respighi, so imagine the wonderment of receiving his piece Evergreen. We both chose to interpret this peculiarity as fate rather than coincidence.
 
-The Leander area is home to several community, semi-professional, and professional ensembles. These groups enrich our local culture and also provide inspiration for our students and area band directors through their frequent concerts and youth programs. We tapped into these resources to create our banda roster. A special thanks goes to trumpets, Casey Martin (Cedar Park Winds, Austin Brass Collective), Marc Sutton (Austin Brass Collective), Jorge Rivera (Cedar Park Winds), Caleb Hudson (University of Texas Trumpet Professor) and trombone, Mike Dorato (Austin Brass Collective) and Adrian Teti (Cedar Park Winds, Austin Brass Collective) for being our guests on this epic and triumphant conclusion to our concert!
+The Leander area is home to several community, semi-professional, and professional ensembles. These groups enrich our local culture and also provide inspiration for our students and area band directors through their frequent concerts and youth programs. We tapped into these resources to create our banda roster. A special thanks goes to trumpets, Casey Martin (Cedar Park Winds, Austin Brass Collective), Marc Sutton (Austin Brass Collective), Jorge Rivera (Cedar Park Winds), Caleb Hudson (University of Texas Trumpet Professor) and trombones, Mike Dorato (Austin Brass Collective) and Adrian Teti (Cedar Park Winds, Austin Brass Collective) for being our guests on this epic and triumphant conclusion to our concert!
 `,
   },
 ];
