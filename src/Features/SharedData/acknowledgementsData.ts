@@ -7,7 +7,7 @@ export const rouseAcknowledgementsData: AcknowledgementsCardProps[] = [
   },
   {
     toWhom: "TO THE 2024-2025 ROUSE HONOR BAND",
-    content: `Words fail to communicate how amazing and special having this experience with you guys has been. The selfless and contant pouring of yourself into this experience has been inspiring to witness. It comes as no surprise as your character is what makes this all possible. Thank you for being amazing people and for making this journey something none of us will ever forget.`,
+    content: `Words fail to communicate how amazing and special having this experience with you guys has been. The selfless and constant pouring of yourself into this experience has been inspiring to witness. It comes as no surprise as your character is what makes this all possible. Thank you for being amazing people and for making this journey something none of us will ever forget.`,
   },
   {
     toWhom: "TO THE ROUSE BAND FAMILIES",
