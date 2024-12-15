@@ -14,14 +14,16 @@
   }
 }
 
+.contain {
+  object-fit: contain;
+}
+
 .cardImage {
   width: 100%;
-  height: auto; // Prevent stretching
+  height: auto;
   border-radius: $standard-rounding;
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   margin-bottom: 1.5rem;
-  object-fit: contain;
-  flex-shrink: 0; // Prevent shrinking in flexbox layouts
 }
 
 .cardTitle {
