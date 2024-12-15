@@ -32,16 +32,9 @@
 }
 
 .membersContainer {
-  display: grid;
-  grid-auto-flow: column;
-  grid-template-rows: repeat(5, auto); // Two rows
+  display: flex;
+  flex-direction: column;
   gap: 0.5rem;
-
-  @media (max-width: 768px) {
-    grid-auto-flow: row;
-    grid-template-rows: none;
-    grid-template-columns: 1fr;
-  }
 }
 
 .member {

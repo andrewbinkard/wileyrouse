@@ -78,3 +78,16 @@
   border-radius: $standard-rounding;
   margin: $margin-xlarge 0;
 }
+
+.directorNotes.directorNotes.directorNotes {
+  font-style: italic;
+
+  .fromTheDirector {
+    font-style: normal;
+  }
+}
+
+.border.border.border {
+  margin: $margin-xlarge 0;
+  border-bottom: 1px solid $wiley-gray-light;
+}
