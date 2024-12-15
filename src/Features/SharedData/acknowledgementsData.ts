@@ -7,7 +7,7 @@ export const rouseAcknowledgementsData: AcknowledgementsCardProps[] = [
   },
   {
     toWhom: "TO THE 2024-2025 ROUSE HONOR BAND",
-    content: `Words fail to communicate how amazing and special having this experience with you guys has been. The constant and unselfish pouring of yourself into this experience has been inspiring to witness, but it comes as no surprise; your character is what makes this all possible. Thank you for being amazing people and for making this journey something none of us will ever forget.`,
+    content: `Words fail to communicate how amazing and special having this experience with you guys has been. The selfless and constant pouring of yourself into this experience has been inspiring to witness. It comes as no surprise as your character is what makes this all possible. Thank you for being amazing people and for making this journey something none of us will ever forget.`,
   },
   {
     toWhom: "TO THE ROUSE BAND FAMILIES",
@@ -32,7 +32,7 @@ export const rouseAcknowledgementsData: AcknowledgementsCardProps[] = [
   },
   {
     toWhom: "TO OUR PRIVATE LESSON STAFF",
-    content: `Thank you for the inspiring work you do with our students each week. The job of a lesson teacher is multidimensional; your expertise does help our students improve their skills and this undoubtedly enhances the depth of their musical experience, but more importantly, the work you do to grow your students into young adults is what makes you special. Thank you for teaching the whole child and being such an integral part of our program.`,
+    content: `Thank you for the inspiring work you do with our students each week. The job of a lesson teacher is multidimensional. Your expertise helps our students improve their skills and this undoubtedly enhances the depth of their musical experience. But more importantly, the work you do to grow your students into young adults is what makes you special. Thank you for teaching the whole child and being such an integral part of our program.`,
   },
   {
     toWhom: "TO OUR CLINICIANS, CINDY LANSFORD AND TOM BENNETT",
@@ -40,7 +40,7 @@ export const rouseAcknowledgementsData: AcknowledgementsCardProps[] = [
   },
   {
     toWhom: "TO FINE ARTS DIRECTORS, MIKE HOWARD AND MEGAN LILES",
-    content: `We are all very fortunate to have you two in our corner. Your support is felt in so many ways, and we can’t thank you enough! Thank you for all you do to make Leander a destination district for Fine Arts educators and an exemplar for others to aspire to.`,
+    content: `We are all very fortunate to have you two in our corner. Your support is felt in so many ways, and we can’t thank you enough! Thank you for all you do to make Leander ISD a destination district for Fine Arts educators and an exemplar for others to aspire to.`,
   },
   {
     toWhom: "TO FINE ARTS ADMINISTRATIVE TEAM, FAITH WAGER AND LINDA JAMES",
@@ -52,7 +52,7 @@ export const rouseAcknowledgementsData: AcknowledgementsCardProps[] = [
   },
   {
     toWhom: "TO PRINCIPAL VINCENT HAWKINS AND THE ROUSE ADMINISTRATIVE TEAM",
-    content: `None of the amazing things that happen at our campus can exist and flourish without you. Thank you for investing in programs and understanding what a vital role we all play in the lives of our students. The student body at Rouse loves you as your heart for kids shines through in your words and actions.`,
+    content: `None of the amazing things that happen at our campus can exist and flourish without you. Thank you for investing in programs and understanding what a vital role we all play in the lives of our students. Your heart for kids shines through in your words and actions, and the student body at Rouse loves you.`,
   },
   {
     toWhom: "TO THE LISD BAND FAMILY",
