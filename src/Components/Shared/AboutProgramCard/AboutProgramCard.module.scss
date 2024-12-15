@@ -16,11 +16,12 @@
 
 .cardImage {
   width: 100%;
-  height: fit-content;
+  height: auto;
   border-radius: $standard-rounding;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   margin-bottom: 1.5rem;
   object-fit: contain;
+  display: block;
 }
 
 .cardTitle {
