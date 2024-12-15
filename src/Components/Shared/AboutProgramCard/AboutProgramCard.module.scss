@@ -16,12 +16,12 @@
 
 .cardImage {
   width: 100%;
-  height: auto;
+  height: auto; // Prevent stretching
   border-radius: $standard-rounding;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   margin-bottom: 1.5rem;
   object-fit: contain;
-  display: block;
+  flex-shrink: 0; // Prevent shrinking in flexbox layouts
 }
 
 .cardTitle {
