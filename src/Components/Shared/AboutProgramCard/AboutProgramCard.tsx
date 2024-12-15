@@ -12,19 +12,23 @@ const AboutProgramCard: FC<AboutProgramCardProps> = ({
   return (
     <div className={styles.cardContainer}>
       <h1 className={styles.cardTitle}>{programName}</h1>
-      <img
-        className={styles.cardImage}
-        src={imgSrc}
-        alt={`Image of ${programName}`}
-      />
+      <div className={styles.contain}>
+        <img
+          className={styles.cardImage}
+          src={imgSrc}
+          alt={`Image of ${programName}`}
+        />
+      </div>
       <p className={styles.cardText}>{programInfo}</p>
       <br />
       {imgSrc2 && (
-        <img
-          className={styles.cardImage}
-          src={imgSrc2}
-          alt={`Image of ${programName}`}
-        />
+        <div className={styles.contain}>
+          <img
+            className={styles.cardImage}
+            src={imgSrc2}
+            alt={`Image of ${programName}`}
+          />
+        </div>
       )}
       {roster && (
         <>
