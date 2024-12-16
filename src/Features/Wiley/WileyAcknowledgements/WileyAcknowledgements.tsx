@@ -2,6 +2,7 @@ import { FC } from "react";
 import styles from "./WileyAcknowledgements.module.scss";
 import AcknowledgementsCard from "../../../Components/Shared/AcknowledgementsCard";
 import { wileyAcknowledgementsData } from "../../SharedData/acknowledgementsData";
+import TunerCaddyLogo from "../../../assets/images/TunerCaddyLogo.jpg";
 
 const WileyAcknowledgements: FC = () => {
   return (
@@ -14,6 +15,12 @@ const WileyAcknowledgements: FC = () => {
           );
         })}
       </div>
+      <h2>SPONSORS</h2>
+      <img
+        src={TunerCaddyLogo}
+        alt={"Image of Tuner Caddy Logo"}
+        className={styles.sponsorImage}
+      />
     </div>
   );
 };

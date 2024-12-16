@@ -124,15 +124,15 @@ Mrs. Davidson lives in Austin with her husband Zac, and their Australian shepher
 
     James proudly marched tenors with Trinity Indoor Percussion Ensemble, Music City Mystique, Santa Clara Vanguard Drum and Bugle Corps, Glassmen Drum and Bugle Corps, and Rhythm X.  He has served in various roles, including technician, Battery Coordinator, Ensemble Specialist, Visual Designer, Program Coordinator, and Percussion Director/Arranger for the following ensembles:  Alchemy Independent, the Cadets, the Carolina Crown, Eastside Fury, the Glassmen, Infinity Percussion, Madison Independent, the Madison Scouts, Redline Percussion, the Phantom Regiment, RhythmX, and Spirit Winter Percussion.
 
-    James currently works with Cap City Percussion as a Designer (2020-present), World Battery Caption Head (2019-2021), the Cadets as Asst. Battery Caption Manager (2023-present), and as Director of Percussion at Rouse High School and Wiley Middle School (2022-present).
+    James currently works with Cap City Percussion as a Designer/World Battery Coordinator, and with the Madison Scouts as Battery Arranger and Percussion Co-Caption Head.  When not teaching, he loves spending time with his wonderful wife, Katelyn, and their boxer, Harper.
 
-    James is proudly endorsed by:
+James is proudly endorsed by:
 
-    Pearl Drums/Adams
-    REMO Drumheads
-    TreeWorks Chimes
-    Vic Firth Drumsticks and Mallets
-    Zildjian Cymbals`,
+Pearl Drums/Adams
+REMO Drumheads
+TreeWorks Chimes
+Vic Firth Drumsticks and Mallets
+Zildjian Cymbals`,
   },
   {
     name: "Thomas Bennett",
