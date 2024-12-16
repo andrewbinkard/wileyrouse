@@ -14,6 +14,8 @@ import HowardRouseLetter from "../../assets/images/RouseLettersOfRec/Howard_Lett
 // WILEY
 import HowardWileyLetter from "../../assets/images/WileyLettersOfRec/HowardWileyLetter.jpg";
 import GearingWileyLetter from "../../assets/images/WileyLettersOfRec/GearingWileyLetter.jpg";
+import DarlaHeadshot from "../../assets/images/WileyLettersOfRec/DarlaHeadshot.png";
+import DarlaLetter from "../../assets/images/WileyLettersOfRec/DarlaWileyLetter.jpg";
 
 export const wileyLettersOfRecData: LetterOfRecCardProps[] = [
   {
@@ -27,6 +29,12 @@ export const wileyLettersOfRecData: LetterOfRecCardProps[] = [
     title: "Director of Fine Arts - Music and Performing Arts",
     headshotSrc: HowardHeadshot,
     letterSrc: HowardWileyLetter,
+  },
+  {
+    name: "Darla Smith",
+    title: "Principal - Wiley Middle School",
+    headshotSrc: DarlaHeadshot,
+    letterSrc: DarlaLetter,
   },
 ];
 
