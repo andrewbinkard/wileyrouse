@@ -12,7 +12,7 @@ interface ConcertPiece {
   conductor?: string;
   soloist?: string;
   imgSrc?: string;
-  directorNotes?: string;
+  directorNotes?: any;
 }
 
 export const rouseAccordionData: ConcertPiece[] = [
@@ -29,9 +29,22 @@ export const rouseAccordionData: ConcertPiece[] = [
     The rapid pace of composition, premiere, achieving popular success and orchestral adaptation in the same calendar year can be attributed to Barber’s high status as one of the most widely-accepted American composers of his time.  Barber’s music gathered broad acclaim not just among his American colleagues, but throughout Europe as well, solidifying him as one of the titans of twentieth-century American music.  Commando March endures as a cornerstone work for wind band, standing as the singular, yet beloved contribution to the band genre from a two-time Pulitzer Prize winning icon of American music.
 
     -Program note by Chris Nelson, adapted from score notes by R. Anderson Collinsworth`,
-    directorNotes: `One of the wonderful traditions at Midwest is maintaining our commitment to our concert band roots and history. Programming a march is a requirement for high school bands, and this was an easy choice for us. Our 2024 seniors were freshmen during the fall of 2020, the height of the pandemic, and it was also my first year as the Director of Bands. We chose Commando March to perform for our contest / festival program and enjoyed working on it despite all that was going on in our world at the time. 
-
-    Today’s performance of Commando March is dedicated to our 2024 Rouse Honor Band seniors in celebration of their contributions and dedication to the Rouse Band program.`,
+    directorNotes: (
+      <>
+        One of the wonderful traditions at Midwest is maintaining our commitment
+        to our concert band roots and history. Programming a march is a
+        requirement for high school bands, and this was an easy choice for us.
+        Our 2024 seniors were freshmen during the fall of 2020, the height of
+        the pandemic, and it was also my first year as the Director of Bands.
+        <br />
+        <br />
+        We chose <u>Commando March</u> to perform for our contest / festival
+        program and enjoyed working on it despite all that was going on in our
+        world at the time. Today’s performance of <u>Commando March</u> is
+        dedicated to our 2024 Rouse Honor Band seniors in celebration of their
+        contributions and dedication to the Rouse Band program.
+      </>
+    ),
   },
   {
     panelId: "panel2",
@@ -82,7 +95,8 @@ The piece draws its inspiration from the concept of nuclear fission, where the n
 
 Fission received its original premiere at the 2024 Texas Bandmasters Association Convention.`,
     directorNotes: `John reached out in late April to let me know about this project he was working on with Carolina Crown. At the time, he could only share the drum corps version of the piece since the wind ensemble version had not been fully realized yet. The prospect of this project really excited me due to the uncommon adaptation of repertoire from the marching arts to wind ensemble. To my knowledge, this is the first such transcription (if not, it's certainly the most prolific).
-My apprehension got the best of me since there was not a final band version to see, so I passed on the opportunity to reserve it at that time and hoped I wouldn’t regret it later.
+
+    My apprehension got the best of me since there was not a final band version to see, so I passed on the opportunity to reserve it at that time and hoped I wouldn’t regret it later.
 
 Fast forward two months later and my wife and I were on vacation with some of our band director friends in Mexico, and I received another email from John. The piece was complete, so I could hear the midi and see the score. In my mind, we had finalized our program, so you can imagine my angst at the thought of missing out on this opportunity (while on vacation, nonetheless!). Knowing that this undertaking would be a challenge for everyone but especially our students, my aim was to finalize the program early so that they would have time to begin the learning process before the craziness of school and marching season started back up in August (iykyk). I mulled the pros and cons, consulted close friends and confidants (you know, typical enneagram six behaviors), and ultimately came to the conclusion that we HAD to do this. The rest was history.
 
@@ -129,9 +143,26 @@ emerging as a standalone work.
 Originally titled "Lament," likely because of the composition's personal nature and homage to his grandmother, this tender piece was an extraction from a string quartet. Before its first professional performance,	Walker renamed the piece "Adagio;" however, he ultimately	settled on the evocative title Lyric for Strings before its publication. 
 
 - Program note provided by the publisher`,
-    directorNotes: `In April 2024, I happened upon Dr. Cheldon Williams’ Facebook post announcing that the second work of his Rediscovery Series, Lyric for Strings, was complete. This project followed Williams’ beautiful transcription of Florence Price’s Adoration. Having recently received our invitation to perform at Midwest, I had my eye out for new projects, so this definitely piqued my interest. As a trombone player, I was familiar with the brilliance of Walker’s music, having worked on his Concerto for Trombone on numerous occasions. 
-
-I was not familiar with Lyric for Strings but immediately became enthralled with the idea of programming this transcription based on the beauty of Walker’s original setting for string orchestra. Williams’ wind version is gorgeously crafted and provides so many wonderful opportunities for expansive musicianship and unique ensemble challenges. The percussion additions within the transcription were not only tasteful, the artistic use of these colors was also masterfully executed.`,
+    directorNotes: (
+      <p>
+        In April 2024, I happened upon Dr. Cheldon Williams’ Facebook post
+        announcing that the second work of his Rediscovery Series,{" "}
+        <u>Lyric for Strings</u>, was complete. This project followed Williams’
+        beautiful transcription of Florence Price’s <u>Adoration</u>. Having
+        recently received our invitation to perform at Midwest, I had my eye out
+        for new projects, so this definitely piqued my interest. As a trombone
+        player, I was familiar with the brilliance of Walker’s music, having
+        worked on his <u>Concerto for Trombone</u> on numerous occasions. I was
+        not familiar with <u>Lyric for Strings</u> but immediately became
+        enthralled with the idea of programming this transcription based on the
+        beauty of Walker’s original setting for string orchestra. Williams’ wind
+        version is gorgeously crafted and provides so many wonderful
+        opportunities for expansive musicianship and unique ensemble challenges.
+        The percussion additions within the transcription were not only
+        tasteful, the artistic use of these colors was also masterfully
+        executed.
+      </p>
+    ),
   },
   {
     panelId: "panel6",
@@ -149,9 +180,30 @@ Kvetchers (Surprises in Controversial Time) has a ‘little something special’
 
 - Program note provided by the composer`,
     conductor: "Caitlin Wolf",
-    directorNotes: `This is the second time Kvetchers has been performed at Midwest. Stiles Middle School, a Rouse program feeder, performed the work in 2021 after not being able to perform in 2020. This light and quirky work is so fun and super engaging for groups of all ages, and it serves to bring a smile or even a laugh or two after the pensiveness of the Walker. This performance is dedicated to our Stiles Middle School seniors who should have performed at Midwest in 2020 but are finally getting the opportunity to do so today!
-
-Interesting aside #1: It wasn’t until Viet’s visit to Texas in November to work with us on our commission, Evergreen, that I learned that the composer of Kvetchers, Laura Estes, was his band director in seventh grade. Viet had started band at a different school in sixth grade, and when he moved to his new school he had determined that band wasn’t for him and that he wasn’t going to try it at his new school. When he went to sign up for classes, his dad convinced him to try it at the new school. Viet went on to speak so fondly of his experience in Mrs. Estes’ band which he believes was a major catalyst to his early enthusiasm and also the impetus for the artistic path he’s on today.`,
+    directorNotes: (
+      <>
+        This is the second time <u>Kvetchers</u> has been performed at Midwest.
+        Stiles Middle School, a Rouse program feeder, performed the work in 2021
+        after not being able to perform in 2020. This light and quirky work is
+        so fun and super engaging for groups of all ages, and it serves to bring
+        a smile or even a laugh or two after the pensiveness of the Walker. This
+        performance is dedicated to our Stiles Middle School seniors who should
+        have performed at Midwest in 2020 but are finally getting the
+        opportunity to do so today!
+        <br />
+        <br />
+        Interesting aside #1: It wasn’t until Viet’s visit to Texas in November
+        to work with us on our commission, <u>Evergreen</u>, that I learned that
+        the composer of <u>Kvetchers</u>, Laura Estes, was his band director in
+        seventh grade. Viet had started band at a different school in sixth
+        grade, and when he moved to his new school he had determined that band
+        wasn’t for him and that he wasn’t going to try it at his new school.
+        When he went to sign up for classes, his dad convinced him to try it at
+        the new school. Viet went on to speak so fondly of his experience in
+        Mrs. Estes’ band which he believes was a major catalyst to his early
+        enthusiasm and also the impetus for the artistic path he’s on today.
+      </>
+    ),
   },
   {
     panelId: "panel7",
@@ -170,13 +222,41 @@ When I reflect on the journey through those difficult years, I find myself feeli
 Evergreen was commissioned by the Rouse High School Honor Band and their Director Ryan Johnstone for their 2024 Midwest Clinic Performance. Deepest thanks to all involved in this commission, and congratulations to Ryan Johnstone and the Rouse High School Honor Band for their invitation to Midwest.
 
 - Program note provided by the composer`,
-    directorNotes: `The exhilaration of performing any new work is something all musicians look forward to. Having the opportunity to collaborate with THE Viet Cuong was “next level” for directors and students alike. We were so fortunate to enjoy his company and guidance throughout the process but were especially appreciative of his visit to Texas in November where he was present for the official premiere of Evergreen after several days of residency.
-
-Prior to receiving Viet’s notes about the piece, I inquired with him about the opportunity for one of our multi talented students, Charlotte Chen, to interact with his music via visual art. Viet loved this idea and Charlotte agreed to create something inspired by Evergreen. Additionally, it was decided that her work would be the cover art for the piece upon publication.
-
-Charlotte created a digital art piece in the style of WPA artwork. Below is her artist’s statement and work.
-
-“My main inspiration for the style of this artwork was artworks of national parks: they have a distinct style that can convey fine details but upon closer look, they are seemingly "messy" strokes. The main subject of the artwork is an abandoned steam train submerged in a lake, which symbolizes one's losses and grief. However, as "Evergreen" entails, there are always constants in life that help us heal. This "constant" is represented by nature as it is always there no matter what we put it through and its tendency to grow back and recover over time. Finally, a stork stands on top of the train in the light, symbolizing new beginnings and looking forward.”`,
+    directorNotes: (
+      <>
+        The exhilaration of performing any new work is something all musicians
+        look forward to. Having the opportunity to collaborate with THE Viet
+        Cuong was “next level” for directors and students alike. We were so
+        fortunate to enjoy his company and guidance throughout the process but
+        were especially appreciative of his visit to Texas in November where he
+        was present for the official premiere of <u>Evergreen</u> after several
+        days of residency.
+        <br />
+        <br />
+        Prior to receiving Viet’s notes about the piece, I inquired with him
+        about the opportunity for one of our multi talented students, Charlotte
+        Chen, to interact with his music via visual art. Viet loved this idea
+        and Charlotte agreed to create something inspired by Evergreen.
+        Additionally, it was decided that her work would be the cover art for
+        the piece upon publication.
+        <br />
+        <br />
+        Charlotte created a digital art piece in the style of WPA artwork. Below
+        is her artist’s statement and work:
+        <br />
+        <br />
+        “My main inspiration for the style of this artwork was artworks of
+        national parks: they have a distinct style that can convey fine details
+        but upon closer look, they are seemingly "messy" strokes. The main
+        subject of the artwork is an abandoned steam train submerged in a lake,
+        which symbolizes one's losses and grief. However, as "Evergreen"
+        entails, there are always constants in life that help us heal. This
+        "constant" is represented by nature as it is always there no matter what
+        we put it through and its tendency to grow back and recover over time.
+        Finally, a stork stands on top of the train in the light, symbolizing
+        new beginnings and looking forward.”
+      </>
+    ),
     soloist: `Commissioned by the 
     Rouse High School Honor Band
     Ryan Johnstone, Director`,
@@ -195,15 +275,40 @@ Charlotte created a digital art piece in the style of WPA artwork. Below is her 
 Susan Smith, the composer’s wife, also remarked “Robert was inspired by his research and work on Africa Ceremony and Song to create more multicultural  works for younger students to expose them to the music of the world and to expand percussion experiences. Robert had a knack for writing engaging pieces that encouraged and motivated students to stay engaged in music. 
 
 - Program note provided by the publisher`,
-    directorNotes: `After completing graduate school as a performance major, you may be surprised to learn that I was in search of gainful employment (ha!). The absence of vacancies at any “big gigs” meant it was time to move back to Texas, find a teaching position, and practice all the other hours of the day in hopes that one of those highly coveted positions would come open soon.
-
-    When I returned to Texas, the small community of Eustace (current population 1,157) gave me the opportunity of a lifetime, although I didn’t necessarily think so at the time. Moving from a conservatory environment performing the great standards of the orchestral fair to standing before a room full of small-town Texas kids who just wanted to learn how to play the soundtrack to “The Incredibles” may have been the most opposite ends of the musical spectrum imaginable. 
-
-    Fast forward a few months, and I had soon found a new performance passion, and that was teaching! Before I could blink, it had been 10 years, and now in year 19, I can say there are zero regrets! I’d say most days at Rouse are a great reminder that our unique story doesn’t always look the way we may have imagined it and oftentimes, and most certainly in my case, it’s better than I could have ever dreamed!
-
-    Serengeti Dreams was the first festival piece I taught at that humble little program in Eustace, Texas. Thank you, Mr. Smith, for being part of the flame that ignited this career that I love!
-
-    Our performance of “Serengeti Dreams” is in honor of Robert W. Smith for his profound and extensive contributions to band literature and music education.`,
+    directorNotes: (
+      <>
+        After completing graduate school as a performance major, you may be
+        surprised to learn that I was in search of gainful employment (ha!). The
+        absence of vacancies at any “big gigs” meant it was time to move back to
+        Texas, find a teaching position, and practice all the other hours of the
+        day in hopes that one of those highly coveted positions would come open
+        soon.
+        <br />
+        <br />
+        When I returned to Texas, the small community of Eustace (current
+        population 1,157) gave me the opportunity of a lifetime, although I
+        didn’t necessarily think so at the time. Moving from a conservatory
+        environment performing the great standards of the orchestral fair to
+        standing before a room full of small-town Texas kids who just wanted to
+        learn how to play the soundtrack to “The Incredibles” may have been the
+        most opposite ends of the musical spectrum imaginable.
+        <br />
+        <br />
+        Fast forward a few months, and I had soon found a new performance
+        passion, and that was teaching! Before I could blink, it had been 10
+        years, and now in year 19, I can say there are zero regrets! I’d say
+        most days at Rouse are a great reminder that our unique story doesn’t
+        always look the way we may have imagined it and oftentimes, and most
+        certainly in my case, it’s better than I could have ever dreamed!
+        Serengeti Dreams was the first festival piece I taught at that humble
+        little program in Eustace, Texas. Thank you, Mr. Smith, for being part
+        of the flame that ignited this career that I love! Our performance of
+        <br />
+        <br />
+        <u>Serengeti Dreams</u> is in honor of Robert W. Smith for his profound
+        and extensive contributions to band literature and music education.
+      </>
+    ),
   },
   {
     panelId: "panel9",

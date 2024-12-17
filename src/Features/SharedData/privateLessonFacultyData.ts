@@ -22,18 +22,19 @@ import ConorNolan from "../../assets/images/WileyPLFaculty/ConorNolan.jpg";
 
 export const privateLessonTeacherData: DirectorCardProps[] = [
   {
-    name: "Nick Goodwin",
+    name: "Nicholas Goodwin",
     instrument: "Flute",
     wiley: false,
     rouse: true,
     imgSrc: NickGoodwin,
-    bio: `For the past decade, Nicholas Goodwin has sustained a varied career as a professional performer and educator in Austin, TX. Originally from Middleton, Massachusetts, he started playing flute at the age of nine. He went on to study flute at the collegiate level, receiving a Bachelor of Music degree from The Hartt School (University of Hartford), and a Master of Music from The University of Texas at Austin, studying under Janet Arms and Marianne Gedigian, respectively.
+    bio: `For the past decade, Nicholas Goodwin has sustained a varied career as a professional performer and educator in Austin, Texas. Originally from Middleton, Massachusetts, he started playing flute at the age of nine. He went on to study flute at the collegiate level, receiving a Bachelor of Music degree from The Hartt School (University of Hartford), and a Master of Music from The University of Texas at Austin, studying under Janet Arms and Marianne Gedigian, respectively.
 
-Nick has been a member of the Central Texas Philharmonic since 2017, where he currently holds the chair of 2nd Flute & Piccolo. He also frequently performs with the Austin Symphony Orchestra, and has appeared with the Waco Symphony and the Ohio Light Opera. In 2024 he performed with the National Tour of Wicked, and in prior years has performed with the National Tours of The Phantom of the Opera, The King & I, and The Sound of Music. He has been recorded playing flute for various television commercials and documentary films.
+Nick has been a member of the Central Texas Philharmonic since 2017, where he currently holds the chair of 2nd Flute & Piccolo. He also frequently performs with the Austin Symphony Orchestra, and has appeared with the Waco Symphony and the Ohio Light Opera. In 2024 he performed with the National Tour of Wicked, and in prior years has performed with the National Tours of The Phantom of the Opera, The King and I, and The Sound of Music. He has been recorded playing flute for various television commercials and documentary films.
 
 Accolades include First Prize in the 2018 National Flute Association (NFA) Orchestral Audition and Masterclass Competition, and Third Prize in the 2017 Texas Flute Society Myrna Brown Competition, for which he also was awarded “Best Performance of the Newly Commissioned Work.” He has twice been a semifinalist in the NFA Young Artist Competition.
 
-Nick currently teaches private flute lessons for the Leander Independent School District. He enjoys being a mentor to young musicians, leading his students to foster a love of music and develop confidence as performers. He has aided a number of students in earning top placements in local and regional level competitions. Nick was formerly a private instructor for Round Rock ISD and St. Stephen’s Episcopal School, and in the summers he serves on the faculty of Floot Fire Austin. He was Vice President, Competitions Coordinator, and Flute Festival Co-Chair for the Austin Flute Society during the 2018-19 academic year, and currently serves as Chair of the Central Texas Philharmonic Players Committee. Apart from his professional activities, Nick enjoys reading, playing video games, hiking, weight training, cooking, cleaning, singing, and learning to speak different languages.`,
+Nick currently teaches private flute lessons for the Leander ISD. He enjoys being a mentor to young musicians, leading his students to foster a love of music and develop confidence as performers. He has aided a number of students in earning top placements in local and regional level competitions. Nick was formerly a private instructor for Round Rock ISD and St. Stephen’s Episcopal School, and during the summer he serves on the faculty of Floot Fire in Austin. He was Vice President, Competitions Coordinator, and Flute Festival Co-Chair for the Austin Flute Society during the 2018-2019 academic year, and currently serves as Chair of the Central Texas Philharmonic Players Committee. Apart from his professional activities, Nick enjoys reading, playing video games, hiking, weight training, cooking, cleaning, singing, and learning to speak different languages.
+`,
   },
   {
     name: "Dr. Rachel Kaplan",
@@ -42,10 +43,10 @@ Nick currently teaches private flute lessons for the Leander Independent School 
     rouse: true,
     imgSrc: RachelKaplan,
     bio: `Dr. Rachel Kaplan is a freelance flutist in Austin, Texas, where she performs with Austin Flute Project and Cedar Park Winds.
-    
-    She has performed with the Waco Symphony Orchestra, Round Rock Symphony, Sierra Vista Symphony Orchestra, Southern Arizona Symphony Orchestra, Tucson Chamber Orchestra, Art.if.Act Dance Project, Tucson Masterworks Chorale Orchestra, Arizona Symphony Orchestra, Ratio H Wind Quintet, Pasticcio Chamber Players and the Ludovico Ensemble. She has also performed alongside renowned jazz flutist Paul Horn and has appeared as a guest artist at Delta State University. In addition, Dr. Kaplan has performed at several National Flute Association Conventions. Her performance travels have taken her to the Bahamas as a guest of the Bahamian National Youth Choir and to England to work with Clare Southworth, Helen Brew and Michael Cox. She has performed for Susan Milan, Walfrid Kujala, Mimi Stillman, Nan Raphael, Alexa Still, Bradley Garner, Jan Gippo, Kathleen Chastain, Leone Buyse, and the McCormick Duo. For two years, she held the position of librarian for the National Flute Association, maintaining the music collection of more than 15,000 works kept at the University of Arizona. In this capacity, she presented at the annual convention in New York City.
 
-Dr. Kaplan served as President of the Austin Flute Society from 2016-2019. As President, she organized the annual Flute Festival, bringing in internationally renowned Guest Artists including Conor Nelson, Nestor Torres and Jim Walker. She also helped develop a Collegiate Division of the AFS Young Artist Competition and a Youth Flute Choir for students in the Austin area. She has adjudicated for the Texas Flute Society’s Donna Marie Haire competition, the Austin Flute Society Young Artist Competition, the TMEA Region and Area Auditions, the Floot Fire Virtual Soloist Competition, the Arizona All-State Festival and the Tucson Philharmonia Youth Orchestra. In addition to her private studio, she is the Austin Camp Manager and faculty member of Floot Fire, teaching summer workshops as well as TMEA All-State Masterclasses. Dr. Kaplan has presented her research at the Hawaii International Conference for Arts and Humanities. She holds degrees from the University of Arizona (DMA), the Boston Conservatory (MM) and the University of Miami (BM). She has studied with Helen Blackburn, Geralyn Coticone, Brian Luce, Christine Nield-Capote and Claire Johnson.`,
+She has performed with the Waco Symphony Orchestra, Round Rock Symphony, Sierra Vista Symphony Orchestra, Southern Arizona Symphony Orchestra, Tucson Chamber Orchestra, Art.if.Act Dance Project, Tucson Masterworks Chorale Orchestra, Arizona Symphony Orchestra, Ratio H Wind Quintet, Pasticcio Chamber Players and the Ludovico Ensemble. She has also performed alongside renowned jazz flutist Paul Horn and has appeared as a guest artist at Delta State University. In addition, Dr. Kaplan has performed at several National Flute Association Conventions. Her performance travels have taken her to the Bahamas as a guest of the Bahamian National Youth Choir and to England to work with Clare Southworth, Helen Brew, and Michael Cox. She has performed for Susan Milan, Walfrid Kujala, Mimi Stillman, Nan Raphael, Alexa Still, Bradley Garner, Jan Gippo, Kathleen Chastain, Leone Buyse, and the McCormick Duo. She held the position of librarian for the National Flute Association for two years, maintaining the music collection of more than 15,000 works being kept at the University of Arizona. In this capacity, she presented at the annual convention in New York City.
+
+Dr. Kaplan served as President of the Austin Flute Society (AFS) from 2016-2019. As President, she organized the annual Flute Festival, bringing in internationally renowned Guest Artists including Conor Nelson, Nestor Torres, and Jim Walker. She also helped develop a Collegiate Division of the AFS Young Artist Competition and a Youth Flute Choir for students in the Austin area. She has adjudicated for the Texas Flute Society’s Donna Marie Haire competition, the Austin Flute Society Young Artist Competition, the TMEA Region and Area Auditions, the Floot Fire Virtual Soloist Competition, the Arizona All-State Festival, and the Tucson Philharmonia Youth Orchestra. In addition to her private studio, she is the Austin Camp Manager and faculty member of Floot Fire, teaching summer workshops as well as TMEA All-State Masterclasses. Dr. Kaplan has presented her research at the Hawaii International Conference for Arts and Humanities. She holds degrees from the University of Arizona (DMA), the Boston Conservatory (MM), and the University of Miami (BM). She has studied with Helen Blackburn, Geralyn Coticone, Brian Luce, Christine Nield-Capote, and Claire Johnson.`,
   },
   {
     name: "Amy Suggs",
@@ -57,7 +58,7 @@ Dr. Kaplan served as President of the Austin Flute Society from 2016-2019. As Pr
 
     Before transitioning to teaching private lessons, Ms. Suggs spent 10 years as a band director. She was a founding staff member and director at Tom Glenn High School in Leander ISD and previously taught at James Bowie High School in Austin ISD.
 
-    Ms. Suggs earned a Bachelor of Music Education degree from Texas Christian University, where she studied flute under Helen Blackburn. Over the last 13 years, she has dedicated herself to developing young musicians through both her band programs and private flute studio. Her students have achieved consistent success, including multiple Texas All-State Flute placements.
+    Ms. Suggs earned a Bachelor of Music Education degree from Texas Christian University where she studied flute under Helen Blackburn. Over the last 13 years, she has dedicated herself to developing young musicians through both her band programs and private flute studio. Her students have achieved consistent success, including multiple Texas All-State Flute placements.
 
     Ms. Suggs' ensembles have earned superior ratings at various competitions, such as the University Interscholastic League (UIL) Marching Contest, UIL Concert & Sightreading Contest, and the Texas State Solo and Ensemble Contest. Her programs have been recognized as UIL State Marching Band Contest Finalists, Bands of America Regional, Super Regional, and Grand National Finalists, and were recipients of the John Philip Sousa Foundation’s Sudler Shield in 2013.
 
@@ -81,21 +82,15 @@ Dr. Kaplan served as President of the Austin Flute Society from 2016-2019. As Pr
     
     Suzanne continues to push for community engagement with the Oboe through Oboe Chicago and performance events. She travels throughout the country to promote and educate the oboe and promote accessibility to all at conferences and university led double reed days. 
     
-    Dr. Suzanne Segredo-Kundler is the current Oboe professor at Illinois Wesleyan University
+    Dr. Suzanne Segredo-Kundler is the current Oboe professor at Illinois Wesleyan University.
     
-    DMA with Cognate in Music Education
-    University of Illinois at Urbana Champaign
-    2023
+    DMA with Cognate in Music Education, University of Illinois at Urbana Champaign, 2023
     
-    PGCert Performance Teaching
-    Guildhall School of Music & Drama
-    2018
+    PGCert Performance Teaching, Guildhall School of Music & Drama, 2018
 
-    MM - Northwestern University
-    2017
+    MM, Northwestern University, 2017
 
-    BM - University of Illinois at Urbana-Champaign
-    2015`,
+    BM, University of Illinois at Urbana-Champaign, 2015`,
   },
   {
     name: "Joelle Morales",
@@ -103,14 +98,13 @@ Dr. Kaplan served as President of the Austin Flute Society from 2016-2019. As Pr
     wiley: true,
     rouse: true,
     imgSrc: JoelleMorales,
-    bio: `Joelle Morales earned her Bachelor of Music degree from the New England Conservatory of Music in Boston, MA. She studied classical bassoon performance under prestigious instructors Lori Tiberio, Marc Goldberg, and Richard Svoboda. While at NEC, Joelle successfully auditioned for and joined the Contemporary Improvisation Department at the start of her sophomore year. There, she studied under renowned improvisers such as Anthony Coleman, Tanya Kalmanovitch, and Joe Morris. Although Joelle’s true passion lies in experimental music, she strongly believes that a solid foundation in basic playing techniques is essential for any musical style.
+    bio: `Joelle Morales earned her Bachelor of Music degree from the New England Conservatory of Music (NEC) in Boston, Massachusetts. She studied classical bassoon performance under prestigious instructors Lori Tiberio, Marc Goldberg, and Richard Svoboda. While at NEC, Joelle successfully auditioned for and joined the Contemporary Improvisation Department at the start of her sophomore year. There, she studied under renowned improvisers such as Anthony Coleman, Tanya Kalmanovitch, and Joe Morris. Although Joelle’s true passion lies in experimental music, she strongly believes that a solid foundation in basic playing techniques is essential for any musical style.
 
 Through amplification of her bassoon, Joelle has performed and recorded with musicians across various genres, ranging from progressive rock to experimental death metal. When not using amplification, she enjoys engaging in free improvisation inspired by artists like Anthony Braxton and Albert Ayler.
 
 In addition to teaching, Joelle currently performs with Austin-based ensembles such as Stop Motion Orchestra and Wet Bulb. She also appears as a solo artist under the pseudonym Cenotes, exploring the sonic landscapes of drone and funeral doom metal. Her work as Cenotes draws deep inspiration from bands like Sunn O))) and Bell Witch, as well as film composer Jóhann Jóhannsson.
 
-With her background in experimental music and free improvisation, students can expect Joelle to approach classical bassoon repertoire through a diverse range of techniques and methods. She often emphasizes ear training and singing as essential tools to help students develop their embouchure and overall proficiency on the bassoon.
-`,
+With her background in experimental music and free improvisation, students can expect Joelle to approach classical bassoon repertoire through a diverse range of techniques and methods. She often emphasizes ear training and singing as essential tools to help students develop their embouchure and overall proficiency on the bassoon.`,
   },
   {
     name: "Kevin Vorabout",
@@ -118,12 +112,11 @@ With her background in experimental music and free improvisation, students can e
     wiley: true,
     rouse: true,
     imgSrc: KevinVorabout,
-    bio: `Kevin Vorabout (he/him) is a woodwind specialist who currently resides in Austin, Texas. Vorabout is an avid orchestral and chamber musician. He has performed with the Arkansas Symphony Orchestra, Conway Symphony Orchestra, and participated in the Interharmony International Music Festival as a clarinetist. Vorabout was formerly the tenor saxophonist of the Empyrean Saxophone Quartet, who advanced to the Division round of the MTNA Chamber Competition. As a doubler, Vorabout has performed with the Indiana University Department of Theatre, Drama, and Contemporary Dance, Cardinal Stage Theatre, Arkansas Repertory Theatre, Arkansas Shakespeare Theatre and has also been brought on as an IU Cinema Artist.
+    bio: `Kevin Vorabout (he/him) is a woodwind specialist who currently resides in Austin, Texas. Kevin is an avid orchestral and chamber musician. He has performed with the Arkansas Symphony Orchestra, Conway Symphony Orchestra, and participated in the Interharmony International Music Festival as a clarinetist. Kevin was formerly the tenor saxophonist of the Empyrean Saxophone Quartet and advanced to the Division round of the Music Teachers National Association Chamber Competition. As a doubler, Kevin has performed with the Indiana University Department of Theatre, Drama, and Contemporary Dance, Cardinal Stage Theatre, Arkansas Repertory Theatre, Arkansas Shakespeare Theatre, and has also been brought on as an IU Cinema Artist.
 
-Currently, Vorabout is a private instructor based out of Leander, TX, where he maintains a studio of clarinet students. Prior to establishing himself in Austin, Vorabout taught clarinet at Central Baptist College, the Wildwood Academy for Music & Arts, and was a counselor at Blue Lake Fine Arts Camp. Vorabout is a founding member of the American Single Reed Summit, where he served as the Public Relations Chair, then as the Secondary Outreach Coordinator.
+Currently, Kevin is a private instructor based out of Leander, TX, where he maintains a studio of clarinet students. Prior to establishing himself in Austin, Kevin taught clarinet at Central Baptist College, the Wildwood Academy for Music & Arts, and was a counselor at Blue Lake Fine Arts Camp. Kevin is a founding member of the American Single Reed Summit, where he served as the Public Relations Chair, then as the Secondary Outreach Coordinator.
 
-Vorabout began his studies at the University of Central Arkansas, where he received a B.M. in Music Education and a Graduate Certificate in Clarinet Performance. He then completed a M.M. in Multiple Woodwind Performance at Indiana University’s Jacobs School of Music where he had the privilege of studying with Dr. Otis Murphy, Professor Howard Klug, and Professor Kate Lukas.
-`,
+Kevin began his studies at the University of Central Arkansas, where he received a B.M. in Music Education and a Graduate Certificate in Clarinet Performance. He then completed a M.M. in Multiple Woodwind Performance at Indiana University’s Jacobs School of Music where he had the privilege of studying with Dr. Otis Murphy, Professor Howard Klug, and Professor Kate Lukas.`,
   },
   {
     name: "Kelsey Behnfeldt",
@@ -153,11 +146,11 @@ Ben received his Bachelors and Masters of Saxophone Performance at the Universit
     wiley: true,
     rouse: true,
     imgSrc: MarcSutton,
-    bio: `Dr. Marc Lynn Sutton, originally from Duncan, Oklahoma, has been a teacher and performer in the Austin, Texas area since 2019 maintaining a studio of 70 trumpet students within Leander ISD. His students have competed at the National Trumpet Competition and International Trumpet Guild Conference, been selected as members of the 5A and 6A TMEA All State Bands, and have been a part of bands selected as TMEA Honor Bands and Midwest Clinic Performing Ensembles. They frequently advance in High School and Middle School district, region, area, and state auditions with some continuing music into college and have been accepted into college studios such as the UNT College of Music. 
+    bio: `Dr. Marc Lynn Sutton, originally from Duncan, Oklahoma, has been a teacher and performer in the Austin, Texas area since 2019 maintaining a studio of 70 trumpet students within Leander ISD. His students have competed at the National Trumpet Competition and International Trumpet Guild Conference, been selected as members of the 5A and 6A TMEA All State Bands, and have been a part of bands selected as TMEA Honor Bands and Midwest Clinic Performing Ensembles. They frequently advance in High School and Middle School district, region, area, and state auditions with some continuing music into college and have been accepted into college studios such as the University of North Texas College of Music. 
 
-As a performer, Marc was named a finalist at the 2016 Ellsworth Smith International Trumpet Solo Competition and was invited to study and perform at The Center for Advanced Musical Studies at Chosen Vale in 2017. Starting in high school and throughout his college studies, he competed in the National Trumpet Competition solo and ensemble divisions, being named a finalist in 2011. Other highlights as a trumpet soloist include performing The Star-Spangled Banner at the opening game of the 2011 NCAA Women’s College World Series in Oklahoma City and competing in the Grand Valley State University International Trumpet Seminar Solo Competition (1st place 2010, 2nd place 2011) and Orchestral Excerpt Competition(1st place 2011). 
+As a performer, Marc was named a finalist at the 2016 Ellsworth Smith International Trumpet Solo Competition and was invited to study and perform at The Center for Advanced Musical Studies at Chosen Vale in 2017. Starting in high school and throughout his college studies, he competed in the National Trumpet Competition solo and ensemble divisions, being named a finalist in 2011. Other highlights as a trumpet soloist include performing The Star-Spangled Banner at the opening game of the 2011 NCAA Women’s College World Series in Oklahoma City and competing in the Grand Valley State University International Trumpet Seminar Solo Competition (1st place 2010, 2nd place 2011) and Orchestral Excerpt Competition (1st place 2011). 
 
-Dr. Sutton’s education includes a DMA in Trumpet Performance from Texas Tech University, MM in Trumpet Performance from the Cleveland Institute of Music, and a BM in Trumpet Performance, with distinction, from the University of Oklahoma. Awards he received while pursuing his degrees are the TTU Horn Professors Graduate Achievement Award and Joshua D. Britt Memorial Graduate Fellowship; the Bernard Adelstein Prize in Trumpet at CIM and the Student Advisory Council Outstanding Senior Award from the Weitzenhoffer Family College of Fine Arts. His primary teachers include, Dr. Andrew Stetson, Michael Sachs, Dr. Karl Sievers, and John Moots.`,
+Dr. Sutton’s education includes a DMA in Trumpet Performance from Texas Tech University, MM in Trumpet Performance from the Cleveland Institute of Music (CIM), and a BM in Trumpet Performance, with distinction, from the University of Oklahoma. Awards he received while pursuing his degrees are the Texas Tech University Horn Professors Graduate Achievement Award, the Joshua D. Britt Memorial Graduate Fellowship, the Bernard Adelstein Prize in Trumpet at CIM, and the Student Advisory Council Outstanding Senior Award from the Weitzenhoffer Family College of Fine Arts. His primary teachers include Dr. Andrew Stetson, Michael Sachs, Dr. Karl Sievers, and John Moots.`,
   },
   {
     name: "Casey Martin",
