@@ -13,7 +13,7 @@ const Footer: FC = () => {
         </a>
       </h3>
       <div className={styles.copyright}>
-        <p>Copyright 2024 Rouse and Wiley Bands</p>
+        <p>Copyright 2024 Rouse & Wiley Bands</p>
         <p>All Rights Reserved</p>
       </div>
     </div>

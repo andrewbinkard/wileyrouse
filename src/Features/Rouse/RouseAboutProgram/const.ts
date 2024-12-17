@@ -26,12 +26,9 @@ As a program, our teaching philosophy is to grow each individual through our sha
   },
   {
     programName: "Rouse High School",
-    programInfo: `Rouse High School is a vibrant educational institution located in the northwest Austin suburb of Leander, Texas. It is part of the Leander Independent School District and was established in 2008. Rouse High School has quickly developed a reputation for academic excellence, diverse extracurricular offerings, and a strong sense of community.
+    programInfo: `Founded in 2006, Rouse High School is dedicated to creating a culture of passionate learners, fostering habits and skills to prepare them for post-secondary success. Located in Leander Independent School District, northwest of Austin, Texas, the district’s fifth comprehensive high school serves students in grades nine through twelve. With a student population of more than 2,200, Rouse High School's ethnic diversity shines through a community that respects individual stories and prioritizes the voices of all stakeholders. The student body makeup is comprised of 46% Caucasian, 25% Asian, 19% Hispanic and 4% African American.
 
-The campus serves students in ninth, tenth, eleventh, and twelfth grades and has a current enrollment of over 2100 students. Student diversity is a strong attribute with 47.5% of the population being minority (22.3% Hispanic, 15.2% Asian, 5.1% Two or More Races, 4.2% Black, 0.5% American Indian/Alaska Native, and 0.1% Native Hawaiian/Pacific Islander). 13% of students are considered economically disadvantaged.
-
-The school benefits from a strong network of local businesses and community organizations that provide sponsorships, scholarships, and mentorship programs. This support not only enhances the educational experience but also fosters a culture of giving back to the community, encouraging students to participate in service projects and leadership roles.
-`,
+Rouse High School is recognized as an academically rigorous and competitive school that offers and values both its advanced college credit course and career and technical education programs. Over 80 percent of students are actively involved in UIL extracurricular activities and have earned honors at the regional, state, and national level in fine arts, sports and academic competitions. The school community is proud to celebrate individual achievements while fostering a sense of belonging and pride among all students.`,
     imgSrc: RouseBuilding,
   },
   {

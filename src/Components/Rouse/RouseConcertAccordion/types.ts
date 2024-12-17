@@ -11,5 +11,5 @@ export interface AccordionItemProps {
   conductor?: string;
   soloist?: string;
   imgSrc?: string;
-  directorNotes?: string;
+  directorNotes?: any;
 }

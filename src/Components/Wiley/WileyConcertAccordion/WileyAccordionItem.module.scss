@@ -24,11 +24,12 @@
 }
 
 .titleText.titleText.titleText {
-  color: $wiley-gray-light;
-  font-weight: bold;
+  color: $wiley-gray-light !important;
+  font-weight: bold !important;
   margin-bottom: 0.5rem;
   font-size: 18px;
   @media (max-width: $breakpoint-xsmall) {
+    font-weight: bold !important;
     font-size: 14px;
   }
 }
