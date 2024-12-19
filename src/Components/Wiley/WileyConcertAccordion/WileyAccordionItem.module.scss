@@ -61,6 +61,20 @@
     }
   }
 
+  a {
+    font-size: 19px !important;
+    font-weight: bold !important;
+    color: $rouse-gold-light;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-align: left !important;
+
+    @media (max-width: $breakpoint-xsmall) {
+      font-weight: bold !important;
+      font-size: 19px !important;
+    }
+  }
+
   margin-bottom: $margin-xlarge;
 }
 

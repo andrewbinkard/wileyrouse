@@ -25,6 +25,8 @@ const WileyConcertAccordion: FC = () => {
             year,
             grade,
             time,
+            publisher,
+            publisherWebsiteURL,
           }) => (
             <WileyAccordionItem
               key={panelId}
@@ -38,6 +40,8 @@ const WileyConcertAccordion: FC = () => {
               year={year}
               grade={grade}
               time={time}
+              publisher={publisher}
+              publisherWebsiteURL={publisherWebsiteURL}
             />
           )
         )}

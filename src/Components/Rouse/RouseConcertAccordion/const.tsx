@@ -13,6 +13,7 @@ interface ConcertPiece {
   soloist?: string;
   imgSrc?: string;
   directorNotes?: any;
+  publisherWebsiteURL?: string;
 }
 
 export const rouseAccordionData: ConcertPiece[] = [
@@ -21,6 +22,7 @@ export const rouseAccordionData: ConcertPiece[] = [
     title: "Commando March",
     composer: "Samuel Barber/R. Anderson Collinsworth",
     publisher: "G. Schirmer/Hal Leonard",
+    publisherWebsiteURL: "https://www.halleonard.com/",
     year: "2009",
     grade: "4",
     time: "3:34",
@@ -51,6 +53,7 @@ export const rouseAccordionData: ConcertPiece[] = [
     title: "Ye Banks and Braes O' Bonnie Doon",
     composer: "Percy Aldridge Grainger",
     publisher: "G. Schirmer/Hal Leonard",
+    publisherWebsiteURL: "https://www.halleonard.com/",
     year: "1936",
     grade: "3",
     time: "2:55",
@@ -86,6 +89,7 @@ export const rouseAccordionData: ConcertPiece[] = [
     title: "Fission",
     composer: "John Mackey",
     publisher: "Osti Music",
+    publisherWebsiteURL: "https://www.johnmackey.com/",
     year: "2024",
     grade: "5",
     time: "4:40",
@@ -107,6 +111,7 @@ Unfortunately, we were not able to have John join us for in-person clinics, but 
     title: "Flight of the Ravens",
     composer: "Carol Brittin Chambers",
     publisher: "Aspenwood Music; The Music of Carol Brittin Chambers",
+    publisherWebsiteURL: "https://aspenwoodmusic.com/",
     year: "2023",
     grade: "3",
     time: "3:43",
@@ -153,6 +158,7 @@ Finally, the main reason for writing about ravens in order to honor Professor Be
     title: "Lyric for Strings",
     composer: "George Theophilus Walker/Cheldon R. Williams",
     publisher: "Murphy Music Press",
+    publisherWebsiteURL: "https://murphymusicpress.com/",
     year: "2024",
     grade: "4",
     time: "6:20",
@@ -188,6 +194,8 @@ Originally titled "Lament," likely because of the composition's personal nature 
     title: "Kvetchers",
     composer: "Laura Estes",
     publisher: "Excelcia Music Publishing",
+    publisherWebsiteURL:
+      "https://excelciamusic.com/?podcast_episode=3855&ref=new_window",
     year: "2020",
     grade: "2",
     time: "2:26",
@@ -229,6 +237,7 @@ Kvetchers (Surprises in Controversial Time) has a ‘little something special’
     title: "Evergreen",
     composer: "Viet Cuong",
     publisher: "Manuscript",
+    publisherWebsiteURL: "https://vietcuongmusic.com/music/",
     grade: "5",
     time: "5:50",
     imgSrc: EvergreenPicture,
@@ -285,6 +294,8 @@ Evergreen was commissioned by the Rouse High School Honor Band and their Directo
     title: "Serengeti Dreams",
     composer: "Robert W. Smith",
     publisher: "Belwin",
+    publisherWebsiteURL:
+      "https://www.alfred.com/belwin-concert-band-performance-music/b/?srsltid=AfmBOoqV2BQ3Zf2-ldBtY8bIzuMjMMCOJzPW-rFfGcHvYBHZgNe8dE3S",
     year: "2000",
     grade: "1",
     time: "3:07",
@@ -337,6 +348,8 @@ Susan Smith, the composer’s wife, also remarked “Robert was inspired by his 
     title: "Penny Lane",
     composer: "Paul McCartney & John Lennon/Chris Dedrick & Chris Coletti",
     publisher: "Canadian Brass Publications/Hal Leonard",
+    publisherWebsiteURL:
+      "https://www.halleonard.com/menu/4352/the-canadian-brass?dt=item#products",
     year: "2024",
     grade: "3/5",
     time: "4:00",
@@ -364,6 +377,8 @@ Our experience with Caleb Hudson has been equally as inspiring, and it has been 
     title: "The Pines of Rome: IV. Pines of the Appian Way",
     composer: "Ottorino Respighi/Guy M. Duker",
     publisher: "Ricordi/Hal Leonard",
+    publisherWebsiteURL:
+      "https://www.halleonard.com/menu/2268/ricordi?dt=item#products",
     year: "1974",
     grade: "6",
     time: "20:15 (5:15)",
