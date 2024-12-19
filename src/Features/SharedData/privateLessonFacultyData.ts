@@ -252,7 +252,7 @@ Mr. Blackstone currently resides in Georgetown, Texas with his wife Amanda.`,
     Since 2013, he has been co-founder and director of a summer tuba and euphonium festival called Teupha Camp and is a founding member of the Austin Brass Collective. David has been the principal tubist of the Central Texas Philharmonic since 2011 . He lives in Leander, Texas with his wife Britni and their dog Dixie.`,
   },
   {
-    name: "Emily Durocher",
+    name: "Dr. Emily Durocher",
     instrument: "Percussion",
     wiley: true,
     rouse: true,
