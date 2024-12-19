@@ -44,7 +44,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
             behavior: "smooth",
           });
         }
-      }, 300); // Delay for layout changes
+      }, 400); // Delay for layout changes
 
       return () => clearTimeout(timeout);
     }
