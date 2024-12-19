@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
@@ -21,11 +21,46 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
   imgSrc,
   directorNotes,
 }) => {
+  const accordionRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    if (expanded && accordionRef.current) {
+      const headerOffset = 60; // Adjust based on your header or spacing requirements
+
+      // Allow layout to settle, then scroll to the element
+      const timeout = setTimeout(() => {
+        if (accordionRef.current) {
+          const elementTop =
+            accordionRef.current.getBoundingClientRect().top + window.scrollY;
+          const containerPadding = parseFloat(
+            getComputedStyle(
+              accordionRef.current.parentElement || document.body
+            ).paddingTop || "0"
+          );
+          const offsetPosition = elementTop - headerOffset - containerPadding;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: "smooth",
+          });
+        }
+      }, 120);
+
+      return () => clearTimeout(timeout);
+    }
+  }, [expanded]);
+
   return (
     <Accordion
+      ref={accordionRef}
       expanded={expanded}
       onChange={handleChange}
       classes={{ root: styles.accordion }}
+      slotProps={{
+        transition: {
+          timeout: 100, // Adjust the transition duration here
+        },
+      }}
     >
       <AccordionSummary
         expandIcon={<ExpandMoreIcon classes={{ root: styles.expandButton }} />}
@@ -41,9 +76,8 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
       </AccordionSummary>
       <AccordionDetails classes={{ root: styles.details }}>
         {conductor && (
-          <Typography
-            classes={{ root: styles.conductorText }}
-          >{`Conducted by ${conductor}`}</Typography>
+          <Typography classes={{ root: styles.conductorText }}>{`Conducted by 
+            ${conductor}`}</Typography>
         )}
         {soloist && (
           <Typography
