@@ -31,18 +31,18 @@ export const rouseAccordionData: ConcertPiece[] = [
     -Program note by Chris Nelson, adapted from score notes by R. Anderson Collinsworth`,
     directorNotes: (
       <>
-        One of the wonderful traditions at Midwest is maintaining our commitment
-        to our concert band roots and history. Programming a march is a
-        requirement for high school bands, and this was an easy choice for us.
-        Our 2024 seniors were freshmen during the fall of 2020, the height of
-        the pandemic, and it was also my first year as the Director of Bands.
+        One of the wonderful traditions at Midwest is the performance of a march
+        as part of the group’s program. <u>Commando March</u> was an easy choice
+        for us. Our 2024 seniors were freshmen during the fall of 2020, the
+        height of the pandemic, and it was also my first year as the Director of
+        Bands. We chose <u>Commando March</u> to perform for our contest /
+        festival program and enjoyed working on it despite all that was going on
+        in our world at the time.
         <br />
         <br />
-        We chose <u>Commando March</u> to perform for our contest / festival
-        program and enjoyed working on it despite all that was going on in our
-        world at the time. Today’s performance of <u>Commando March</u> is
-        dedicated to our 2024 Rouse Honor Band seniors in celebration of their
-        contributions and dedication to the Rouse Band program.
+        Today’s performance of <u>Commando March</u> is dedicated to our 2024
+        Rouse Honor Band seniors in celebration of their contributions and
+        dedication to the Rouse Band program.
       </>
     ),
   },
@@ -93,15 +93,14 @@ export const rouseAccordionData: ConcertPiece[] = [
 
 The piece draws its inspiration from the concept of nuclear fission, where the nucleus of an atom splits into smaller parts, releasing a significant amount of energy. This scientific process serves as a powerful metaphor for the explosive energy and rapid changes that characterize the piece. Listeners will experience a musical journey that mirrors the intense energy release and transformative nature of fission.
 
-Fission received its original premiere at the 2024 Texas Bandmasters Association Convention.`,
-    directorNotes: `John reached out in late April to let me know about this project he was working on with Carolina Crown. At the time, he could only share the drum corps version of the piece since the wind ensemble version had not been fully realized yet. The prospect of this project really excited me due to the uncommon adaptation of repertoire from the marching arts to wind ensemble. To my knowledge, this is the first such transcription (if not, it's certainly the most prolific).
+Fission received its original premiere at the 2024 Texas Bandmasters Association Convention. `,
+    directorNotes: `John reached out in late April to let me know about this project he was working on with Carolina Crown. At the time, he could only share the drum corps version of the piece since the wind ensemble version had not been fully realized yet. The prospect of this project really excited me due to the uncommon adaptation of source material from drum corps to wind ensemble. To my knowledge, this is the first such adaptation (if not, it's certainly the most prolific).
 
     My apprehension got the best of me since there was not a final band version to see, so I passed on the opportunity to reserve it at that time and hoped I wouldn’t regret it later.
 
-Fast forward two months later and my wife and I were on vacation with some of our band director friends in Mexico, and I received another email from John. The piece was complete, so I could hear the midi and see the score. In my mind, we had finalized our program, so you can imagine my angst at the thought of missing out on this opportunity (while on vacation, nonetheless!). Knowing that this undertaking would be a challenge for everyone but especially our students, my aim was to finalize the program early so that they would have time to begin the learning process before the craziness of school and marching season started back up in August (iykyk). I mulled the pros and cons, consulted close friends and confidants (you know, typical enneagram six behaviors), and ultimately came to the conclusion that we HAD to do this. The rest was history.
+Fast forward two months later when John emailed me again while my wife and I were on vacation in Mexico. The piece was complete, so I could hear the midi and see the score. In my mind, we had already finalized our program, so you can imagine my angst at the thought of missing out on this opportunity a second time (while on vacation, nonetheless!). Knowing that this undertaking would be a challenge for everyone and especially our students, my aim was to finalize the program early so that they would have time to begin the learning process before the craziness of school and marching season started back up in August (iykyk). I mulled the pros and cons, consulted close friends and confidants (you know, typical enneagram six behaviors), and ultimately came to the conclusion that we HAD to do this. The rest was history.
 
-Unfortunately, we were not able to have John join us for in-person clinics, but he was so fabulous to work with via shared recordings and correspondence through email / social media. He was so appreciative and complimentary to the ensemble’s work while also requesting adjustments or improvements. I loved being able to share his sentiments with our students. This piece is unique and unlike anything else on our program which made it an easy choice for inclusion. While challenging, I know this piece is one of the students’ favorites on our program!
-`,
+Unfortunately, we were not able to have John join us for in-person clinics, but he was so fabulous to work with via shared recordings and correspondence through email / social media. He was so appreciative and complimentary of the ensemble’s work while also requesting changes or improvements. I loved being able to share his sentiments with our students. This piece is unique and unlike anything else on our program which made it an easy choice for inclusion. While challenging, I know this piece is one of the students’ favorites!`,
   },
   {
     panelId: "panel4",
@@ -192,12 +191,12 @@ Kvetchers (Surprises in Controversial Time) has a ‘little something special’
         opportunity to do so today!
         <br />
         <br />
-        Interesting aside #1: It wasn’t until Viet’s visit to Texas in November
-        to work with us on our commission, <u>Evergreen</u>, that I learned that
-        the composer of <u>Kvetchers</u>, Laura Estes, was his band director in
-        seventh grade. Viet had started band at a different school in sixth
-        grade, and when he moved to his new school he had determined that band
-        wasn’t for him and that he wasn’t going to try it at his new school.
+        Interesting aside #1: It wasn’t until Viet Cuong’s visit to Texas in
+        November to work with us on our commission, <u>Evergreen</u>, that I
+        learned that the composer of <u>Kvetchers</u>, Laura Estes, was his band
+        director in seventh grade. Viet had started band at a different school
+        in sixth grade, and when he moved to his new school he had determined
+        that band wasn’t for him and had no plans to try it at his new school.
         When he went to sign up for classes, his dad convinced him to try it at
         the new school. Viet went on to speak so fondly of his experience in
         Mrs. Estes’ band which he believes was a major catalyst to his early
@@ -298,15 +297,18 @@ Susan Smith, the composer’s wife, also remarked “Robert was inspired by his 
         passion, and that was teaching! Before I could blink, it had been 10
         years, and now in year 19, I can say there are zero regrets! I’d say
         most days at Rouse are a great reminder that our unique story doesn’t
-        always look the way we may have imagined it and oftentimes, and most
+        always work out the way we may have imagined it and oftentimes, and most
         certainly in my case, it’s better than I could have ever dreamed!
-        Serengeti Dreams was the first festival piece I taught at that humble
-        little program in Eustace, Texas. Thank you, Mr. Smith, for being part
-        of the flame that ignited this career that I love! Our performance of
         <br />
         <br />
-        <u>Serengeti Dreams</u> is in honor of Robert W. Smith for his profound
-        and extensive contributions to band literature and music education.
+        <u>Serengeti Dreams</u> was the first festival piece I taught at that
+        humble little program in Eustace, Texas. Thank you, Mr. Smith, for being
+        part of the flame that ignited this career that I love!
+        <br />
+        <br />
+        Our performance of <u>Serengeti Dreams</u> is in honor of Robert W.
+        Smith for his profound and extensive contributions to band literature
+        and music education.
       </>
     ),
   },
