@@ -16,6 +16,9 @@ const DirectorCard: FC<DirectorCardProps> = ({
   const navigate = useNavigate();
   const cardRef = useRef<HTMLDivElement>(null); // Reference for scrolling
 
+  // Using this component for PL faculty as well, who will not have a title passed in
+  const isDirector = !!title;
+
   const handleClick = () => {
     const navString = wiley
       ? `/wiley/wiley-bios/${name}`
@@ -60,7 +63,11 @@ const DirectorCard: FC<DirectorCardProps> = ({
   };
 
   return (
-    <div className={styles.cardContainer} ref={cardRef} onClick={handleClick}>
+    <div
+      className={styles.cardContainer}
+      ref={cardRef}
+      onClick={isDirector ? handleClick : () => null}
+    >
       <img
         src={imgSrc}
         alt={`Image of ${name}`}
