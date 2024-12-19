@@ -20,6 +20,8 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
   soloist,
   imgSrc,
   directorNotes,
+  publisher,
+  publisherWebsiteURL,
 }) => {
   const accordionRef = useRef<HTMLDivElement | null>(null);
 
@@ -87,6 +89,15 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
         <div className={styles.performanceDetails}>
           <Typography>{`Grade: ${grade}`}</Typography>
           <Typography>{`Performance time: ${time}`}</Typography>
+          {publisher && (
+            <a
+              href={publisherWebsiteURL}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {publisher}
+            </a>
+          )}
         </div>
 
         <Typography>{details}</Typography>

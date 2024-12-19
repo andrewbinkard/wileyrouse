@@ -1,5 +1,5 @@
 import { FC, useState } from "react";
-import WileyAccordionItem from "./RouseAccordionItem";
+import RouseAccordionItem from "./RouseAccordionItem";
 import styles from "./RouseConcertAccordion.module.scss";
 import { rouseAccordionData } from "./const";
 
@@ -28,8 +28,10 @@ const RouseConcertAccordion: FC = () => {
             soloist,
             imgSrc,
             directorNotes,
+            publisher,
+            publisherWebsiteURL,
           }) => (
-            <WileyAccordionItem
+            <RouseAccordionItem
               key={panelId}
               panelId={panelId}
               expanded={expanded === panelId}
@@ -44,6 +46,8 @@ const RouseConcertAccordion: FC = () => {
               soloist={soloist}
               imgSrc={imgSrc}
               directorNotes={directorNotes}
+              publisher={publisher}
+              publisherWebsiteURL={publisherWebsiteURL}
             />
           )
         )}

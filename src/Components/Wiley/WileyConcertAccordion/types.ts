@@ -10,4 +10,6 @@ export interface AccordionItemProps {
   year?: string;
   conductor?: string;
   soloist?: string;
+  publisher?: string;
+  publisherWebsiteURL?: string;
 }

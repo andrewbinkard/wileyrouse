@@ -8,6 +8,7 @@ interface ConcertPiece {
   time: string;
   year?: string;
   conductor?: string;
+  publisherWebsiteURL?: string;
 }
 
 export const wileyAccordionData: ConcertPiece[] = [
@@ -16,6 +17,8 @@ export const wileyAccordionData: ConcertPiece[] = [
     title: "Prologue Circus",
     composer: "Shuhei Tamura",
     publisher: "Brain Co., Ltd.",
+    publisherWebsiteURL:
+      "https://www.bravomusic-inc.com/index.php?main_page=index",
     year: "2023",
     grade: "4",
     time: "4:00",
@@ -30,6 +33,8 @@ We hope you will find it useful not on openly as a concert opener, but also as r
     title: "S'vivon",
     composer: "Laura Estes",
     publisher: "Excelcia Music Publishing",
+    publisherWebsiteURL:
+      "https://excelciamusic.com/?podcast_episode=3855&ref=new_window",
     year: "2021",
     grade: "1",
     time: "3:30",
@@ -47,6 +52,7 @@ Written as a concert piece that is coincidentally associated with Chanukah, this
     title: "Encanto",
     composer: "Robert W. Smith",
     publisher: "Hal Leonard, LLC",
+    publisherWebsiteURL: "https://www.halleonard.com/",
     year: "1989",
     grade: "3",
     time: "5:00",
@@ -56,7 +62,8 @@ Written as a concert piece that is coincidentally associated with Chanukah, this
     panelId: "panel4",
     title: "Country Gardens",
     composer: "Percy Aldridge Grainger/John Philip Sousa/Brion/Schissel",
-    publisher: "Willow Blossom Music / C.L. Barnhouse Company",
+    publisher: "C.L. Barnhouse Company",
+    publisherWebsiteURL: "https://barnhouse.com/",
     year: "1999",
     grade: "4",
     time: "2:00",
@@ -73,6 +80,8 @@ John Philip Sousa admired Grainger’s compositions and programmed them regularl
     title: "A Life Worth Living",
     composer: "Brian Balmages",
     publisher: "MakeMusic Publications",
+    publisherWebsiteURL:
+      "https://www.alfred.com/mmpub/?srsltid=AfmBOoogNq9eNkzW2FwxLRN1JgJrqauIKjkgy5sy0WWdLKZeTKK1z_Tx",
     year: "2023",
     grade: "3",
     time: "5:00",
@@ -90,6 +99,7 @@ As the music starts, it is very transparent and ethereal with moments of brightn
     title: "Rising From The Earth",
     composer: "Adrian Sims",
     publisher: "Manuscript",
+    publisherWebsiteURL: "https://www.adrianbsims.com/wind-ensemble",
     grade: "3",
     time: "3:30",
     details: `Imagine witnessing the formation of Earth’s largest natural superstructures. This music is inspired by massive rocks rising from the ground to create the tallest mountains on Earth and the breathtaking terrain that exists today.
@@ -103,6 +113,8 @@ After numerous passages that rise and fall, we finally arrive at a full statemen
     title: "Swahili Folk Hymn",
     composer: "Kevin Mixon",
     publisher: "Belwin Music",
+    publisherWebsiteURL:
+      "https://www.alfred.com/belwin-concert-band-performance-music/b/?srsltid=AfmBOookGsJkV7GthaHH59MRuZDQYHoTTUscqUI7oSXbbvRV5x5Ve5hd",
     year: "2008",
     grade: "1",
     time: "2:50",
@@ -116,6 +128,7 @@ The original lyrics of the song used in this arrangement are sacred: "Bwana Awab
     title: "Song for Terra",
     composer: "Yukiko Nishimura",
     publisher: "Carl Fischer and Theodore Presser Company",
+    publisherWebsiteURL: "https://www.carlfischer.com/",
     year: "2023",
     grade: "2",
     time: "3:00",
@@ -129,6 +142,7 @@ Keep the tone of each phrase legato. Some of these phrases are rather long. If t
     title: "Under the Ice",
     composer: "Tyler S. Grant",
     publisher: "Tyler S. Grant",
+    publisherWebsiteURL: "https://www.tylersgrant.com/concertband",
     year: "2024",
     grade: "2",
     time: "4:00",
@@ -145,6 +159,7 @@ Keep the tone of each phrase legato. Some of these phrases are rather long. If t
     title: "Snowscape",
     composer: "Randall Standridge",
     publisher: "Randall Standridge Music, LLC",
+    publisherWebsiteURL: "https://randallstandridge.com/music/view-all-music",
     year: "2024",
     grade: "2",
     time: "3:00",

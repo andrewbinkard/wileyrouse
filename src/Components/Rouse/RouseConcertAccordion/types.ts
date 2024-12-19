@@ -12,4 +12,6 @@ export interface AccordionItemProps {
   soloist?: string;
   imgSrc?: string;
   directorNotes?: any;
+  publisher?: string;
+  publisherWebsiteURL?: string;
 }
