@@ -122,11 +122,31 @@ Finally, the main reason for writing about ravens in order to honor Professor Be
 
 - Program note provided by the composer`,
     conductor: "Anna Bush",
-    directorNotes: `Texas is home to so many great band programs and educators, so it shouldn’t come as a surprise that we also have a good number of composers who are writing wonderful new works for band. I was born and raised in Texas, so featuring a work by one of our awesome Texas composers was a must. Upon invitation, we immediately began looking into some of Carol Brittin Chambers’ newer works, and this one went to the top of our list. We liked it so much that we actually programmed it for our Symphonic Band (3rd ensemble) for the Spring Concert last year! This was also a unique way to include our other bands in the magic of Midwest. Our Symphonic Band students felt special knowing Flight of the Ravens was one that the Honor Band would be showcasing at our concert.
-
-    Carol lives a few hours away in San Antonio, so we were excited about the prospect of a clinic with her, and thankfully, we were able to work it out! Our time together was memorable, and I know our students enjoyed this experience very much.
-    
-    Thank you, Carol!`,
+    directorNotes: (
+      <>
+        Texas is home to so many great band programs and educators, so it
+        shouldn’t come as a surprise that we also have a good number of
+        composers who are writing wonderful new works for band. I was born and
+        raised in Texas, so featuring a work by one of our awesome Texas
+        composers was a must. Upon invitation, we immediately began looking into
+        some of Carol Brittin Chambers’ newer works, and this one went to the
+        top of our list. We liked it so much that we actually programmed it for
+        our Symphonic Band (3rd ensemble) for the Spring Concert last year! This
+        was also a unique way to include our other bands in the magic of
+        Midwest. Our Symphonic Band students felt special knowing{" "}
+        <u>Flight of the Ravens</u> was one that the Honor Band would be
+        showcasing at our concert.
+        <br />
+        <br />
+        Carol lives a few hours away in San Antonio, so we were excited about
+        the prospect of a clinic with her, and thankfully, we were able to work
+        it out! Our time together was memorable, and I know our students enjoyed
+        this experience very much.
+        <br />
+        <br />
+        Thank you, Carol!`
+      </>
+    ),
   },
   {
     panelId: "panel5",
