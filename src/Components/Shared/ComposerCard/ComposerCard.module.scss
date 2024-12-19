@@ -109,12 +109,14 @@
       font-weight: lighter;
       color: $wiley-gray-light;
       text-align: justify;
+      hyphens: auto;
 
       max-width: 100%;
       box-sizing: border-box;
 
       @media (max-width: $breakpoint-medium) {
         text-align: justify;
+        hyphens: auto;
       }
     }
   }
