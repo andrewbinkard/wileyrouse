@@ -44,7 +44,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
             behavior: "smooth",
           });
         }
-      }, 400); // Delay for layout changes
+      }, 120);
 
       return () => clearTimeout(timeout);
     }
@@ -56,6 +56,11 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
       expanded={expanded}
       onChange={handleChange}
       classes={{ root: styles.accordion }}
+      slotProps={{
+        transition: {
+          timeout: 100, // Adjust the transition duration here
+        },
+      }}
     >
       <AccordionSummary
         expandIcon={<ExpandMoreIcon classes={{ root: styles.expandButton }} />}
@@ -71,9 +76,8 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
       </AccordionSummary>
       <AccordionDetails classes={{ root: styles.details }}>
         {conductor && (
-          <Typography
-            classes={{ root: styles.conductorText }}
-          >{`Conducted by ${conductor}`}</Typography>
+          <Typography classes={{ root: styles.conductorText }}>{`Conducted by 
+            ${conductor}`}</Typography>
         )}
         {soloist && (
           <Typography
