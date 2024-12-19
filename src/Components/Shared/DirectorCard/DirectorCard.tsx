@@ -17,14 +17,35 @@ const DirectorCard: FC<DirectorCardProps> = ({
   const cardRef = useRef<HTMLDivElement>(null); // Reference for scrolling
 
   const handleClick = () => {
-    // Using this component for PL faculty as well, who will not have a title passed in
-    const isDirector = !!title;
-
     const navString = wiley
       ? `/wiley/wiley-bios/${name}`
       : `/rouse/rouse-bios/${name}`;
 
-    if (isDirector) navigate(navString);
+    navigate(navString);
+
+    const scrollToCard = () => {
+      const cardElement = document.querySelector(`[alt="Image of ${name}"]`);
+      if (cardElement) {
+        const headerHeight =
+          document.querySelector(".sticky-header")?.clientHeight || 0; // Adjust for sticky headers
+        const elementPosition =
+          cardElement.getBoundingClientRect().top + window.scrollY;
+        const offsetPosition = elementPosition - headerHeight;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth",
+        });
+      }
+    };
+
+    // Use ResizeObserver to detect layout changes
+    const observer = new ResizeObserver(() => {
+      scrollToCard();
+      observer.disconnect(); // Disconnect after the scroll adjustment
+    });
+
+    observer.observe(document.body); // Watch for changes in the page layout
   };
 
   const toggleExpanded = () => {

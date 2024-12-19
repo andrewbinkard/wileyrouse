@@ -138,7 +138,7 @@ Zildjian Cymbals`,
     name: "Thomas Bennett",
     title: "Guest Conductor",
     wiley: false,
-    rouse: false,
+    rouse: true,
     imgSrc: ThomasBennett,
     details: `Tom Bennett is retired and currently works as a concert and marching band consultant throughout the state of Texas. Prior to his retirement in 2008, Mr. Bennett served eight years as Director of Bands and Associate Professor of Music in the Moores School of Music at the University of Houston. He holds degrees from Texas Tech University and Southern Methodist University. Prior to his appointment at the University of Houston, Mr. Bennett taught in the Spring, Lubbock, Round Rock, LaMarque, Plano, Spring Branch and Richardson school districts. From 1988 to 1994, he was Director of Bands at East Texas State University, now Texas A & M Commerce.
 
@@ -168,7 +168,7 @@ Ms. Lansford’s professional affiliations include Texas Bandmasters Association
     name: "Caleb Hudson",
     title: "Guest Soloist",
     wiley: false,
-    rouse: false,
+    rouse: true,
     imgSrc: CalebHudson,
     details: `Uniting virtuosity and musical sensitivity, Caleb Hudson has carved out a unique space in the world of classical trumpet. A long-standing member of the esteemed Canadian Brass for over a decade, he has captivated international audiences. Caleb, a native of Lexington, Kentucky, earned both his Bachelor and Master of Music degrees from the Juilliard School. The New York Times has praised his artistry as "brilliantly stylish."
 
