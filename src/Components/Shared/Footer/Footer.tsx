@@ -7,7 +7,12 @@ const Footer: FC = () => {
     <div className={styles.footerContainer}>
       <h4>Website Designed and Built By</h4>
       <h3>
-        <a href="mailto:andrewbinkard@gmail.com" className={styles.mailLink}>
+        <a
+          href="https://www.binkardphoto.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.mailLink}
+        >
           Andrew Binkard
           <MdOutlineMail />
         </a>
